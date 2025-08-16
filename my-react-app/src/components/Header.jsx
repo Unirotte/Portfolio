@@ -22,7 +22,7 @@ export default function Header() {
             </Link>
           </li>
           <li>
-            <Link to="/" className="iceBerg">
+            <Link to="/IceBergPage" className="iceBerg">
               Other face
             </Link>
           </li>

@@ -1,13 +1,22 @@
 import "../assets/style.css";
 import "../assets/homePage/homePage.css";
 import Me from "../components/Me.jsx";
-import Gallery from "../components/Gallery.jsx";
+import dataPro from "../assets/data/GalleryProjet.json";
+
 export default function HomePage() {
+  const presentation = dataPro.filter((item) => item.type === "presentation");
   return (
     <>
       <main>
-        <Me />
-        <Gallery />
+     {presentation.map((item) => (
+  <Me 
+    key={item.id}
+    id={item.id}
+    title={item.title}
+    text={item.text}
+    src={item.src}
+  />
+))}
       </main>
     </>
   );

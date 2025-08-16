@@ -28,5 +28,13 @@
     "title": "Projet 3 Améliorez l'interface d'un site web avec des animations CSS",
     "text": "Dans ce projet, vous allez améliorer l'interface d'un site mobile en utilisant des animations CSS. Vous apprendrez à créer des transitions fluides et à rendre l'expérience utilisateur plus agréable.",
 "src": "https://example.com/image1.jpg"    
+},
+{
+"id": 6,
+"type": "presentation",
+"title": "Bonjour, bienvenue de l'autre côté!",
+"text": "Je suis Judith, une développeuse passionnée par le design et l'expérience utilisateur. J'adore créer des interfaces web élégantes et fonctionnelles.",
+"src": "../src/assets/img/Portrait.webp",
+"alt": "Une photo de Judith"
 }
 ]
