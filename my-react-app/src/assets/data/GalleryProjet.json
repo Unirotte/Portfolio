@@ -1,45 +1,46 @@
 [
   {
     "id": 1,
-    "type": "gallery",
+    "type": "realisation",
     "title": "Projet 4 Améliorez l'interface d'un site mobile avec des animations CSS",
     "text": "Dans ce projet, vous allez améliorer l'interface d'un site mobile en utilisant des animations CSS. Vous apprendrez à créer des transitions fluides et à rendre l'expérience utilisateur plus agréable.",
-    "src": "https://example.com/image1.jpg"
+    "src": "../src/assets/img/linkedin.webp"
+    
   },
   {
-  "id": 2,
-  "type": "gallery",
+    "id": 2,
+    "type": "realisation",
     "title": "Projet 3 Améliorez l'interface d'un site web avec des animations CSS",
     "text": "Dans ce projet, vous allez améliorer l'interface d'un site mobile en utilisant des animations CSS. Vous apprendrez à créer des transitions fluides et à rendre l'expérience utilisateur plus agréable.",
-"src": "https://example.com/image1.jpg"    
-},
-      {
-  "id": 3,
-  "type": "gallery",
+    "src": "../src/assets/img/linkedin.webp"
+  },
+  {
+    "id": 3,
+    "type": "realisation",
     "title": "Projet 3 Améliorez l'interface d'un site web avec des animations CSS",
     "text": "Dans ce projet, vous allez améliorer l'interface d'un site mobile en utilisant des animations CSS. Vous apprendrez à créer des transitions fluides et à rendre l'expérience utilisateur plus agréable.",
-"src": "https://example.com/image1.jpg"   
-},
-      {
-  "id": 4,
-  "type": "gallery",
+    "src": "../src/assets/img/linkedin.webp"
+  },
+  {
+    "id": 4,
+    "type": "realisation",
     "title": "Projet 3 Améliorez l'interface d'un site web avec des animations CSS",
     "text": "Dans ce projet, vous allez améliorer l'interface d'un site mobile en utilisant des animations CSS. Vous apprendrez à créer des transitions fluides et à rendre l'expérience utilisateur plus agréable.",
-"src": "https://example.com/image1.jpg"    
-},
-      {
-  "id": 5,
-  "type": "gallery",
+    "src": "../src/assets/img/linkedin.webp"
+  },
+  {
+    "id": 5,
+    "type": "realisation",
     "title": "Projet 3 Améliorez l'interface d'un site web avec des animations CSS",
     "text": "Dans ce projet, vous allez améliorer l'interface d'un site mobile en utilisant des animations CSS. Vous apprendrez à créer des transitions fluides et à rendre l'expérience utilisateur plus agréable.",
-"src": "https://example.com/image1.jpg"    
-},
-{
-"id": 6,
-"type": "presentation",
-"title": "Bonjour, ravie de vous voir ici!",
-"text": "Je suis Judith, une développeuse passionnée par le design et l'expérience utilisateur. J'adore créer des interfaces web élégantes et fonctionnelles.",
-"src": "../src/assets/img/Judith.webp",
-"alt": "Un autoportrait de Judith"
-}
+    "src": "../src/assets/img/linkedin.webp"
+  },
+  {
+    "id": 6,
+    "type": "presentation",
+    "title": "Bonjour, ravie de vous voir ici!",
+    "text": "Je suis Judith, une développeuse passionnée par le design et l'expérience utilisateur. J'adore créer des interfaces web élégantes et fonctionnelles.",
+    "src": "../src/assets/img/Judith.webp",
+    "alt": "Un autoportrait de Judith"
+  }
 ]

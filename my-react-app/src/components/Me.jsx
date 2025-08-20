@@ -1,9 +1,10 @@
 import "../assets/Me/me.css";
+import "../assets/Me/meIce.css";
 
-export default function Me({title, text, src, alt}) {
+export default function Me({title, text, src, alt, className = ""}) {
   return (
-    <div className="Presentation">
-      <div className="me-container">
+    <div className={`Presentation ${className || ""}`}>
+      <div className={`me-container ${className || ""}`}>
         <div className="PositionAll">
           <div className="position-img">
             <img

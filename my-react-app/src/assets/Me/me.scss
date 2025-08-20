@@ -1,12 +1,13 @@
 .Presentation {
-    background-color: #d7b326;
-    width: 100%;
-    height: 60vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-color: #d7b326;
+  width: 100%;
+  height: 60vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1240px;
+  margin: auto;
 }
-
 
 .me-container {
   background-color: #d7d6d6;
@@ -19,6 +20,8 @@
   border-top-right-radius: 25px;
   border-top-left-radius: 25px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  max-width: 1025px;
+  overflow: hidden;
 }
 
 .PositionAll {
@@ -30,11 +33,41 @@
 img.pictureprofile {
   height: 43vw;
 }
-p.PresentationText{
+p.PresentationText {
   font-size: 2vw;
   width: 44vw;
 }
 
 h2.introduction {
-    font-size: 3vw;
+  font-size: 3vw;
+}
+
+@media (min-width: 1300px) {
+  img.pictureprofile {
+    height: 600px;
+    width: 419px;
+  }
+  .position-img {
+    // margin-top: 9vw;
+  }
+  .Apropos {
+    width: 700px;
+    margin-left: 30px;
+  }
+  p.PresentationText {
+    font-size: 25px;
+    width: 100%;
+  }
+  h2.introduction {
+    font-size: 40px;
+  }
+  .Presentation.ice {
+    height: 780px;
+    width: 1240px;
+  }
+
+  .me-container {
+    width: 1025px;
+    height: 560px;
+  }
 }
