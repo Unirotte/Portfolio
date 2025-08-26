@@ -19,7 +19,7 @@ export default function HomePage() {
     src={item.src}
   />
 ))} 
-<div className="titleRealisation">
+<div className="card-section">
 {realisation.map((item) => (
 <Projet 
 key={item.id}

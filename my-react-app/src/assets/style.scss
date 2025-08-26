@@ -1,18 +1,33 @@
 body {
   font-family: "Montserrat";
   margin: auto;
+  font-optical-sizing: auto;
 }
 
-.titleRealisation {
-  column-count: 3;
-  column-gap: 5px;
-  margin: 5px 5px;
-  max-width: 1240px;
+.gallery-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
   margin: auto;
+  width: 65vw;
+  max-width: 1240px;
+}
+
+.card-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 25px auto;
+  width: 65vw;
+  max-width: 1240px;
 }
 
 h2.titleGallery {
   font-size: 6vw;
   display: flex;
   justify-content: center;
+}
+
+@media (min-width: 1300px) {
+  .card-section {grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));}
 }

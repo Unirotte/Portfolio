@@ -22,8 +22,9 @@ export default function HomePage() {
     className="ice"
   />
 ))}
+
 <h2 className="titleGallery">Illustration Numérique</h2>
-<div className="titleRealisation">
+<div className="gallery-section">
 {realisation.map((item) => (
 <Gallery 
 key={item.id}
@@ -35,7 +36,7 @@ alt={item.title}
 ))}
 </div>
 <h2 className="titleGallery">Dessin sur toile</h2>
-<div className="titleRealisation">
+<div className="gallery-section">
 {toile.map((item) => (
 <Gallery 
 key={item.id}

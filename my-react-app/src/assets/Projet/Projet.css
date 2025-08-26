@@ -1,6 +1,59 @@
 .card {
-  background-color: #d7d6d6;
-  width: 18rem;
-  margin-bottom: 25px;
-  margin: auto;
+  background-color: aliceblue;
+  width: 100%;
+  animation: myCard 2s ease 0s 1 normal forwards;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: translateY(-7px);
+}
+
+@keyframes myCard {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+    transform-origin: center center;
+  }
+  10% {
+    animation-timing-function: ease-in;
+    transform: scale(0.91);
+  }
+  17% {
+    animation-timing-function: ease-out;
+    transform: scale(0.98);
+  }
+  33% {
+    animation-timing-function: ease-in;
+    transform: scale(0.87);
+  }
+  45% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+  }
+}
+.card-body {
+  background-color: #fffcfc;
+  flex-grow: 1;
+  padding: 24px;
+}
+
+.card-title {
+  color: #000000;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.card-text {
+  line-height: 1.4;
+  margin: 10px 0px 0px 0px;
+  font-size: 17px;
+  color: #000000;
+}
+
+img.imgCards {
+  width: 100%;
 }/*# sourceMappingURL=Projet.css.map */
