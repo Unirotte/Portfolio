@@ -73,7 +73,8 @@
     "sousintroduction": "Je suis Judith,",
     "text": "une intégratrice WEB passionnée par le design et l'expérience utilisateur. J'adore créer des interfaces élégantes et fonctionnelles.",
     "src": "../src/assets/img/Judith.webp",
-    "alt": "Un autoportrait de Judith"
+    "alt": "Un autoportrait de Judith",
+    "image" : "../src/assets/img/Coucou1.webp"
   }
 ]
 

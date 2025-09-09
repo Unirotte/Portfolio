@@ -1,6 +1,6 @@
 import "../assets/Me/me.css";
 import Hand from "../assets/img/Coucou1.webp";
-export default function Me({className = "", src, title, text, introduction, sousintroduction,}) {
+export default function Me({className = "", src, title, text, introduction, sousintroduction, image,}) {
   return (
     <div className="tes">
       <div className={`Presentation ${className || ""}`}>
@@ -14,7 +14,8 @@ export default function Me({className = "", src, title, text, introduction, sous
         </div>
       </div>
       <div className="Presentation-back">
-        <img className="hand" src={Hand} alt="Une main qui fait un signe de bienvenue" />
+        <video className={`eyes ${className || ""}`} src={image} alt="Une main qui fait un signe de bienvenue" />
+        <img className={`hand ${className || ""}`} src={image} alt="Une main qui fait un signe de bienvenue" />
         <h2 className={`Salutation ${className || ""}`}>{introduction}</h2>
         <h3 className="Name">{sousintroduction}</h3>
         <p className={`PresentationText ${className || ""}`}>{text}</p>

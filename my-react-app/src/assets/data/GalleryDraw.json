@@ -112,6 +112,7 @@
     "sousintroduction": "de l'autre côté,",
     "text": "On ne voit que ce qui flotte. Ici je vous montre ce qui m'anime, ce qui déborde. Une facette plus brute, plus libre, mais tout aussi présente dans ma manière de crée, constuire.",
     "src": "../src/assets/img/Portrait.webp",
-    "alt": "Une photo de Judith"
+    "alt": "Une photo de Judith",
+    "image" : "../src/assets/img/eyes.gif"
   }
 ]

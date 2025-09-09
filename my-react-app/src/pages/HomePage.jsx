@@ -19,6 +19,7 @@ export default function HomePage() {
     src={item.src}
     introduction= {item.introduction}
     sousintroduction= {item.sousintroduction}
+     image={item.image}
   />
 ))} 
 <div className="card-section">

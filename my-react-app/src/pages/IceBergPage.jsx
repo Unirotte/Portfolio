@@ -14,7 +14,7 @@ export default function HomePage() {
   const [accepted, setAccepted] = useState(false);
   
     return (
-      
+       
     <>
 <div className="otherface-page">
       {!accepted && <TriggerWarningModal onAccept={() => setAccepted(true)} />}
@@ -30,6 +30,7 @@ export default function HomePage() {
     introduction= {item.introduction}
     sousintroduction= {item.sousintroduction}
     src={item.src}
+    image={item.image}
     className="ice"
   />
 ))}

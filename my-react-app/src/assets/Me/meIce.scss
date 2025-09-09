@@ -29,11 +29,22 @@ img.pictureprofile.ice {
   top: -8vw;
 }
 
+.hand.ice {
+  background-color: bisque;
+  left: 27vw;
+  bottom: 4vw;
+}
+
 @media (min-width: 1440px) {
   .me-container.ice {
     top: 1.9em;
     left: 12.5em;
     width: 562px;
     height: 620px;
+  }
+
+  .hand.ice {
+    width: 280px;
+    left: 390px;
   }
 }
