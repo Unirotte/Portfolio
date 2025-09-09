@@ -69,6 +69,8 @@
     "id": 1,
     "type": "presentation",
     "title": "ABOUT ME",
+    "introduction": "Bonjour",
+    "sousintroduction": "Je suis Judith,",
     "text": "une intégratrice WEB passionnée par le design et l'expérience utilisateur. J'adore créer des interfaces élégantes et fonctionnelles.",
     "src": "../src/assets/img/Judith.webp",
     "alt": "Un autoportrait de Judith"

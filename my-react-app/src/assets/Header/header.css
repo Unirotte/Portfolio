@@ -11,6 +11,8 @@ section.navbar {
   flex-wrap: nowrap;
   justify-content: space-between;
   width: 100%;
+  max-width: 1440px;
+  margin: auto;
 }
 
 li {

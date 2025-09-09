@@ -2,6 +2,7 @@ body {
   font-family: "Montserrat";
   margin: auto;
   font-optical-sizing: auto;
+  // overflow: hidden;
 }
 
 .gallery-section {
@@ -17,7 +18,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 1rem;
-  margin: 25px auto;
+  margin: 5vw auto;
   width: 65vw;
   max-width: 1240px;
 }
@@ -26,8 +27,11 @@ h2.titleGallery {
   font-size: 6vw;
   display: flex;
   justify-content: center;
+  margin-top: 35px;
 }
 
 @media (min-width: 1300px) {
-  .card-section {grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));}
+  .card-section {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
 }

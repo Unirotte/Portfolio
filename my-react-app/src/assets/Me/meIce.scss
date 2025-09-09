@@ -1,5 +1,39 @@
 .Presentation.ice {
-   background-image: url("../src/assets/img/fond_fleur.webp");
+  background-image: url("../src/assets/img/fond_fleur.webp");
+}
+
+img.pictureprofile.ice {
+  height: 43vw;
+  //  border: 2px solid orange;
+  background: orange;
+}
+
+.introduction.ice {
+  color: orange;
 }
 .me-container.ice {
-    background-color: #fff15b;}
+  width: 39vw;
+  height: 43vw;
+  top: 2vw;
+  left: 14vw;
+  border: orange 2px solid;
+}
+
+.PresentationText.ice {
+  left: 18vw;
+}
+
+.Salutation.ice {
+  color: orange;
+  font-size: 7vw;
+  top: -8vw;
+}
+
+@media (min-width: 1440px) {
+  .me-container.ice {
+    top: 1.9em;
+    left: 12.5em;
+    width: 562px;
+    height: 620px;
+  }
+}

@@ -7,6 +7,8 @@
   flex-direction: column;
   margin-left: 10px;
   position: relative;
+  max-width: 542px;
+  max-height: 864px;
 }
 
 .position-img {
@@ -75,7 +77,8 @@ h3.Name {
 
 img.pictureprofile {
   height: 43vw;
-  border: 2px solid #1d5677;
+  background: #1d5677;
+  max-height: 619px;
 }
 
 .PresentationText {
@@ -95,9 +98,92 @@ h2.introduction {
   display: flex;
   flex-direction: row;
   align-items: center;
+  max-height: 864px;
+  margin: auto;
+  max-width: 1440px;
 }
 
 .Presentation-back {
   position: relative;
   height: 100%;
+}
+
+.hand {
+  position: absolute;
+  width: 20vw;
+  bottom: 6vw;
+  left: 24vw;
+  animation: wave 3s 1 forwards 1s;
+  max-width: 288px;
+}
+
+.hand:hover {
+  animation: wave 3s infinite;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  15% {
+    transform: rotate(14deg);
+  }
+  30% {
+    transform: rotate(-8deg);
+  }
+  40% {
+    transform: rotate(14deg);
+  }
+  50% {
+    transform: rotate(-4deg);
+  }
+  60% {
+    transform: rotate(10deg);
+  }
+  70% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@media (min-width: 1440px) {
+  .Salutation {
+    font-size: 115px;
+    top: -144px;
+    left: 258px;
+  }
+  .introduction {
+    font-size: 72px;
+    top: 72px;
+  }
+  .introduction-ombre {
+    font-size: 87px;
+  }
+  .me-container {
+    top: 6.5em;
+    left: 16.1em;
+    width: 505px;
+    height: 560px;
+  }
+  .position-img {
+    top: 144px;
+    left: 288px;
+  }
+  h3.Name {
+    font-size: 58px;
+    left: 273px;
+    top: 1.3em;
+  }
+  .PresentationText {
+    font-size: 36px;
+    width: 662px;
+    left: 187px;
+    top: 216px;
+  }
+  .hand {
+    width: 288px;
+    bottom: 85px;
+    left: 345px;
+  }
 }/*# sourceMappingURL=me.css.map */

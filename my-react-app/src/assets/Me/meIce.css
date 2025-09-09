@@ -2,6 +2,38 @@
   background-image: url("../src/assets/img/fond_fleur.webp");
 }
 
+img.pictureprofile.ice {
+  height: 43vw;
+  background: orange;
+}
+
+.introduction.ice {
+  color: orange;
+}
+
 .me-container.ice {
-  
+  width: 39vw;
+  height: 43vw;
+  top: 2vw;
+  left: 14vw;
+  border: orange 2px solid;
+}
+
+.PresentationText.ice {
+  left: 18vw;
+}
+
+.Salutation.ice {
+  color: orange;
+  font-size: 7vw;
+  top: -8vw;
+}
+
+@media (min-width: 1440px) {
+  .me-container.ice {
+    top: 1.9em;
+    left: 12.5em;
+    width: 562px;
+    height: 620px;
+  }
 }/*# sourceMappingURL=meIce.css.map */
