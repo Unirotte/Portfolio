@@ -29,6 +29,18 @@ img.pictureprofile.ice {
   top: -8vw;
 }
 
+.hand.ice:hover {
+  animation: eyes 2s infinite;
+}
+
+@keyframes eyes {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 .hand.ice {
   background-color: bisque;
   left: 27vw;
@@ -45,5 +57,12 @@ img.pictureprofile.ice {
   .hand.ice {
     width: 280px;
     left: 390px;
+  }
+  .PresentationText.ice {
+    left: 262px;
+  }
+  .Salutation.ice {
+    font-size: 100px;
+    top: -115px;
   }
 }/*# sourceMappingURL=meIce.css.map */

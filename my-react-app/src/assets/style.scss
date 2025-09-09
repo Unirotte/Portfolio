@@ -35,3 +35,10 @@ h2.titleGallery {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   }
 }
+@media (min-width: 600px) { 
+h2.titleGallery {
+  font-size: 33px;
+  margin-top: 50px;
+}
+
+}

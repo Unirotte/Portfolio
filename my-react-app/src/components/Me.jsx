@@ -14,7 +14,6 @@ export default function Me({className = "", src, title, text, introduction, sous
         </div>
       </div>
       <div className="Presentation-back">
-        <video className={`eyes ${className || ""}`} src={image} alt="Une main qui fait un signe de bienvenue" />
         <img className={`hand ${className || ""}`} src={image} alt="Une main qui fait un signe de bienvenue" />
         <h2 className={`Salutation ${className || ""}`}>{introduction}</h2>
         <h3 className="Name">{sousintroduction}</h3>
