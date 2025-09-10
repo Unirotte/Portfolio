@@ -1,0 +1,35 @@
+h2.skills-title {
+  display: flex;
+  justify-content: center;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.skill-item {
+  border: 1px solid #1d5677;
+  border-radius: 25px;
+  padding: 10px 5px;
+  background: white;
+  color: #1d5677;
+}
+
+.skill-item:hover {
+  border: 1px solid #1d5677;
+  border-radius: 25px;
+  padding: 10px 5px;
+  background: #1d5677;
+  color: white;
+}
+
+.skills-container {
+  background: #cce1f5;
+  padding: 25px 0px;
+}/*# sourceMappingURL=Skills.css.map */

@@ -1,5 +1,5 @@
 import "../assets/Me/me.css";
-import Hand from "../assets/img/Coucou1.webp";
+
 export default function Me({className = "", src, title, text, introduction, sousintroduction, image,}) {
   return (
     <div className="tes">

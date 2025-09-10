@@ -3,10 +3,13 @@ import "../assets/homePage/homePage.css";
 import Me from "../components/Me.jsx";
 import dataPro from "../assets/data/GalleryProjet.json";
 import Projet from "../components/Projet.jsx";
+import Skills from "../components/Skills.jsx";
+import Contact from "../components/Contact.jsx";
 
 export default function HomePage() {
   const presentation = dataPro.filter((item) => item.type === "presentation");
   const realisation = dataPro.filter((item) => item.type === "realisation");
+  const skills = dataPro.filter((item) => item.type === "Skills");
   return (
     <>
       <main>
@@ -32,6 +35,13 @@ alt={item.title}
 />
 ))}
 </div>
+{skills.map((item) => (
+  <Skills
+  key={item.id}
+  title={item.title}
+  />
+))}
+<Contact />
       </main>
     </>
   );
