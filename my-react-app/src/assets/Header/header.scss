@@ -33,6 +33,12 @@ li:hover {
   // border-bottom: solid 1px black;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
 ul {
   display: flex;
   flex-direction: row-reverse;

@@ -1,5 +1,4 @@
 import {Link} from "react-router-dom";
-import ImgLinkedin from "../assets/img/Linkedin.webp";
 import "../assets/Contact/Contact.css";
 
 export default function Contact() {

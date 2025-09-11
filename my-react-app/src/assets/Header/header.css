@@ -21,6 +21,11 @@ li {
   white-space: nowrap;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 ul {
   display: flex;
   flex-direction: row-reverse;

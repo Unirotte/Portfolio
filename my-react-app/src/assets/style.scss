@@ -30,15 +30,29 @@ h2.titleGallery {
   margin-top: 35px;
 }
 
+
+// @import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+
+
+// .accroche {
+//   max-width: 1440px;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   margin: auto;
+//     font-family: "Charm", cursive;
+//   font-weight: 400;
+//   font-style: normal;
+// }
+
 @media (min-width: 1300px) {
   .card-section {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   }
 }
-@media (min-width: 600px) { 
-h2.titleGallery {
-  font-size: 33px;
-  margin-top: 50px;
-}
-
+@media (min-width: 600px) {
+  h2.titleGallery {
+    font-size: 33px;
+    margin-top: 50px;
+  }
 }

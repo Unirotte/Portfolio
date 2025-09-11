@@ -30,6 +30,14 @@ h2.skills-title {
 }
 
 .skills-container {
-  background: #cce1f5;
+  background: #dcf4f3;
   padding: 25px 0px;
+  max-width: 1440px;
+  margin: auto;
+}
+
+@media (min-width: 600px) {
+  li.skill-item {
+    font-size: 1em;
+  }
 }/*# sourceMappingURL=Skills.css.map */

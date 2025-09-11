@@ -4,6 +4,7 @@ import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import App from "./Main.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import IceBergPage from "./pages/IceBergPage.jsx";
+import GalleryPage from "./pages/GalleryPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
         path: "/IceBergPage",
         element: <IceBergPage />,
       },
+      { 
+        path: "/galleryPage/:id",
+        element: <GalleryPage />
+      }
     ],
   },
 ]);

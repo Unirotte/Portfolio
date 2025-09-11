@@ -1,4 +1,4 @@
-.button-section{
+.button-section {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -11,8 +11,8 @@ a.button {
   border-radius: 5px;
   padding: 7px;
   box-shadow: rgb(185, 184, 184) 1px 1px 5px;
-  text-decoration: none; 
-  color: inherit;  
+  text-decoration: none;
+  color: inherit;
 }
 
 .button:hover {
@@ -32,10 +32,12 @@ h2.Contact-title {
 }
 
 .section-contact {
-//   background: #eaeaea;
+  //   background: #eaeaea;
   padding: 25px 0px;
+  max-width: 1440px;
+  margin: auto;
 }
 
 h3.Contact-subtitle {
-    margin: 15px;
+  margin: 15px;
 }

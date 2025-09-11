@@ -1,0 +1,28 @@
+img.drawing-image {
+  max-width: 1000px;
+  z-index: 1;
+  width: 76vw;
+}
+
+.drawing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #000000;
+}
+
+.PositionAllDrawing {
+  background: black;
+  color: white;
+  margin: auto;
+  max-width: 1440px;
+  padding: 100px 0px;
+  position: relative;
+}
+
+.icon-sun {
+  position: absolute;
+  left: -7vw;
+  top: 11vw;
+  color: #2e2727;
+}/*# sourceMappingURL=Drawing.css.map */
