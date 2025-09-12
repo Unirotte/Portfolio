@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caramel&display=swap");
 body {
   font-family: "Montserrat";
   margin: auto;
@@ -24,10 +26,11 @@ body {
 }
 
 h2.titleGallery {
-  font-size: 6vw;
   display: flex;
   justify-content: center;
   margin-top: 35px;
+  font-family: Caramel;
+  font-size: clamp(2.3rem, 7vw, 6rem);
 }
 
 .fade-in {
@@ -48,7 +51,6 @@ h2.titleGallery {
 }
 @media (min-width: 600px) {
   h2.titleGallery {
-    font-size: 33px;
     margin-top: 50px;
   }
 }/*# sourceMappingURL=style.css.map */
