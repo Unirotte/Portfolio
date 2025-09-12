@@ -7,14 +7,19 @@ import Gallery from "../components/Gallery.jsx";
 import TriggerWarningModal from "../components/TriggerWarning.jsx";
 import Skills from "../components/Skills.jsx";
 // import Accroche from "../components/Accroche.jsx";
-import {useState} from "react";
+import {useState, useEffect} from "react";
 
 export default function HomePage() {
   const presentation = dataPro.filter((item) => item.type === "presentation");
   const realisation = dataPro.filter((item) => item.type === "realisation");
   const toile = dataPro.filter((item) => item.type === "toile");
   const skills = dataPro.filter((item) => item.type === "Skills");
-  const [accepted, setAccepted] = useState(false);
+  const [accepted, setAccepted] = useState(
+    () => sessionStorage.getItem("triggerAccepted") === "true"
+  );
+  useEffect(() => {
+    sessionStorage.setItem("triggerAccepted", accepted);
+  }, [accepted]);
 
   return (
     <>
@@ -25,7 +30,6 @@ export default function HomePage() {
       </div>
 
       <main>
-      
         {presentation.map((item) => (
           <Me
             key={item.id}
@@ -39,7 +43,7 @@ export default function HomePage() {
             className="ice"
           />
         ))}
-{/* <Accroche /> */}
+        {/* <Accroche /> */}
         <h2 className="titleGallery">Illustration Numérique</h2>
         <div className="gallery-section">
           {realisation.map((item) => (

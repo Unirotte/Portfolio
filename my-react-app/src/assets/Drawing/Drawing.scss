@@ -1,7 +1,7 @@
 img.drawing-image {
-    max-width: 1000px;
-    z-index: 1;
-    width: 76vw;
+  max-width: 1000px;
+  z-index: 1;
+  width: 76vw;
 }
 
 // .drawing-image:hover {
@@ -12,22 +12,55 @@ img.drawing-image {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #000000;
+  z-index: 1;
+  position: absolute;
+  top: 22vw;
 }
 
 .PositionAllDrawing {
-  background: black;
   color: white;
   margin: auto;
   max-width: 1440px;
-  padding: 100px 0px;
-  position: relative;
+  // position: relative;
+  overflow: hidden;
+  // height: 155vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: black;
 }
 
-.icon-sun {
-    // font-size: 91vw;
-    position: absolute;
-    left: -7vw;
-    top: 11vw;
-    color: #2e2727;
+img.background-image {
+  position: relative;
+  // height: 150vw;
+  filter: grayscale(100%) blur(10px);
+  max-width: 1440px;
+  object-fit: cover;
+  width: 100vw;
 }
+
+.music-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+h3.music-title {
+    text-align: center;
+}
+
+h2.titleDraw {
+  z-index: 1;
+  text-shadow: 0px 4px 1px rgb(0 0 0);
+  font-size: clamp(1.5rem, 7vw, 6rem);
+  margin-top: 4vw;
+  z-index: 2;
+}
+
+// @media (min-width: 1280px) {
+//   .PositionAllDrawing {
+//     max-height: 2000px; }
+//   }
