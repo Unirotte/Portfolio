@@ -3,7 +3,7 @@ import "../assets/Projet/Projet.scss";
 export default function Gallery({src, title, alt}) {
   return (
 <>
-<div className="card">
+<div className="card fade-in">
   <img className="imgCards" src={src} alt={title}></img>
   <div className="card-body">
     <h3 className="card-title">{title}</h3>

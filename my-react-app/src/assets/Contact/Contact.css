@@ -7,13 +7,17 @@
   margin: 0px 15px;
 }
 
-a.button {
+.button {
   border: solid 1px gray;
   border-radius: 5px;
   padding: 7px;
   box-shadow: rgb(185, 184, 184) 1px 1px 5px;
   text-decoration: none;
   color: inherit;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  background: white;
 }
 
 .button:hover {
@@ -32,12 +36,13 @@ h2.Contact-title {
   justify-content: center;
 }
 
+h3.Contact-subtitle {
+  margin: 15px;
+}
+
 .section-contact {
   padding: 25px 0px;
   max-width: 1440px;
-  margin: auto;
-}
-
-h3.Contact-subtitle {
-  margin: 15px;
+  background: bisque;
+  margin: 20px auto;
 }/*# sourceMappingURL=Contact.css.map */

@@ -6,10 +6,12 @@ import dataPro from "../assets/data/GalleryDraw.json";
 import Gallery from "../components/Gallery.jsx";
 import TriggerWarningModal from "../components/TriggerWarning.jsx";
 import Skills from "../components/Skills.jsx";
+import useFadeInOnScroll from "../components/HookScrool.jsx";
 // import Accroche from "../components/Accroche.jsx";
 import {useState, useEffect} from "react";
 
 export default function HomePage() {
+  useFadeInOnScroll();
   const presentation = dataPro.filter((item) => item.type === "presentation");
   const realisation = dataPro.filter((item) => item.type === "realisation");
   const toile = dataPro.filter((item) => item.type === "toile");
@@ -44,8 +46,8 @@ export default function HomePage() {
           />
         ))}
         {/* <Accroche /> */}
-        <h2 className="titleGallery">Illustration Numérique</h2>
-        <div className="gallery-section">
+        <h2 className="titleGallery fade-in">Illustration Numérique</h2>
+        <div className="gallery-section fade-in">
           {realisation.map((item) => (
             <Gallery
               key={item.id}
@@ -56,8 +58,8 @@ export default function HomePage() {
             />
           ))}
         </div>
-        <h2 className="titleGallery">Dessin sur toile</h2>
-        <div className="gallery-section">
+        <h2 className="titleGallery fade-in">Dessin sur toile</h2>
+        <div className="gallery-section fade-in">
           {toile.map((item) => (
             <Gallery
               key={item.id}

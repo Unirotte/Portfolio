@@ -8,7 +8,7 @@ export default function Skills({ source }) {
   const filteredSkills = data.filter((item) => item.type === "Skills");
 
   return (
-    <div className="skills-container">
+    <div className="skills-container fade-in">
       {filteredSkills.length > 0 && (
         <>
           <h2 className="skills-title">{filteredSkills[0].title}</h2>
