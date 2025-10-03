@@ -5,6 +5,7 @@ import App from "./Main.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import IceBergPage from "./pages/IceBergPage.jsx";
 import GalleryPage from "./pages/GalleryPage.jsx";
+import ProjetPage from "./pages/ProjetPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       { 
         path: "/galleryPage/:id",
         element: <GalleryPage />
+      },
+      { 
+        path: "/projetPage/:id",
+        element: <ProjetPage />
       }
     ],
   },

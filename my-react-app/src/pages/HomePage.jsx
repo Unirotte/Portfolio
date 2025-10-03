@@ -34,6 +34,9 @@ export default function HomePage() {
                 src={item.src}
                 title={item.title}
                 alt={item.title}
+                React={item.React}
+                skill={item.skill}
+                className="cardskills" 
               />
             ))}
         </section>

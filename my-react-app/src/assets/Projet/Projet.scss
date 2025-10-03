@@ -1,5 +1,5 @@
 .card {
-  width: 100%;
+  padding: 10px;
   animation: myCard 2s ease 0s 1 normal forwards;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background: white;
@@ -37,6 +37,26 @@
     transform: scale(1);
   }
 }
+
+img.btn.btn-primary {
+    width: 40px;
+    margin-top: 10px;
+    animation: transform 0.3s ease-in-out; /* animation de 2s, linéaire, répétée à l’infini */
+}
+
+.btn.btn-primary:hover {
+  animation: rotateInfinite 1s linear infinite; /* animation de 2s, linéaire, répétée à l’infini */ }
+
+@keyframes rotateInfinite {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
 
 .card-body {
   background-color: #fffcfc;
