@@ -16,7 +16,7 @@ export default function Gallery({src, title, alt, React, skill, className = ""})
             </li>
           ))}
         </ul>
-          <Link to={React}>
+          <Link to={React} target="_blank" >
             <img
               className="btn btn-primary"
               src="/img/projet/React.png"

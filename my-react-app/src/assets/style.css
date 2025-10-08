@@ -7,6 +7,10 @@ body {
   background: #f7f8fb;
 }
 
+main {
+  padding-top: 15vw;
+}
+
 .gallery-section {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -44,6 +48,11 @@ h2.titleGallery {
   transform: translateY(0);
 }
 
+@media (min-width: 1440px) {
+  main {
+    padding-top: 200px;
+  }
+}
 @media (min-width: 1300px) {
   .card-section {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));

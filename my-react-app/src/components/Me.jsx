@@ -2,7 +2,7 @@ import "../assets/Me/me.css";
 
 export default function Me({className = "", src, title, text, introduction, sousintroduction, image,}) {
   return (
-    <div className="tes">
+    <div className="tes" id="about">
       <div className={`Presentation ${className || ""}`}>
         <div className={`me-container ${className || ""}`}></div>
         <div className="position-img">

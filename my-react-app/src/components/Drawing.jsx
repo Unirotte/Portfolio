@@ -1,6 +1,7 @@
 import "../assets/Drawing/Drawing.css";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faSun} from "@fortawesome/free-solid-svg-icons";
+import {faArrowLeft} from "@fortawesome/free-solid-svg-icons";
+import {useNavigate} from "react-router-dom";
 
 export default function Drawing({
   picture,
@@ -9,17 +10,28 @@ export default function Drawing({
   musicId,
   background,
 }) {
+  const navigate = useNavigate();
   return (
     <>
       <div className="PositionAllDrawing">
-        <img src={picture} alt="" className="background-image"></img>
+        <img src={picture} alt="" className="background-image"></img>{" "}
+        <button
+          className="arrow-back"
+          type="button"
+          onClick={() => navigate(-1)}
+        >
+          <FontAwesomeIcon icon={faArrowLeft} className="iconArrow" />
+        </button>
         <div className="drawing-container">
           <img src={picture} alt="" className="drawing-image"></img>
           <h2 className="titleDraw">{title}</h2>
           {/* <p>{description}</p> */}
-        </div> 
+        </div>
         <div className="music-container">
-          <h3 className="music-title">« Pour prolonger l’expérience de ce dessin, vous pouvez écouter cette musique. »</h3>
+          <h3 className="music-title">
+            « Pour prolonger l’expérience de ce dessin, vous pouvez écouter
+            cette musique. »
+          </h3>
           <iframe
             src={`https://open.spotify.com/embed/track/${musicId}`}
             width="300"
@@ -28,8 +40,8 @@ export default function Drawing({
             allowtransparency="true"
             allow="encrypted-media"
           />
-       
-      </div></div>
+        </div>
+      </div>
     </>
   );
 }

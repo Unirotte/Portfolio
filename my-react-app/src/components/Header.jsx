@@ -14,8 +14,9 @@ export default function Header() {
               to="https://www.linkedin.com/in/judith-pichenot-7b1108167/"
               className="Linkedin"
             >
-              <img className="LinkedinLogo"
-                src={ImgLinkedin} 
+              <img
+                className="LinkedinLogo"
+                src={ImgLinkedin}
                 target="_blank"
                 alt="LinkedIn Logo"
               />
@@ -27,9 +28,15 @@ export default function Header() {
             </Link>
           </li>
           <li>
+            <Link to="/#contact" className="NavContact">
+              Contact
+            </Link>
+          </li>
+          <li>
             <Link
               to="/"
               className={location.pathname === "/" ? "li active" : "li"}
+              onClick={() => window.scrollTo({top: 0, behavior: "smooth"})}
             >
               Accueil
             </Link>

@@ -9,7 +9,7 @@ export default function Contact() {
       <h3 className="Contact-subtitle">
         Une question ? Un renseignement ? N'hésitez pas a me contactez.
       </h3>
-      <div className="button-section">
+      <div className="button-section" id="contact">
         <Link
           to="https://www.linkedin.com/in/judith-pichenot-7b1108167/"
           className="Linkedin button"

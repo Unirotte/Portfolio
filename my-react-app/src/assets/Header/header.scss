@@ -1,7 +1,10 @@
 .logo-header {
   display: flex;
   align-items: center;
-  margin: 5px 10px;
+  position: fixed;
+  z-index: 1000;
+  background: #f7f8fb;
+  width: 100%;
 }
 
 section.navbar {

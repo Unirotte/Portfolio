@@ -6,7 +6,9 @@ body {
   margin: auto;
   font-optical-sizing: auto;
   background: #f7f8fb;
-  // overflow: hidden;
+}
+main {
+  padding-top: 15vw;
 }
 
 .gallery-section {
@@ -56,6 +58,12 @@ h2.titleGallery {
 .fade-in.visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+@media (min-width: 1440px) { 
+  main {
+  padding-top: 200px;
+}
 }
 
 @media (min-width: 1300px) {

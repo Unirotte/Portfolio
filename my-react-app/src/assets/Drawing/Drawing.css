@@ -51,4 +51,40 @@ h2.titleDraw {
   font-size: clamp(1.5rem, 7vw, 6rem);
   margin-top: 4vw;
   z-index: 2;
+}
+
+.position-arrow {
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+}
+
+button.arrow-back {
+  background: none;
+  color: white;
+  font-size: clamp(1.5rem, 7vw, 6rem);
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+  margin: 0;
+  position: absolute;
+  left: 0px;
+  top: 85px;
+}
+
+@media (min-width: 1440px) {
+  .arrow-back {
+    margin-right: 1000px;
+  }
+}
+@media (min-width: 1300px) {
+  .drawing-container {
+    top: 280px;
+  }
+  h2.titleDraw {
+    margin-top: 60px;
+  }
+  .arrow-back {
+    margin-right: 1000px;
+  }
 }/*# sourceMappingURL=Drawing.css.map */
