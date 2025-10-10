@@ -47,18 +47,20 @@ export default function HomePage() {
         ))}
         {/* <Accroche /> */}
         <section className="Dessin">
-        <h2 className="titleGallery fade-in">Illustration Numérique</h2>
-        <div className="gallery-section fade-in">
-          {realisation.map((item) => (
-            <Gallery
-              key={item.id}
-              id={item.id}
-              src={item.src}
-              title={item.title}
-              alt={item.title}
-            />
-          ))}
-        </div>
+          <div className="backgroud">
+            <h2 className="titleGallery fade-in">Illustration Numérique</h2>
+            <div className="gallery-section fade-in">
+              {realisation.map((item) => (
+                <Gallery
+                  key={item.id}
+                  id={item.id}
+                  src={item.src}
+                  title={item.title}
+                  alt={item.title}
+                />
+              ))}
+            </div>
+          </div>
         </section>
         <h2 className="titleGallery fade-in">Dessin sur toile</h2>
         <div className="gallery-section fade-in">

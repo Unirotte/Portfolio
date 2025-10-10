@@ -5,6 +5,7 @@
   flex-wrap: wrap;
   gap: 10px;
   margin: 0px 15px;
+  align-items: center;
 }
 
 .button {
@@ -34,15 +35,226 @@ h2.Contact-title {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin: 0;
+  font-family: "Smooch Sans", sans-serif;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 400;
 }
 
 h3.Contact-subtitle {
   margin: 15px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  font-family: "Smooch Sans", sans-serif;
+  font-size: clamp(1.5rem, 3vw, 1.5rem);
+  font-weight: 400;
+  margin-top: 0;
+  text-align: center;
 }
 
+img.EmailButton {
+  width: 10vw;
+  max-width: 50px;
+}
+
+img.EmailButton:hover {
+  animation-name: Email;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+  transition-timing-function: ease-in-out;
+}
+
+a.Email {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+@keyframes Email {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scaleY(1);
+    transform: scale(1, 0.8);
+  }
+  80% {
+    transform: scaleY(1);
+  }
+  90% {
+    transform: scaleY(1);
+  }
+}
 .section-contact {
-  padding: 25px 0px;
+  padding: 25px 0;
   max-width: 1440px;
-  background: bisque;
-  margin: 20px auto;
+  background: #1d5677;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: white;
+}
+
+img.LinkedinLogo {
+  width: 10vw;
+  max-width: 50px;
+  border: solid 1px #dcf4f3;
+}
+
+a.LinkedinButton {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 300px;
+}
+
+.LinkedinLogo:hover {
+  animation: LinkAnim 2s ease 0s 1 normal forwards;
+}
+
+@keyframes LinkAnim {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+    transform-origin: center center;
+  }
+  10% {
+    animation-timing-function: ease-in;
+    transform: scale(0.91);
+  }
+  17% {
+    animation-timing-function: ease-out;
+    transform: scale(0.98);
+  }
+  33% {
+    animation-timing-function: ease-in;
+    transform: scale(0.87);
+  }
+  45% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+  }
+}
+.LinkedinLogo:active {
+  animation: LinkAnim2 1s ease 0s 1 normal forwards;
+}
+
+@keyframes LinkAnim2 {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.form-control {
+  letter-spacing: 1px;
+  max-width: 400px;
+  width: 70vw;
+  height: 35px;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.form-style {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  align-items: center;
+}
+
+.form-item {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+button#submit {
+  margin: 0;
+  width: 45vw;
+  height: 35px;
+  max-width: 350px;
+  align-items: center;
+  overflow: hidden;
+}
+
+.PaperPlane {
+  margin-top: 10px;
+  color: #1d5677;
+}
+
+.all-btn {
+  transition: all 0.2s ease-in-out;
+  height: 35px;
+}
+
+span.send {
+  margin-top: 10px;
+}
+
+.all-btn:hover {
+  transform: translate3d(0px, -29px, 0px);
+}
+
+section.form-section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Icones {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 35px;
+  gap: 10px;
+  font-family: "Smooch Sans", sans-serif;
+  font-size: clamp(1.3rem, 3vw, 1.5rem);
+}
+
+.fa-earth-europe {
+  font-size: clamp(2rem, 5vw, 3rem);
+  color: white;
+}
+
+a.EarthLogo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (min-width: 735px) {
+  section.form-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+  .Icones {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .form-style {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .form-item {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 }/*# sourceMappingURL=Contact.css.map */

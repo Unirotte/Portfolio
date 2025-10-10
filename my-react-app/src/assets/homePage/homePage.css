@@ -1,1 +1,25 @@
-/*# sourceMappingURL=homePage.css.map */
+.Dessin {
+  margin: 10vw;
+}
+
+.backgroud {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+.backgroud::before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  right: -30px;
+  bottom: -30px;
+  border-style: solid;
+  border-width: 0px;
+  border-image-source: url(../img/cadre.png);
+  border-image-slice: 60 fill;
+  z-index: 0;
+  pointer-events: none;
+  filter: grayscale(100%) blur(10px);
+}/*# sourceMappingURL=homePage.css.map */

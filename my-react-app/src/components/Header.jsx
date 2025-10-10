@@ -10,19 +10,6 @@ export default function Header() {
         <h1>Portefolio</h1>
         <ul>
           <li>
-            <Link
-              to="https://www.linkedin.com/in/judith-pichenot-7b1108167/"
-              className="Linkedin"
-            >
-              <img
-                className="LinkedinLogo"
-                src={ImgLinkedin}
-                target="_blank"
-                alt="LinkedIn Logo"
-              />
-            </Link>
-          </li>
-          <li>
             <Link to="/IceBergPage" className="iceBerg">
               Other face
             </Link>

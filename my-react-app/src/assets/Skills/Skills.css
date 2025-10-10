@@ -1,6 +1,10 @@
 h2.skills-title {
   display: flex;
   justify-content: center;
+  font-family: "Smooch Sans", sans-serif;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 400;
+  margin: 0;
 }
 
 .skills-list {
@@ -34,6 +38,7 @@ h2.skills-title {
   padding: 25px 0px;
   max-width: 1440px;
   margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .skills-list.cardskills {
