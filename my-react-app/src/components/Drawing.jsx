@@ -14,7 +14,7 @@ export default function Drawing({
   return (
     <>
       <div className="PositionAllDrawing">
-        <img src={picture} alt="" className="background-image"></img>{" "}
+        <img src={picture} alt="" className="background-image"></img>
         <button
           className="arrow-back"
           type="button"
@@ -25,7 +25,6 @@ export default function Drawing({
         <div className="drawing-container">
           <img src={picture} alt="" className="drawing-image"></img>
           <h2 className="titleDraw">{title}</h2>
-          {/* <p>{description}</p> */}
         </div>
         <div className="music-container">
           <h3 className="music-title">

@@ -5,7 +5,7 @@ import {faEarthEurope} from "@fortawesome/free-solid-svg-icons";
 export default function Contact() {
   return (
     <>
-      <div className="section-contact fade-in">
+      <div className="section-contact fade-in" id="contact">
         <h2 className="Contact-title">Contact</h2>
         <h3 className="Contact-subtitle">
           Une question ? Un renseignement ? N'hésitez pas à me contacter.
@@ -63,7 +63,7 @@ export default function Contact() {
             >
               <img
                 className="LinkedinLogo"
-                src="/img/linkedin.webp"
+                src="/img/Linkedin.webp"
                 alt="LinkedIn Logo"
               /> En savoir plus sur mes experiences professionnelles
             </a>
@@ -76,7 +76,7 @@ export default function Contact() {
               PichenotJudith@live.fr
             </a>
             <a className="EarthLogo">
-              <FontAwesomeIcon icon={faEarthEurope} className="PaperPlane" /> France, côte d'or
+              <FontAwesomeIcon icon={faEarthEurope} className="Earth" /> France, côte d'or
             </a>
           </div>
         </section>

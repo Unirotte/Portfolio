@@ -47,7 +47,7 @@ export default function HomePage() {
         ))}
         {/* <Accroche /> */}
         <section className="Dessin">
-          <div className="backgroud">
+          {/* <div className="backgroud"> */}
             <h2 className="titleGallery fade-in">Illustration Numérique</h2>
             <div className="gallery-section fade-in">
               {realisation.map((item) => (
@@ -60,7 +60,7 @@ export default function HomePage() {
                 />
               ))}
             </div>
-          </div>
+          {/* </div> */}
         </section>
         <h2 className="titleGallery fade-in">Dessin sur toile</h2>
         <div className="gallery-section fade-in">
