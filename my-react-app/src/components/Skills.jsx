@@ -2,13 +2,13 @@ import "../assets/Skills/Skills.scss";
 import dataPro from "../assets/data/GalleryProjet.json";
 import dataDraw from "../assets/data/GalleryDraw.json";
 
-export default function Skills({ source }) {
+export default function Skills({ source, className= "" }) {
   const data = source === "pro" ? dataPro : dataDraw;
 
   const filteredSkills = data.filter((item) => item.type === "Skills");
 
   return (
-    <div className="skills-container fade-in">
+    <div className={`skills-container fade-in ${className || ""}`}>
       {filteredSkills.length > 0 && (
         <>
           <h2 className="skills-title">{filteredSkills[0].title}</h2>

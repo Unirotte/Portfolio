@@ -8,6 +8,7 @@ body {
   font-optical-sizing: auto;
   background: #f7f8fb;
 }
+
 main {
   padding-top: 15vw;
 }
@@ -30,23 +31,20 @@ main {
 h2.titleGallery {
   display: flex;
   justify-content: center;
-  margin-top: 35px;
+  margin-bottom: 15vw;
   font-family: Caramel;
   font-size: clamp(2.3rem, 7vw, 6rem);
 }
 
-// @import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+h1.titleGallery {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vw;
+  font-family: "Smooch Sans", sans-serif;
+   font-weight: 400;
+   font-size: clamp(2.5rem, 7vw, 4rem);
+}
 
-// .accroche {
-//   max-width: 1440px;
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   margin: auto;
-//     font-family: "Charm", cursive;
-//   font-weight: 400;
-//   font-style: normal;
-// }
 .fade-in {
   opacity: 0;
   transform: translateY(20px);
@@ -58,10 +56,13 @@ h2.titleGallery {
   transform: translateY(0);
 }
 
-@media (min-width: 1440px) { 
+@media (min-width: 1440px) {
   main {
-  padding-top: 200px;
-}
+    padding-top: 200px;
+  }
+  h2.titleGallery {
+    margin-bottom: 150px;
+  }
 }
 
 @media (min-width: 1300px) {

@@ -1,29 +1,41 @@
-.gallery-section.fade-in.visible {
-  column-gap: 10px;
-  column-fill: initial;
+.row {
+  --s: 30vw;
+  display: grid;
+  grid: auto-flow var(--s)/repeat(2, var(--s));
+  gap: 10px;
+  place-items: center;
+  transform: rotate(45deg);
 }
 
-.gallery-section.fade-in.visible .row {
-  margin-bottom: 10px;
-  display: inline-block;
-  vertical-align: top;
-}
-
-.row img:hover {
-  filter: alpha(opacity=70);
-  opacity: 0.7;
-  transform: scale(1.1);
-  transition: all 0.3s ease-out;
-}
-
-img.imgGallery {
+.row > img {
+  width: 141%;
+  aspect-ratio: 1;
   object-fit: cover;
-  width: 100%;
-  vertical-align: middle;
+  filter: grayscale(80%);
+  transform: scale(var(--_t, 1)) rotate(-45deg);
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+  transition: 0.2s linear;
 }
 
-@media only screen and (min-width: 1024px) {
-  .gallery-section.fade-in.visible {
-    column-count: 3;
+.row > img:hover {
+  filter: grayscale(0);
+  --_t: 1.15;
+  z-index: 1;
+}
+
+Section.Dessin {
+  display: grid;
+  place-content: center;
+  max-width: 1440px;
+  margin: auto;
+  margin-bottom: 15vw;
+}
+
+@media (min-width: 768px) {
+  .row {
+    --s: 300px;
+  }
+  Section.Dessin {
+    margin-bottom: 150px;
   }
 }/*# sourceMappingURL=Gallery.css.map */

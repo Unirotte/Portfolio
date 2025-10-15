@@ -45,6 +45,10 @@ h2.skills-title {
     margin: 10px 0;
 }
 
+.skills-container.fade-in.ice.visible {
+    margin-top: 50px;
+}
+
 @media (min-width: 600px) {
   li.skill-item {
     font-size: 1em;

@@ -52,9 +52,9 @@ h2.titleDraw {
 }
 
 /* La flèche */
-button.arrow-back {
+button.arrow.back {
   position: absolute;
-  top: clamp(1.5rem, 7vw, 6rem);
+  top: clamp(1.5rem, 7vw, 1rem);
   left: 0rem;
   background: none;
   color: white;

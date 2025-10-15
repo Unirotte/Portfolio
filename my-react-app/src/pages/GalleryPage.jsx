@@ -12,11 +12,13 @@ export default function GalleryPage() {
   }
 
   return (
+    <main>
     <Drawing 
     picture={drawing.src} 
     description={drawing.text} 
     title={drawing.title}
     musicId={drawing.song}
     />
+    </main>
   );
 }

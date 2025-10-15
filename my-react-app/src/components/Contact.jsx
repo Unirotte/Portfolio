@@ -7,13 +7,13 @@ export default function Contact() {
     <>
       <div className="section-contact fade-in" id="contact">
         <h2 className="Contact-title">Contact</h2>
-        <h3 className="Contact-subtitle">
+       
+        <section className="form-section">
+          <form action="/ma-page-de-traitement" method="post">
+            <ul className="form-style"> <h3 className="Contact-subtitle">
           Une question ? Un renseignement ? N'hésitez pas à me contacter.
         </h3>
 
-        <section className="form-section">
-          <form action="/ma-page-de-traitement" method="post">
-            <ul className="form-style">
               <li className="form-item">
                 <input
                   placeholder="Nom"

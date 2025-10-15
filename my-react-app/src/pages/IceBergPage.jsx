@@ -3,12 +3,13 @@ import "../assets/homePage/homePage.css";
 import "../assets/Me/meIce.css";
 import Me from "../components/Me.jsx";
 import dataPro from "../assets/data/GalleryDraw.json";
-import Gallery from "../components/Gallery.jsx";
 import TriggerWarningModal from "../components/TriggerWarning.jsx";
 import Skills from "../components/Skills.jsx";
 import useFadeInOnScroll from "../components/HookScrool.jsx";
 // import Accroche from "../components/Accroche.jsx";
 import {useState, useEffect} from "react";
+import {Link} from "react-router-dom";
+import GallerySection from "../components/GallerySection.jsx";
 
 export default function HomePage() {
   useFadeInOnScroll();
@@ -45,37 +46,16 @@ export default function HomePage() {
             className="ice"
           />
         ))}
-        {/* <Accroche /> */}
-        <section className="Dessin">
-          {/* <div className="backgroud"> */}
-            <h2 className="titleGallery fade-in">Illustration Numérique</h2>
-            <div className="gallery-section fade-in">
-              {realisation.map((item) => (
-                <Gallery
-                  key={item.id}
-                  id={item.id}
-                  src={item.src}
-                  title={item.title}
-                  alt={item.title}
-                />
-              ))}
-            </div>
-          {/* </div> */}
-        </section>
-        <h2 className="titleGallery fade-in">Dessin sur toile</h2>
-        <div className="gallery-section fade-in">
-          {toile.map((item) => (
-            <Gallery
-              key={item.id}
-              id={item.id}
-              src={item.src}
-              title={item.title}
-              alt={item.title}
-            />
-          ))}
+        <GallerySection realisation={realisation} title="Digital" />
+        <div className="link-gallery">
+          <Link to="/PageDigital/realisation">Voir plus de digital..</Link>
+        </div>
+        <GallerySection realisation={toile} title="Toiles" />
+        <div className="link-gallery">
+          <Link to="/PageDigital/toile">Voir plus de toiles.. </Link>
         </div>
         {skills.map((item) => (
-          <Skills key={item.id} title={item.title} />
+          <Skills key={item.id} title={item.title} className="ice" />
         ))}
       </main>
     </>

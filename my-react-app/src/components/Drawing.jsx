@@ -1,14 +1,11 @@
-import "../assets/Drawing/Drawing.css";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faArrowLeft} from "@fortawesome/free-solid-svg-icons";
 import {useNavigate} from "react-router-dom";
 
 export default function Drawing({
   picture,
-  description,
   title,
   musicId,
-  background,
 }) {
   const navigate = useNavigate();
   return (
@@ -16,7 +13,7 @@ export default function Drawing({
       <div className="PositionAllDrawing">
         <img src={picture} alt="" className="background-image"></img>
         <button
-          className="arrow-back"
+          className="arrow back "
           type="button"
           onClick={() => navigate(-1)}
         >

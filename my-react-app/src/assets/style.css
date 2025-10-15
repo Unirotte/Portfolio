@@ -30,9 +30,18 @@ main {
 h2.titleGallery {
   display: flex;
   justify-content: center;
-  margin-top: 35px;
+  margin-bottom: 15vw;
   font-family: Caramel;
   font-size: clamp(2.3rem, 7vw, 6rem);
+}
+
+h1.titleGallery {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vw;
+  font-family: "Smooch Sans", sans-serif;
+  font-weight: 400;
+  font-size: clamp(2.5rem, 7vw, 4rem);
 }
 
 .fade-in {
@@ -49,6 +58,9 @@ h2.titleGallery {
 @media (min-width: 1440px) {
   main {
     padding-top: 200px;
+  }
+  h2.titleGallery {
+    margin-bottom: 150px;
   }
 }
 @media (min-width: 1300px) {
