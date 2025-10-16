@@ -1,10 +1,11 @@
 import Gallery from "./Gallery";
 import "../assets/Gallery/Gallery.scss";
 
-export default function GallerySection({realisation, title}) {
+export default function GallerySection({realisation, title, soustitle}) {
   return (
     <section className="Dessin">
       <h2 className="titleGallery fade-in">{title}</h2>
+      <h3 className="sous-titre fade-in">{soustitle}</h3>
         <div className="row">
           {realisation.slice(-4).map((item) => (
             <Gallery key={item.id} src={item.src} alt={item.title} />

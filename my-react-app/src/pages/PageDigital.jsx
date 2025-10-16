@@ -6,6 +6,7 @@ import {faArrowLeft} from "@fortawesome/free-solid-svg-icons";
 import {Link} from "react-router-dom";
 import "../assets/Drawing/Drawing.css";
 import "../assets/AllDigital/AllDigital.css";
+import FunnyPhrase from "../components/funnyPhrase.jsx";
 
 export default function PageDigital() {
   const {type} = useParams();
@@ -19,6 +20,7 @@ export default function PageDigital() {
       <h1 className="titleGallery">
         {type === "realisation" ? "Galerie realisation" : "Galerie Toiles"}
       </h1>
+      < FunnyPhrase />
       <div className="AllPosition fade-in visible">
         {realisation.map((item) => (
           <AllDigitalDraw

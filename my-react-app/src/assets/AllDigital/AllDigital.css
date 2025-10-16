@@ -1,14 +1,14 @@
 .AllPosition.fade-in.visible {
-  column-count: 3;
-  column-gap: 10px;
-  opacity: 1;
-  column-fill: balance;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* grilles fluides */
+  gap: 10px;
   width: 90%;
   margin: auto;
   max-width: 1440px;
 }
 
 .Position {
+  aspect-ratio: 1/1;
   position: relative;
   display: inline-block;
 }
@@ -87,11 +87,11 @@
 }
 @media (max-width: 1024px) {
   .AllPosition.fade-in.visible {
-    column-count: 2;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
 }
 @media (max-width: 600px) {
   .AllPosition.fade-in.visible {
-    column-count: 1;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
 }/*# sourceMappingURL=AllDigital.css.map */

@@ -6,10 +6,9 @@ import dataPro from "../assets/data/GalleryDraw.json";
 import TriggerWarningModal from "../components/TriggerWarning.jsx";
 import Skills from "../components/Skills.jsx";
 import useFadeInOnScroll from "../components/HookScrool.jsx";
-// import Accroche from "../components/Accroche.jsx";
 import {useState, useEffect} from "react";
-import {Link} from "react-router-dom";
 import GallerySection from "../components/GallerySection.jsx";
+import LinkToiles from "../components/LinkToiles.jsx";
 
 export default function HomePage() {
   useFadeInOnScroll();
@@ -46,14 +45,18 @@ export default function HomePage() {
             className="ice"
           />
         ))}
-        <GallerySection realisation={realisation} title="Digital" />
-        <div className="link-gallery">
-          <Link to="/PageDigital/realisation">Voir plus de digital..</Link>
-        </div>
-        <GallerySection realisation={toile} title="Toiles" />
-        <div className="link-gallery">
-          <Link to="/PageDigital/toile">Voir plus de toiles.. </Link>
-        </div>
+        <GallerySection
+          realisation={realisation}
+          title="Digital"
+          soustitle="Mes derniers digitals"
+        />
+        <LinkToiles to="/PageDigital/realisation" />
+        <GallerySection 
+        realisation={toile} 
+        title="Toiles" 
+        soustitle="Mes dernières toiles" 
+        />
+        <LinkToiles to="/PageDigital/toile" />
         {skills.map((item) => (
           <Skills key={item.id} title={item.title} className="ice" />
         ))}

@@ -37,24 +37,14 @@ img.pictureprofile.ice {
   0% {
     opacity: 1;
   }
-
   100% {
     opacity: 0;
   }
 }
-
 .hand.ice {
   background-color: bisque;
   left: 27vw;
   bottom: 4vw;
-}
-
-.link-gallery {
-  display: flex;
-  justify-content: center;
-  font-family: "Smooch Sans", sans-serif;
-  font-size: clamp(1.2rem, 3vw, 3rem);
-  cursor: pointer;
 }
 
 @media (min-width: 1440px) {
@@ -64,20 +54,15 @@ img.pictureprofile.ice {
     width: 562px;
     height: 620px;
   }
-
   .hand.ice {
     width: 280px;
     left: 390px;
   }
-
   .PresentationText.ice {
     left: 262px;
   }
-
   .Salutation.ice {
     font-size: 100px;
     top: -115px;
   }
-}
-
-/*# sourceMappingURL=meIce.css.map */
+}/*# sourceMappingURL=meIce.css.map */
