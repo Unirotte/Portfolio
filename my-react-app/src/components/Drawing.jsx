@@ -11,7 +11,7 @@ export default function Drawing({
   return (
     <>
       <div className="PositionAllDrawing">
-        <img src={picture} alt="" className="background-image"></img>
+        <img src={picture} alt="" className="background-image" loading="lazy"></img>
         <button
           className="arrow back "
           type="button"
@@ -20,7 +20,7 @@ export default function Drawing({
           <FontAwesomeIcon icon={faArrowLeft} className="iconArrow" />
         </button>
         <div className="drawing-container">
-          <img src={picture} alt="" className="drawing-image"></img>
+          <img src={picture} alt="" className="drawing-image" loading="lazy"></img>
           <h2 className="titleDraw">{title}</h2>
         </div>
         <div className="music-container">

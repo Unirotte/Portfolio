@@ -5,8 +5,27 @@
   justify-content: center;
 }
 
+.link-position {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  border-radius: 30px;
+  height: 40px;
+  justify-content: center;
+  padding: 0px 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-image: url(../img/fond_fleur.webp);
+  background-position: bottom;
+}
+
+.link-position:active {
+  transition: background-color 0.1s ease;
+  transform: translateY(5px);
+  box-shadow: rgba(0, 0, 0, 0.54) 0px 3px 8px;
+}
+
 .key {
-  font-size: 5vw;
+  font-size: clamp(1.3rem, 3vw, 1.5rem);
   display: inline-block;
   letter-spacing: 1vw;
   animation: pressDown 2s infinite ease-in-out;

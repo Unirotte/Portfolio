@@ -220,6 +220,15 @@ span.send {
   transform: translate3d(0px, -29px, 0px);
 }
 
+.all-btn:active {
+  transform: translate3d(0px, -29px, 0px);
+}
+
+button#submit:active {
+  transform: translateY(5px);
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
 section.form-section {
   display: flex;
   flex-direction: column;
@@ -249,6 +258,18 @@ a.EarthLogo {
   gap: 10px;
 }
 
+.Earth:hover {
+  animation: rotateInfinite 4s linear infinite;
+}
+
+@keyframes rotateInfinite {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 @media (min-width: 735px) {
   section.form-section {
     display: flex;

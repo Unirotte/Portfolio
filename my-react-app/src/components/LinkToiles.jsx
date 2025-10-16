@@ -5,7 +5,7 @@ export default function LinkToiles({to}) {
   return (
     <>
       <div className="link-gallery">
-        <Link to={to}>
+        <Link className="link-position" to={to}>
           <span className="key">V</span>
           <span className="key">o</span>
           <span className="key">i</span>

@@ -5,13 +5,14 @@ p {
 
 .container {
   color: black;
-  font-size: 1.26rem;
+  font-size: 0.9rem;
   text-transform: uppercase;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-weight: bold;
-  margin-bottom: 5vw;
+  margin-bottom: 10px;
 }
 
 .animation {
@@ -25,6 +26,7 @@ p {
   height: 2.81rem;
   margin-bottom: 2.81rem;
   display: inline-block;
+  width: 17rem;
 }
 
 .animation div:first-child {
@@ -57,10 +59,10 @@ p {
     margin-top: -5.62rem;
   }
   40% {
-    margin-top: -11.24rem;
+    margin-top: -10.24rem;
   }
   60% {
-    margin-top: -11.24rem;
+    margin-top: -10.24rem;
   }
   70% {
     margin-top: -5.62rem;
@@ -73,5 +75,10 @@ p {
   }
   100% {
     margin-top: 0;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
   }
 }/*# sourceMappingURL=funnyPhrase.css.map */

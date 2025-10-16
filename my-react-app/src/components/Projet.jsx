@@ -2,11 +2,11 @@ import {Link} from "react-router-dom";
 import "../assets/Projet/Projet.scss";
 import "../assets/Skills/Skills.scss";
 
-export default function Gallery({src, title, alt, React, skill, className = ""}) {
+export default function Gallery({src, title, React, skill, className = ""}) {
   return (
     <>
       <div className="card fade-in">
-        <img className="imgCards" src={src} alt={title}></img>
+        <img className="imgCards" src={src} alt={title} loading="lazy"></img>
         <div className="card-body">
           <h3 className="card-title">{title}</h3>
            <ul className={`skills-list ${className || ""}`}>
@@ -21,6 +21,7 @@ export default function Gallery({src, title, alt, React, skill, className = ""})
               className="btn btn-primary"
               src="/img/projet/React.png"
               alt="logo React"
+              loading="lazy"
             />
           </Link>
         </div>

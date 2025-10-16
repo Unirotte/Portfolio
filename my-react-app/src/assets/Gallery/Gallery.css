@@ -41,13 +41,19 @@ h3.sous-titre {
   font-family: "Smooch Sans", sans-serif;
   font-weight: 300;
   background: orange;
+  font-size: clamp(1.5rem, 3vw, 3rem);
 }
 
 @media (min-width: 768px) {
   .row {
-    --s: 300px;
+    --s: 250px;
   }
   Section.Dessin {
     margin-bottom: 150px;
+  }
+}
+@media (min-width: 1440px) {
+  h3.sous-titre {
+    margin-bottom: 180px;
   }
 }/*# sourceMappingURL=Gallery.css.map */

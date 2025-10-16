@@ -1,6 +1,5 @@
 import React from "react";
 import {Link, useLocation} from "react-router-dom";
-import ImgLinkedin from "/public/img/linkedin.webp";
 
 export default function Header() {
   const location = useLocation();

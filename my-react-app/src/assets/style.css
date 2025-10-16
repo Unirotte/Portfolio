@@ -10,6 +10,7 @@ body {
 
 main {
   padding-top: 15vw;
+  overflow: hidden;
 }
 
 .gallery-section {
@@ -56,10 +57,7 @@ h1.titleGallery {
 
 @media (min-width: 1440px) {
   main {
-    padding-top: 200px;
-  }
-  h2.titleGallery {
-    margin-bottom: 150px;
+    padding-top: 120px;
   }
 }
 @media (min-width: 1300px) {
