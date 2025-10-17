@@ -1,7 +1,7 @@
 import "../assets/Me/me.css";
 import "../assets/Me/meIce.css";
 
-export default function Me({title, text, src, alt, className = ""}) {
+export default function Me({title, text, src, className = ""}) {
   return (
     <div className={`Presentation ${className || ""}`}>
       <div className={`me-container ${className || ""}`}>
@@ -11,6 +11,7 @@ export default function Me({title, text, src, alt, className = ""}) {
               className="pictureprofile"
               src={src}
               alt="Une photo de Judith"
+              loading="lazy"
             />
           </div>
           <div className="Apropos">

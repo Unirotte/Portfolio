@@ -31,6 +31,15 @@ img.background-image {
   object-fit: cover;
   filter: grayscale(100%) blur(10px);
   z-index: 0;
+  will-change: filter;
+}
+
+.img-position, .backgroundTest {
+  width: 100%;
+  max-width: 400px;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+  display: block;
 }
 
 /* Conteneur du dessin */

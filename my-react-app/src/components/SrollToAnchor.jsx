@@ -1,4 +1,3 @@
-// src/ScrollToAnchor.jsx
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
@@ -7,12 +6,12 @@ function ScrollToAnchor() {
 
   useEffect(() => {
     if (hash) {
-      setTimeout(() => {
+      requestAnimationFrame(() => {
         const element = document.querySelector(hash);
         if (element) {
           element.scrollIntoView({ behavior: "smooth" });
         }
-      }, 300);
+      });
     } else {
       window.scrollTo({ top: 0, behavior: "smooth" });
     }

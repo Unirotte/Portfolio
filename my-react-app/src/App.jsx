@@ -1,11 +1,11 @@
-import React from "react";
+import React, { Suspense, lazy } from "react";
 import ReactDOM from "react-dom/client";
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import App from "./Main.jsx";
-import HomePage from "./pages/HomePage.jsx";
-import IceBergPage from "./pages/IceBergPage.jsx";
-import GalleryPage from "./pages/GalleryPage.jsx";
-import PageDigital from "./pages/PageDigital.jsx";
+const HomePage = lazy(() => import("./pages/HomePage.jsx"));
+const IceBergPage = lazy(() => import("./pages/IceBergPage.jsx"));
+const GalleryPage = lazy(() => import("./pages/GalleryPage.jsx"));
+const PageDigital = lazy(() => import("./pages/PageDigital.jsx"));
 
 const router = createBrowserRouter([
   {
@@ -34,6 +34,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
+     <Suspense fallback={<div>Chargement de la page..</div>}>
     <RouterProvider router={router} />
+    </Suspense>
   </React.StrictMode>
 );

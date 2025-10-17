@@ -5,6 +5,7 @@
 img.pictureprofile.ice {
   height: 43vw;
   background: orange;
+  aspect-ratio: 3/4;
 }
 
 .introduction.ice {

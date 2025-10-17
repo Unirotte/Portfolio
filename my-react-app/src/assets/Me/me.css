@@ -78,14 +78,16 @@ h3.Name {
 img.pictureprofile {
   height: 43vw;
   background: #1d5677;
-  max-height: 619px;
+  max-height: 570px;
+  aspect-ratio: 3/4;
+  object-fit: cover;
 }
 
 .PresentationText {
   font-size: 2.5vw;
   width: 37vw;
   position: absolute;
-  left: 13vw;
+  left: 17vw;
   top: 15vw;
 }
 
