@@ -9,6 +9,7 @@ import useFadeInOnScroll from "../components/HookScrool.jsx";
 import {useState, useEffect} from "react";
 import GallerySection from "../components/GallerySection.jsx";
 import LinkToiles from "../components/LinkToiles.jsx";
+import {Suspense, lazy} from "react";
 
 export default function HomePage() {
   useFadeInOnScroll();
@@ -45,18 +46,22 @@ export default function HomePage() {
             className="ice"
           />
         ))}
-        <GallerySection
-          realisation={realisation}
-          title="Digital"
-          soustitle="Mes derniers digitals"
-        />
-        <LinkToiles to="/PageDigital/realisation" />
-        <GallerySection 
-        realisation={toile} 
-        title="Toiles" 
-        soustitle="Mes dernières toiles" 
-        />
-        <LinkToiles to="/PageDigital/toile" />
+        <Suspense fallback={<div>Chargement mini galerie..</div>}>
+          <GallerySection
+            realisation={realisation}
+            title="Digital"
+            soustitle="Mes derniers digitals"
+          />
+          <LinkToiles to="/PageDigital/realisation" />
+        </Suspense>
+        <Suspense fallback={<div>Chargement mini galerie..</div>}>
+          <GallerySection
+            realisation={toile}
+            title="Toiles"
+            soustitle="Mes dernières toiles"
+          />
+          <LinkToiles to="/PageDigital/toile" />
+        </Suspense>
         {skills.map((item) => (
           <Skills key={item.id} title={item.title} className="ice" />
         ))}

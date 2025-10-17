@@ -1,10 +1,11 @@
+import {Suspense, lazy} from "react";
 import "../assets/style.css";
 import "../assets/homePage/homePage.css";
 import Me from "../components/Me.jsx";
 import dataPro from "../assets/data/GalleryProjet.json";
 import Projet from "../components/Projet.jsx";
 import Skills from "../components/Skills.jsx";
-import Contact from "../components/Contact.jsx";
+const Contact = lazy(() => import("../components/Contact.jsx"));
 import useFadeInOnScroll from "../components/HookScrool.jsx";
 
 export default function HomePage() {
@@ -27,7 +28,8 @@ export default function HomePage() {
             image={item.image}
           />
         ))}
-          <section className="card-section .fade-in">
+        <section className="card-section .fade-in">
+          <Suspense fallback={<div>Chargement des projets..</div>}>
             {realisation.map((item) => (
               <Projet
                 key={item.id}
@@ -36,14 +38,17 @@ export default function HomePage() {
                 alt={item.title}
                 React={item.React}
                 skill={item.skill}
-                className="cardskills" 
+                className="cardskills"
               />
             ))}
+          </Suspense>
         </section>
         {skills.map((item) => (
           <Skills source="pro" key={item.id} title={item.title} />
         ))}
-        <Contact />
+        <Suspense fallback={<div>Chargement de contact..</div>}>
+          <Contact />
+        </Suspense>
       </main>
     </>
   );

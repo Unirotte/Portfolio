@@ -10,12 +10,11 @@ export default function Contact() {
 
         <section className="form-section">
           <form action="/ma-page-de-traitement" method="post">
-            <ul className="form-style">
-              {" "}
+            <div className="form-style">
               <h3 className="Contact-subtitle">
                 Une question ? Un renseignement ? N'hésitez pas à me contacter.
               </h3>
-              <li className="form-item">
+              <div className="form-item">
                 <input
                   placeholder="Nom"
                   type="text"
@@ -23,8 +22,8 @@ export default function Contact() {
                   name="user_name"
                   className="form-control"
                 />
-              </li>
-              <li className="form-item">
+              </div>
+              <div className="form-item">
                 <input
                   placeholder="Email"
                   type="email"
@@ -32,15 +31,15 @@ export default function Contact() {
                   name="user_mail"
                   className="form-control"
                 />
-              </li>
-              <li className="form-item">
+              </div>
+              <div className="form-item">
                 <textarea
                   placeholder="Message"
                   id="msg"
                   name="user_message"
                   className="form-control"
                 ></textarea>
-              </li>
+              </div>
               <button
                 className="btn-send"
                 id="submit"
@@ -53,7 +52,7 @@ export default function Contact() {
                   <span className="send">SEND</span>
                 </div>
               </button>
-            </ul>
+            </div>
           </form>
           <div className="Icones">
             <a
@@ -61,6 +60,7 @@ export default function Contact() {
               className="LinkedinButton"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="LinkedIn de Judith Pichenot"
             >
               <img
                 className="LinkedinLogo"
@@ -70,7 +70,13 @@ export default function Contact() {
               />{" "}
               En savoir plus sur mes experiences professionnelles
             </a>
-            <a className="Email" target="_blank" rel="noopener noreferrer">
+            <a
+              className="Email"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="mailto:PichenotJudith@live.fr"
+              aria-label="Envoyer un email à Judith Pichenot"
+            >
               <img
                 className="EmailButton"
                 src="/img/Email.png"
@@ -79,7 +85,12 @@ export default function Contact() {
               />
               PichenotJudith@live.fr
             </a>
-            <a className="EarthLogo">
+            <a
+              className="EarthLogo"
+              href="https://www.google.com/maps/place/France,+C%C3%B4te+d'Or"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FontAwesomeIcon icon={faEarthEurope} className="Earth" /> France,
               côte d'or
             </a>

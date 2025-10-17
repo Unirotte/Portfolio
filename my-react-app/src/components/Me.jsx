@@ -17,8 +17,8 @@ export default function Me({
         <div className="position-img">
           <img
             className={`pictureprofile ${className || ""}`}
-            src={src || portrait}
-            fetchpriority="high"
+           src={src || portrait}
+           fetchPriority="high"
             loading="eager"
             alt="Une photo de Judith"
           />
