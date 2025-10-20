@@ -1,15 +1,10 @@
 import "../assets/style.css";
 import "../assets/homePage/homePage.css";
 import "../assets/Me/meIce.css";
-import Me from "../components/Me.jsx";
 import dataPro from "../assets/data/GalleryDraw.json";
-import TriggerWarningModal from "../components/TriggerWarning.jsx";
-import Skills from "../components/Skills.jsx";
-import useFadeInOnScroll from "../components/HookScrool.jsx";
 import {useState, useEffect} from "react";
-import GallerySection from "../components/GallerySection.jsx";
-import LinkToiles from "../components/LinkToiles.jsx";
-import {Suspense, lazy} from "react";
+import {Suspense} from "react";
+import {Skills, LinkToiles, TriggerWarningModal, useFadeInOnScroll, GallerySection, Me, } from "../components/indexComponents";
 
 export default function HomePage() {
   useFadeInOnScroll();

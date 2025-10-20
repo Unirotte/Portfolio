@@ -1,12 +1,8 @@
-import {Suspense, lazy} from "react";
+import {Suspense} from "react";
 import "../assets/style.css";
 import "../assets/homePage/homePage.css";
-import Me from "../components/Me.jsx";
 import dataPro from "../assets/data/GalleryProjet.json";
-import Projet from "../components/Projet.jsx";
-import Skills from "../components/Skills.jsx";
-const Contact = lazy(() => import("../components/Contact.jsx"));
-import useFadeInOnScroll from "../components/HookScrool.jsx";
+import { Me, Projet, Skills, Contact, useFadeInOnScroll } from "../components/indexComponents";
 
 export default function HomePage() {
   useFadeInOnScroll();

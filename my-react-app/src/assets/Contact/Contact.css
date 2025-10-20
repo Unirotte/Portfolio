@@ -80,21 +80,17 @@ a.Email {
   0% {
     transform: scale(1);
   }
-
   50% {
     transform: scaleY(1);
     transform: scale(1, 0.8);
   }
-
   80% {
     transform: scaleY(1);
   }
-
   90% {
     transform: scaleY(1);
   }
 }
-
 .section-contact {
   padding: 25px 0;
   max-width: 1440px;
@@ -127,28 +123,23 @@ a.LinkedinButton {
     transform: scale(1);
     transform-origin: center center;
   }
-
   10% {
     animation-timing-function: ease-in;
     transform: scale(0.91);
   }
-
   17% {
     animation-timing-function: ease-out;
     transform: scale(0.98);
   }
-
   33% {
     animation-timing-function: ease-in;
     transform: scale(0.87);
   }
-
   45% {
     animation-timing-function: ease-out;
     transform: scale(1);
   }
 }
-
 .LinkedinLogo:active {
   animation: LinkAnim2 1s ease 0s 1 normal forwards;
 }
@@ -157,16 +148,13 @@ a.LinkedinButton {
   0% {
     opacity: 1;
   }
-
   50% {
     opacity: 0.2;
   }
-
   100% {
     opacity: 1;
   }
 }
-
 .form-control {
   letter-spacing: 1px;
   max-width: 400px;
@@ -176,6 +164,7 @@ a.LinkedinButton {
   border-radius: 5px;
   border: #cecece 1px solid;
   padding-left: 10px;
+  margin-bottom: 10px;
 }
 
 .form-style {
@@ -186,8 +175,7 @@ a.LinkedinButton {
   background: white;
   padding: 50px 15px;
   border-radius: 15px;
-  gap: 20px;
-  margin: 15px;
+  margin: 10px;
 }
 
 .form-item {
@@ -195,8 +183,6 @@ a.LinkedinButton {
   justify-content: flex-start;
   flex-direction: row;
   justify-content: space-between;
-  padding-bottom: 15px;
-
 }
 
 button#submit {
@@ -282,12 +268,10 @@ a.EarthLogo {
   from {
     transform: rotate(0deg);
   }
-
   to {
     transform: rotate(360deg);
   }
 }
-
 @media (min-width: 735px) {
   section.form-section {
     display: flex;
@@ -295,18 +279,15 @@ a.EarthLogo {
     flex-wrap: nowrap;
     justify-content: space-around;
   }
-
   .Icones {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
-
   .form-style {
     display: flex;
     flex-direction: column;
   }
-
   .form-item {
     display: flex;
     justify-content: flex-start;
@@ -314,6 +295,4 @@ a.EarthLogo {
     justify-content: space-between;
     align-items: center;
   }
-}
-
-/*# sourceMappingURL=Contact.css.map */
+}/*# sourceMappingURL=Contact.css.map */
