@@ -17,7 +17,7 @@ export default function Drawing({
           type="button"
           onClick={() => navigate(-1)}
         >
-          <FontAwesomeIcon icon={faArrowLeft} className="iconArrow" />
+          <FontAwesomeIcon icon={faArrowLeft} className="iconArrow" type="button"/>
         </button>
         <div className="drawing-container">
           <img src={picture} alt="" className="drawing-image" loading="lazy"></img>
@@ -35,6 +35,7 @@ export default function Drawing({
             frameBorder="0"
             allowtransparency="true"
             allow="encrypted-media"
+            className="music"
           />
         </div>
       </div>

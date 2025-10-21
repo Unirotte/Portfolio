@@ -1,5 +1,4 @@
 import Gallery from "./Gallery";
-import "../assets/Gallery/Gallery.scss";
 
 export default function GallerySection({realisation, title, soustitle}) {
   return (

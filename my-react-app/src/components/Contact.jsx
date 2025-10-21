@@ -1,4 +1,3 @@
-import "../assets/Contact/Contact.css";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faPaperPlane} from "@fortawesome/free-solid-svg-icons";
 import {faEarthEurope} from "@fortawesome/free-solid-svg-icons";

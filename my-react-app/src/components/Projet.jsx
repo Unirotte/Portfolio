@@ -1,6 +1,4 @@
 import {Link} from "react-router-dom";
-import "../assets/Projet/Projet.scss";
-import "../assets/Skills/Skills.scss";
 
 export default function Gallery({src, title, React, skill, className = ""}) {
   return (

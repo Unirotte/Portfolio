@@ -1,4 +1,3 @@
-import "../assets/Me/me.css";
 const portrait = "/img/Judith.webp";
 
 export default function Me({

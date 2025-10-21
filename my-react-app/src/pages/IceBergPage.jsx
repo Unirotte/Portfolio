@@ -1,6 +1,3 @@
-import "../assets/style.css";
-import "../assets/homePage/homePage.css";
-import "../assets/Me/meIce.css";
 import dataPro from "../assets/data/GalleryDraw.json";
 import {useState, useEffect} from "react";
 import {Suspense} from "react";

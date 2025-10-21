@@ -1,4 +1,3 @@
-import "../assets/Skills/Skills.scss";
 import dataPro from "../assets/data/GalleryProjet.json";
 import dataDraw from "../assets/data/GalleryDraw.json";
 

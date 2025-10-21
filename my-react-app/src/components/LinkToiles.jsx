@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import "../assets/AnimationText/AnimationText.scss";
 
 export default function LinkToiles({to}) {
   return (

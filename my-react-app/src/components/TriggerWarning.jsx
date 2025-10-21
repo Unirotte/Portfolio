@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "../assets/Warning/Warning.scss";
 
 function TriggerWarningModal({ onAccept }) {
   const [checked, setChecked] = useState(false);

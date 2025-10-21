@@ -1,6 +1,4 @@
 import {Suspense} from "react";
-import "../assets/style.css";
-import "../assets/homePage/homePage.css";
 import dataPro from "../assets/data/GalleryProjet.json";
 import { Me, Projet, Skills, Contact, useFadeInOnScroll } from "../components/indexComponents";
 

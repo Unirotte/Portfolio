@@ -1,5 +1,3 @@
-
-
 export default function Accroche() {
   return (
     <div className="accroche">

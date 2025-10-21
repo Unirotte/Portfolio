@@ -1,13 +1,10 @@
-import {Suspense, lazy} from "react";
-const AllDigitalDraw = lazy(() => import("../components/AllDigitalDraw"));
+import {Suspense} from "react";
 import dataPro from "../assets/data/GalleryDraw.json";
 import {useParams} from "react-router-dom";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faArrowLeft} from "@fortawesome/free-solid-svg-icons";
 import {Link} from "react-router-dom";
-import "../assets/Drawing/Drawing.css";
-import "../assets/AllDigital/AllDigital.css";
-const FunnyPhrase = lazy(() => import("../components/funnyPhrase.jsx"));
+import {FunnyPhrase, AllDigitalDraw} from "../components/indexComponents";
 
 export default function PageDigital() {
   const {type} = useParams();

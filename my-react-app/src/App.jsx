@@ -1,11 +1,9 @@
-import React, { Suspense, lazy } from "react";
+import React, { Suspense} from "react";
 import ReactDOM from "react-dom/client";
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import App from "./Main.jsx";
-const HomePage = lazy(() => import("./pages/HomePage.jsx"));
-const IceBergPage = lazy(() => import("./pages/IceBergPage.jsx"));
-const GalleryPage = lazy(() => import("./pages/GalleryPage.jsx"));
-const PageDigital = lazy(() => import("./pages/PageDigital.jsx"));
+import {HomePage, IceBergPage, GalleryPage, PageDigital,} from "./components/indexComponents";
+import "./assets/IndexAllCSS/IndexAllCss.css";
 
 const router = createBrowserRouter([
   {

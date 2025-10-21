@@ -1,5 +1,3 @@
-import "../assets/FunnyPhrase/FunnyPhrase.css";
-
 export default function FunnyPhrase() { 
     return (
         <div className="container">
