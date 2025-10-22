@@ -1,0 +1,1 @@
+import{j as i,L as o}from"./index-2tj9il-W.js";function e({src:a,alt:s,id:l}){return i.jsx("div",{className:"Position",children:i.jsxs(o,{to:`/galleryPage/${l}`,children:[i.jsx("img",{className:"img-position",src:a,alt:s,loading:"lazy",fetchPriority:"hight"}),i.jsx("img",{className:"backgroundTest",src:a,alt:s,loading:"lazy"})]})})}export{e as default};
