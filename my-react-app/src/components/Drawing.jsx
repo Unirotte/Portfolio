@@ -2,25 +2,32 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faArrowLeft} from "@fortawesome/free-solid-svg-icons";
 import {useNavigate} from "react-router-dom";
 
-export default function Drawing({
-  picture,
-  title,
-  musicId,
-}) {
+export default function Drawing({picture, title, musicId}) {
   const navigate = useNavigate();
   return (
     <>
       <div className="PositionAllDrawing">
-        <img src={picture} alt="" className="background-image" loading="lazy"></img>
+        <img
+          src={picture}
+          alt=""
+          className="background-image"
+          loading="lazy"
+        ></img>
         <button
           className="arrow back "
           type="button"
           onClick={() => navigate(-1)}
+          aria-label="Revenir à la page précédente"
         >
-          <FontAwesomeIcon icon={faArrowLeft} className="iconArrow" type="button"/>
+          <FontAwesomeIcon icon={faArrowLeft} className="iconArrow" />
         </button>
         <div className="drawing-container">
-          <img src={picture} alt="" className="drawing-image" loading="lazy"></img>
+          <img
+            src={picture}
+            alt=""
+            className="drawing-image"
+            loading="lazy"
+          ></img>
           <h2 className="titleDraw">{title}</h2>
         </div>
         <div className="music-container">
@@ -36,6 +43,7 @@ export default function Drawing({
             allowtransparency="true"
             allow="encrypted-media"
             className="music"
+            title="Musique d'ambiance"
           />
         </div>
       </div>

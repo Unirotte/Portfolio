@@ -61,7 +61,6 @@ h2.titleDraw {
   z-index: 2;
 }
 
-/* La flèche */
 button.arrow.back {
   position: absolute;
   top: clamp(1.5rem, 7vw, 1rem);
