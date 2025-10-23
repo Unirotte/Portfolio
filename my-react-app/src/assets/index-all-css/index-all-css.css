@@ -1,3 +1,17 @@
+@import "../Header/header.css";
+@import "../Footer/footer.css";
+@import "../style.css";
+@import "../homePage/homePage.css";
+@import "../Me/meIce.css";
+@import "../Contact/Contact.css";
+@import "../FunnyPhrase/FunnyPhrase.css";
+@import "../AnimationText/AnimationText.css";
+@import "../Me/me.css";
+@import "../Projet/Projet.css";
+@import "../Skills/Skills.css";
+@import "../Warning/Warning.css";
+@import "../AllDigital/AllDigital.css";
+@import "../Drawing/Drawing.css";
 .row {
   --s: 30vw;
   display: grid;
@@ -56,4 +70,4 @@ h3.sous-titre {
   h3.sous-titre {
     margin-bottom: 180px;
   }
-}/*# sourceMappingURL=gallery.css.map */
+}/*# sourceMappingURL=index-all-css.css.map */

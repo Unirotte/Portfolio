@@ -1,6 +1,6 @@
 import {Suspense} from "react";
-import dataPro from "../assets/data/GalleryProjet.json";
-import { Me, Projet, Skills, Contact, useFadeInOnScroll } from "../components/indexComponents";
+import dataPro from "../assets/data/gallery-projet.json";
+import { Me, Projet, Skills, Contact, useFadeInOnScroll } from "../components/index-components";
 
 export default function HomePage() {
   useFadeInOnScroll();

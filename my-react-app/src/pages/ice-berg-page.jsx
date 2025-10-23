@@ -1,7 +1,7 @@
-import dataPro from "../assets/data/GalleryDraw.json";
+import dataPro from "../assets/data/gallery-draw.json";
 import {useState, useEffect} from "react";
 import {Suspense} from "react";
-import {Skills, LinkToiles, TriggerWarningModal, useFadeInOnScroll, GallerySection, Me, } from "../components/indexComponents";
+import {Skills, LinkToiles, TriggerWarningModal, useFadeInOnScroll, GallerySection, Me, } from "../components/index-components";
 
 export default function HomePage() {
   useFadeInOnScroll();

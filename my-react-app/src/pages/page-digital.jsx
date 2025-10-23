@@ -1,10 +1,10 @@
 import {Suspense} from "react";
-import dataPro from "../assets/data/GalleryDraw.json";
+import dataPro from "../assets/data/gallery-draw.json";
 import {useParams} from "react-router-dom";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faArrowLeft} from "@fortawesome/free-solid-svg-icons";
 import {Link} from "react-router-dom";
-import {FunnyPhrase, AllDigitalDraw} from "../components/indexComponents";
+import {FunnyPhrase, AllDigitalDraw} from "../components/index-components";
 
 export default function PageDigital() {
   const {type} = useParams();

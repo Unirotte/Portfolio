@@ -1,6 +1,6 @@
 import {useParams} from "react-router-dom";
-import dataDraw from "../assets/data/GalleryDraw.json";
-import Drawing from "../components/Drawing";
+import dataDraw from "../assets/data/gallery-draw.json";
+import Drawing from "../components/drawing";
 
 export default function GalleryPage() {
      const {id} = useParams();

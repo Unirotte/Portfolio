@@ -1,5 +1,5 @@
-import dataPro from "../assets/data/GalleryProjet.json";
-import dataDraw from "../assets/data/GalleryDraw.json";
+import dataPro from "../assets/data/gallery-projet.json";
+import dataDraw from "../assets/data/gallery-draw.json";
 
 export default function Skills({ source, className= "" }) {
   const data = source === "pro" ? dataPro : dataDraw;

@@ -1,4 +1,4 @@
-import Gallery from "./Gallery";
+import Gallery from "./gallery";
 
 export default function GallerySection({realisation, title, soustitle}) {
   return (
