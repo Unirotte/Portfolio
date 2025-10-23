@@ -2,7 +2,7 @@ import React, { Suspense} from "react";
 import ReactDOM from "react-dom/client";
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import App from "./Main.jsx";
-import {HomePage, IceBergPage, GalleryPage, PageDigital,} from "./components/index-components";
+import {HomePage, IceBergPage, GalleryPage, PageDigital,} from "./components/IndexComponents.jsx";
 import "./assets/index-all-css/index-all-css.css";
 
 const router = createBrowserRouter([

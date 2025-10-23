@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import {Header, Footer, ScrollToAnchor} from "./components/index-components";
+import {Header, Footer, ScrollToAnchor} from "./components/IndexComponents";
 
 export default function App() {
   return (
