@@ -53,4 +53,60 @@ h2.skills-title {
   li.skill-item {
     font-size: 1em;
   }
-}/*# sourceMappingURL=Skills.css.map */
+}/*# sourceMappingURL=skills.css.map */
+h2.skills-title {
+  display: flex;
+  justify-content: center;
+  font-family: "Smooch Sans", sans-serif;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 400;
+  margin: 0;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.skill-item {
+  border: 1px solid #1d5677;
+  border-radius: 25px;
+  padding: 10px 5px;
+  background: white;
+  color: #1d5677;
+}
+
+.skill-item:hover {
+  border: 1px solid #1d5677;
+  border-radius: 25px;
+  padding: 10px 5px;
+  background: #1d5677;
+  color: white;
+}
+
+.skills-container {
+  background: #dcf4f3;
+  padding: 25px 0px;
+  max-width: 1440px;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.skills-list.cardskills {
+  margin: 10px 0;
+}
+
+.skills-container.fade-in.ice.visible {
+  margin-top: 50px;
+}
+
+@media (min-width: 600px) {
+  li.skill-item {
+    font-size: 1em;
+  }
+}/*# sourceMappingURL=skills.css.map */
