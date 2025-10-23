@@ -8,14 +8,20 @@ export default function Contact() {
         <h2 className="Contact-title">Contact</h2>
 
         <section className="form-section">
-          <form action="/ma-page-de-traitement" method="post">
+          <form
+            action="/ma-page-de-traitement"
+            method="post"
+            data-netlify="true"
+            onSubmit="true"
+          >
             <div className="form-style">
               <h3 className="Contact-subtitle">
                 Une question ? Un renseignement ? N'hésitez pas à me contacter.
               </h3>
+              <input type="hidden" name="form-name" value="contact"/>
               <div className="form-item">
                 <input
-                  placeholder="Nom"
+                  placeholder="name"
                   type="text"
                   id="name"
                   name="user_name"
@@ -24,7 +30,7 @@ export default function Contact() {
               </div>
               <div className="form-item">
                 <input
-                  placeholder="Email"
+                  placeholder="email"
                   type="email"
                   id="mail"
                   name="user_mail"
@@ -33,7 +39,7 @@ export default function Contact() {
               </div>
               <div className="form-item">
                 <textarea
-                  placeholder="Message"
+                  placeholder="message"
                   id="msg"
                   name="user_message"
                   className="form-control"
