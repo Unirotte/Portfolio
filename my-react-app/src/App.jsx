@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import App from "./Main.jsx";
 import {HomePage, IceBergPage, GalleryPage, PageDigital,} from "./components/indexComponents";
-import "./assets/IndexAllCSS/IndexAllCss.css";
+import "./assets/IndexAllCss/indexAllCss.css";
 
 const router = createBrowserRouter([
   {
