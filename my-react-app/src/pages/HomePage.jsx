@@ -23,7 +23,6 @@ export default function HomePage() {
           />
         ))}
         <section className="card-section .fade-in">
-          <Suspense fallback={<div>Chargement des projets..</div>}>
             {realisation.map((item) => (
               <Projet
                 key={item.id}
@@ -35,14 +34,11 @@ export default function HomePage() {
                 className="cardskills"
               />
             ))}
-          </Suspense>
         </section>
         {skills.map((item) => (
           <Skills source="pro" key={item.id} title={item.title} />
         ))}
-        <Suspense fallback={<div>Chargement de contact..</div>}>
           <Contact />
-        </Suspense>
       </main>
     </>
   );
