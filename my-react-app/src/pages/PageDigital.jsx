@@ -1,4 +1,3 @@
-import {Suspense} from "react";
 import dataPro from "../assets/data/gallery-draw.json";
 import {useParams} from "react-router-dom";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
@@ -18,11 +17,8 @@ export default function PageDigital() {
       <h1 className="titleGallery">
         {type === "realisation" ? "Galerie realisation" : "Galerie Toiles"}
       </h1>
-      <Suspense fallback={<div className="loading-funny">...</div>}>
         <FunnyPhrase />
-      </Suspense>
       <div className="AllPosition fade-in visible">
-        <Suspense fallback={null}>
           {realisation.map((item) => (
             <AllDigitalDraw
               key={item.id}
@@ -31,7 +27,6 @@ export default function PageDigital() {
               alt={item.title}
             />
           ))}
-        </Suspense>
       </div>
     </main>
   );

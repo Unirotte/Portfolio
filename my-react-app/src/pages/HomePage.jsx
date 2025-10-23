@@ -1,4 +1,3 @@
-import {Suspense} from "react";
 import dataPro from "../assets/data/gallery-projet.json";
 import { Me, Projet, Skills, Contact, useFadeInOnScroll } from "../components/IndexComponents";
 

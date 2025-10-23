@@ -1,6 +1,5 @@
 import dataPro from "../assets/data/gallery-draw.json";
 import {useState, useEffect} from "react";
-import {Suspense} from "react";
 import {Skills, LinkToiles, TriggerWarningModal, useFadeInOnScroll, GallerySection, Me, } from "../components/IndexComponents";
 
 export default function HomePage() {
@@ -38,22 +37,18 @@ export default function HomePage() {
             className="ice"
           />
         ))}
-        <Suspense fallback={<div>Chargement mini galerie..</div>}>
           <GallerySection
             realisation={realisation}
             title="Digital"
             soustitle="Mes derniers digitals"
           />
           <LinkToiles to="/PageDigital/realisation" />
-        </Suspense>
-        <Suspense fallback={<div>Chargement mini galerie..</div>}>
           <GallerySection
             realisation={toile}
             title="Toiles"
             soustitle="Mes dernières toiles"
           />
           <LinkToiles to="/PageDigital/toile" />
-        </Suspense>
         {skills.map((item) => (
           <Skills key={item.id} title={item.title} className="ice" />
         ))}
