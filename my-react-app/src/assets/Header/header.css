@@ -1,0 +1,57 @@
+.logo-header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1000;
+  background: #f7f8fb;
+  width: 100%;
+}
+
+section.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+}
+
+li {
+  list-style: none;
+  font-size: 3vw;
+  white-space: nowrap;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 20px;
+  margin: 15px;
+}
+
+h1 {
+  font-size: 6vw;
+  margin: 10px 0px;
+}
+
+@media (min-width: 1300px) {
+  h1 {
+    font-size: 75px;
+  }
+  li {
+    font-size: 30px;
+  }
+  ul {
+    align-items: center;
+  }
+  img.LinkedinLogo {
+    width: 50px;
+  }
+}/*# sourceMappingURL=header.css.map */
