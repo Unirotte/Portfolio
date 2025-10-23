@@ -10,22 +10,26 @@ export default function Contact() {
         <section className="form-section">
           <form
             action="/ma-page-de-traitement"
+            name="contact"
             method="post"
             data-netlify="true"
-            onSubmit="true"
+            netlify-honeypot="bot-field"
           >
+            <input type="hidden" name="form-name" value="contact"/>
+            
             <div className="form-style">
               <h3 className="Contact-subtitle">
                 Une question ? Un renseignement ? N'hésitez pas à me contacter.
               </h3>
-              <input type="hidden" name="form-name" value="contact"/>
+              
               <div className="form-item">
                 <input
                   placeholder="name"
                   type="text"
                   id="name"
-                  name="user_name"
+                  name="name"
                   className="form-control"
+                  required
                 />
               </div>
               <div className="form-item">
@@ -33,16 +37,18 @@ export default function Contact() {
                   placeholder="email"
                   type="email"
                   id="mail"
-                  name="user_mail"
+                  name="email"
                   className="form-control"
+                  required
                 />
               </div>
               <div className="form-item">
                 <textarea
                   placeholder="message"
                   id="msg"
-                  name="user_message"
+                  name="message"
                   className="form-control"
+                  required
                 ></textarea>
               </div>
               <button
@@ -51,7 +57,6 @@ export default function Contact() {
                 type="submit"
                 value="send"
               >
-                {" "}
                 <div className="all-btn">
                   <FontAwesomeIcon icon={faPaperPlane} className="PaperPlane" />
                   <span className="send">SEND</span>
