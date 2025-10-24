@@ -1,7 +1,28 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faPaperPlane} from "@fortawesome/free-solid-svg-icons";
-import {faEarthEurope} from "@fortawesome/free-solid-svg-icons";
+import {faPaperPlane, faEarthEurope} from "@fortawesome/free-solid-svg-icons";
+
 export default function Contact() {
+    const [isSent, setIsSent] = useState(false); // ✅ état d’envoi
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const form = e.target;
+    const formData = new FormData(form);
+
+    // envoi à Web3Forms via fetch
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
+
+    if (response.ok) {
+      setIsSent(true); // ✅ on affiche le message
+      form.reset(); // 🔄 on vide le formulaire
+    } else {
+      alert("❌ Une erreur est survenue, veuillez réessayer.");
+    }
+  };
   return (
     <>
       <div className="section-contact fade-in" id="contact">
@@ -22,13 +43,7 @@ export default function Contact() {
     />
     <input type="hidden" name="from_name" value="Portfolio Judith Pichenot" />
 
-    {/* Redirection facultative après envoi */}
-    <input
-      type="hidden"
-      name="redirect"
-      value="https://portfoliojudithp.vercel.app/#contact"
-    />
-
+   
     {/* Protection anti-bot simple */}
     <input type="checkbox" name="botcheck" style={{ display: "none" }} />
 
@@ -88,7 +103,7 @@ export default function Contact() {
                 src="/img/Linkedin.webp"
                 alt="LinkedIn Logo"
                 loading="lazy"
-              />{" "}
+              />
               En savoir plus sur mes experiences professionnelles
             </a>
             <a
