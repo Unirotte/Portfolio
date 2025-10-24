@@ -12,24 +12,55 @@
   height: 40px;
   justify-content: center;
   padding: 0px 20px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  background-color: orange;
 }
 
+.key:hover {
+ -webkit-text-fill-color: black;
+  background: none;
+  
+}
+
+.link-position:active .key {
+  animation-play-state: paused;
+  -webkit-text-fill-color: black;
+  background: none;
+  
+}
 .link-position:active {
-  transition: background-color 0.1s ease;
-  transform: translateY(5px);
-    box-shadow: rgba(0, 0, 0, 0.54) 0px 3px 8px;
+transform: translateY(5px);
+transition: transform 0.2s ease;
 }
 
-.key {
-  font-size: clamp(1.3rem, 3vw, 1.5rem);
+span.key {
+  background: linear-gradient(
+    270deg,
+    red,
+    rgb(255, 106, 0),
+    rgb(255, 132, 0),
+    green,
+    rgb(255, 0, 128),
+    blue,
+    rgb(149, 0, 149)
+  );
+  background-size: 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   display: inline-block;
+  font-size: clamp(1.3rem, 3vw, 1.5rem);
   letter-spacing: 1vw;
-  animation: pressDown 2s infinite ease-in-out;
+  animation:
+    moveGradient 3s linear infinite,
+    pressDown 3s ease-in-out infinite;
+  
 }
 
-/* Une seule animation pour tout le monde */
+/*Animation mouvement couleur et vague*/
+@keyframes moveGradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
 @keyframes pressDown {
   0%,
   100% {

@@ -1,12 +1,16 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faPaperPlane, faEarthEurope} from "@fortawesome/free-solid-svg-icons";
-import { useState } from "react";
+import {useState} from "react";
+import Modal from "react-modal";
+Modal.setAppElement("#root");
 
 export default function Contact() {
-    const [isSent, setIsSent] = useState(false); // ✅ état d’envoi
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsSubmitting(true);
 
     const form = e.target;
     const formData = new FormData(form);
@@ -18,79 +22,94 @@ export default function Contact() {
     });
 
     if (response.ok) {
-      setIsSent(true); // ✅ on affiche le message
-      form.reset(); // 🔄 on vide le formulaire
+      setIsModalOpen(true);
+      form.reset();
     } else {
       alert("❌ Une erreur est survenue, veuillez réessayer.");
     }
+    setIsSubmitting(false);
   };
   return (
     <>
       <div className="section-contact fade-in" id="contact">
         <h2 className="Contact-title">Contact</h2>
 
-      <section className="form-section">
-  <form
-    action="https://api.web3forms.com/submit"
-    method="POST"
-    id="form"
-  >
-    {/* --- CHAMPS CACHÉS WEB3FORMS --- */}
-    <input type="hidden" name="access_key" value="aba7f502-8930-4b47-8f86-dbfbc2c2c6bd" />
-    <input
-      type="hidden"
-      name="subject"
-      value="Nouveau message depuis le portfolio de Judith"
-    />
-    <input type="hidden" name="from_name" value="Portfolio Judith Pichenot" />
+        <section className="form-section">
+          <form onSubmit={handleSubmit} id="form">
+            {/* --- CHAMPS CACHÉS WEB3FORMS --- */}
+            <input
+              type="hidden"
+              name="access_key"
+              value="aba7f502-8930-4b47-8f86-dbfbc2c2c6bd"
+            />
+            <input
+              type="hidden"
+              name="subject"
+              value="Nouveau message depuis le portfolio de Judith"
+            />
+            <input
+              type="hidden"
+              name="from_name"
+              value="Portfolio Judith Pichenot"
+            />
 
-   
-    {/* Protection anti-bot simple */}
-    <input type="checkbox" name="botcheck" style={{ display: "none" }} />
+            <div className="form-style">
+              <h3 className="Contact-subtitle">
+                Une question ? Un renseignement ? N'hésitez pas à me contacter.
+              </h3>
 
-    <div className="form-style">
-      <h3 className="Contact-subtitle">
-        Une question ? Un renseignement ? N'hésitez pas à me contacter.
-      </h3>
+              <div className="form-item">
+                <input
+                  placeholder="Nom"
+                  type="text"
+                  id="name"
+                  name="name"
+                  className="form-control"
+                  required
+                />
+              </div>
+              <div className="form-item">
+                <input
+                  placeholder="Email"
+                  type="email"
+                  id="mail"
+                  name="email"
+                  className="form-control"
+                  required
+                />
+              </div>
+              <div className="form-item">
+                <textarea
+                  placeholder="Message"
+                  id="msg"
+                  name="message"
+                  className="form-control"
+                  required
+                ></textarea>
+              </div>
 
-      <div className="form-item">
-        <input
-          placeholder="Nom"
-          type="text"
-          id="name"
-          name="name"
-          className="form-control"
-          required
-        />
-      </div>
-      <div className="form-item">
-        <input
-          placeholder="Email"
-          type="email"
-          id="mail"
-          name="email"
-          className="form-control"
-          required
-        />
-      </div>
-      <div className="form-item">
-        <textarea
-          placeholder="Message"
-          id="msg"
-          name="message"
-          className="form-control"
-          required
-        ></textarea>
-      </div>
+              <button className="btn-send" id="submit" type="submit">
+                <div className="all-btn">
+                  <FontAwesomeIcon icon={faPaperPlane} className="PaperPlane" />
+                  <span className="send">
+                    {isSubmitting ? "Envoi..." : "SEND"}
+                  </span>
+                </div>
+              </button>
+            </div>
+          </form>
 
-      <button className="btn-send" id="submit" type="submit">
-        <div className="all-btn">
-          <FontAwesomeIcon icon={faPaperPlane} className="PaperPlane" />
-          <span className="send">SEND</span>
-        </div>
-      </button>
-    </div>
-  </form>
+          <Modal
+            isOpen={isModalOpen}
+            onRequestClose={() => setIsModalOpen(false)}
+            className="success-modal"
+            overlayClassName="modal-overlay"
+          >
+            <h2>✅ Message envoyé avec succès !</h2>
+            <p>Merci pour votre message, je vous répondrai dès que possible.</p>
+            <button onClick={() => setIsModalOpen(false)}>Fermer</button>
+          </Modal>
+
           <div className="Icones">
             <a
               href="https://www.linkedin.com/in/judith-pichenot-7b1108167/"
