@@ -108,7 +108,8 @@
     "id": 13,
     "type": "toile",
     "title": "Butterfly",
-    "src": "/img/Dessin/IMG_20240822_193424.webp"
+    "src": "/img/Dessin/IMG_20240822_193424.webp",
+    "song": "04YRSuoGZcAj9kj57c6utu?si=d7b79118cd004007"
     
   },
   {
@@ -122,7 +123,8 @@
     "id": 15,
     "type": "toile",
     "title": "Centipede",
-    "src": "/img/Dessin/1000006961.webp"
+    "src": "/img/Dessin/1000006961.webp",
+    "song": "7iR1y5YfpmJ6ME8zkKnlQj?si=a13c62f72160494b"
   },
    {
     "id": 19,
@@ -140,19 +142,29 @@
     "id": 21,
     "type": "toile",
     "title": "A la vie a la mort",
-    "src": "/img/Dessin/1000007060.webp"
+    "src": "/img/Dessin/1000007060.webp",
+    "song": "08zLiGZBQXwVDh6r1J3Jpb?si=97cb35d9f9fd4b90"
   },
   {
     "id": 22,
     "type": "toile",
     "title": "Confiance aveugle",
-    "src": "/img/Dessin/1000011562.webp"
+    "src": "/img/Dessin/1000011562.webp",
+    "song": "7LOR8Rdc5n2EkduOXZeTp6?si=a26d3eaefa484909"
   },
   {
     "id": 23,
     "type": "toile",
     "title": "Rebelle",
-    "src": "/img/Dessin/IMG_20250928_165103.webp"
+    "src": "/img/Dessin/IMG_20250928_165103.webp",
+    "song": "7hARdySaXWuTLeqBrYP2xf?si=9f0c5482cefd47a5"
+  },
+  {
+    "id": 24,
+    "type": "toile",
+    "title": "Hunter",
+    "src": "/img/Dessin/Toilecoeur.webp",
+    "song": "7qzt3njSlRS9ejT9Xgryx2?si=de579ad343f745da"
   },
   {
     "id": 6,
