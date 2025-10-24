@@ -1,5 +1,6 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faPaperPlane, faEarthEurope} from "@fortawesome/free-solid-svg-icons";
+import { useState } from "react";
 
 export default function Contact() {
     const [isSent, setIsSent] = useState(false); // ✅ état d’envoi
