@@ -2,14 +2,14 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faArrowLeft} from "@fortawesome/free-solid-svg-icons";
 import {useNavigate} from "react-router-dom";
 
-export default function Drawing({picture, title, musicId}) {
+export default function Drawing({picture, title, musicId, alt}) {
   const navigate = useNavigate();
   return (
     <>
       <div className="PositionAllDrawing">
         <img
           src={picture}
-          alt=""
+          alt={alt}
           className="background-image"
           loading="lazy"
         ></img>
@@ -24,7 +24,7 @@ export default function Drawing({picture, title, musicId}) {
         <div className="drawing-container">
           <img
             src={picture}
-            alt=""
+            alt={alt}
             className="drawing-image"
             loading="lazy"
           ></img>

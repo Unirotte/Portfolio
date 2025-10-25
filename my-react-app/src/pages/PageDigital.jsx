@@ -24,7 +24,7 @@ export default function PageDigital() {
               key={item.id}
               id={item.id}
               src={item.src}
-              alt={item.title}
+              alt={item.alt}
             />
           ))}
       </div>

@@ -1,6 +1,6 @@
 export default function FunnyPhrase() { 
     return (
-        <div className="container">
+        <div className="container ">
   <p>Qu’en pensent tes proches ?</p>
   <section className="animation">
     <div className="first"><div>Le père: "Ton art chelou"</div></div>

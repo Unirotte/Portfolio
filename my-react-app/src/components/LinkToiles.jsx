@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function LinkToiles({to}) {
   return (
     <>
-      <div className="link-gallery">
+      <div className="link-gallery fade-in">
         <Link className="link-position" to={to}>
           <span className="key">V</span>
           <span className="key">o</span>

@@ -9,11 +9,11 @@ const IceBergPage = lazy(() => import("../pages/IceBergPage.jsx"));
 const GalleryPage = lazy(() => import("../pages/GalleryPage.jsx"));
 const PageDigital = lazy(() => import("../pages/PageDigital.jsx"));
 const AllDigitalDraw = lazy(() => import("./AllDigitalDraw.jsx"));
+const GallerySection = lazy(() => import( "./GallerySection.jsx"));
+const LinkToiles = lazy(() => import("./LinkToiles.jsx"));
 
 import useFadeInOnScroll from "./HookScrool.jsx";
 import Me from "./Me.jsx";
-import LinkToiles from "./LinkToiles.jsx";
-import GallerySection from "./GallerySection.jsx";
 import TriggerWarningModal from "./TriggerWarning.jsx";
 import Footer from "./Footer.jsx";
 import Header from "./Header.jsx";

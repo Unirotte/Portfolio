@@ -3,63 +3,71 @@
     "id": 1,
     "type": "realisation",
     "title": "The Fall of the Angel",
+    "alt": "Un dessin animé représentant un personnage assis dans la rue, avec des ailes abîmées, fumant une cigarette.",
     "src": "/img/Dessin/DessinJudith.gif",
     "song": "1Fs8EHeWubyLP0urd2fZbC?si=0b1eb8131c4843f0"
   },
   {
     "id": 2,
     "type": "realisation",
-    "title": "Big eyes",
+    "title": "Big Eyes",
     "src": "/img/Dessin/IMG_1137.webp",
-    "background":"/img/Dessin/IMG_1137.webp",
+    "alt": "Un dessin d’un globe oculaire au premier plan, avec un corps de femme en arrière-plan et un effet de perspective.",
     "song": "4BL8uC2TSOebfjg8cWUyeO?si=98f76cc6a8ee4a67"
   },
   {
     "id": 3,
     "type": "realisation",
-    "title": "Game over",
+    "title": "Game Over",
     "src": "/img/Dessin/IMG_1144.webp",
-    "song":"2zGqqElyWqEpr0arazhuOm?si=98df125ac9df4092"
+    "alt": "Un dessin d’une femme avec les mains devant le bas de son visage, et des coulures jaunes qui descendent sous ses mains et sur son torse.",
+    "song": "2zGqqElyWqEpr0arazhuOm?si=98df125ac9df4092"
   },
   {
     "id": 4,
     "type": "realisation",
-    "title": "Queen of misery",
+    "title": "Queen of Misery",
+    "alt": "Un dessin d’une femme qui tire la langue, portant une couronne, un collier autour du cou et une laisse.",
     "src": "/img/Dessin/IMG_1145.webp",
     "song": "3AjSfp5FDvwtMU9XBsbS8j?si=276872f7006f458d"
   },
   {
     "id": 5,
     "type": "realisation",
-    "title": "Sheep bite",
+    "title": "Sheep Bite",
+    "alt": "Un dessin d’une femme-mouton qui tient un cœur écrasé dans sa main.",
     "src": "/img/Dessin/IMG_1146.webp",
-    "song" : "30XAPSePLeJU5YMmjHdUiG?si=5a31f9cfe9b541e0"
+    "song": "30XAPSePLeJU5YMmjHdUiG?si=5a31f9cfe9b541e0"
   },
   {
     "id": 6,
     "type": "realisation",
-    "title": "The eyes of sound",
+    "title": "The Eyes of Sound",
+    "alt": "Un dessin d’une femme avec la bouche ouverte, la langue tirée et un globe oculaire posé dessus.",
     "src": "/img/Dessin/IMG_1147.webp",
     "song": "48lxT5qJF0yYyf2z4wB4xW?si=ddcb9f1305a34096"
   },
   {
     "id": 7,
     "type": "realisation",
-    "title": "Toxic beauty",
+    "title": "Toxic Beauty",
+    "alt": "Un dessin d’une femme avec la bouche ouverte et des dents disposées le long de son corps.",
     "src": "/img/Dessin/IMG_1149.webp",
     "song": "4E2KmUKHBVqFss2miy0mV4?si=c73ecb4027894fab"
   },
   {
     "id": 8,
     "type": "realisation",
-    "title": "Burning desire",
+    "title": "Burning Desire",
+    "alt": "Un dessin d’une créature dotée de deux paires d’ailes.",
     "src": "/img/Dessin/IMG_1169.webp",
-    "song" :"4dbPdLoUp2cpe6IcAmWGGD?si=c4a3855268574436"
+    "song": "4dbPdLoUp2cpe6IcAmWGGD?si=c4a3855268574436"
   },
   {
     "id": 9,
     "type": "realisation",
-    "title": "None",
+    "title": "Nun",
+    "alt": "Un dessin d’une nonne avec une ombre rose dotée de cornes, d’ailes et de mains en arrière-plan.",
     "src": "/img/Dessin/IMG_1176.webp",
     "song": "7vSqCdYJe4lug8jdV3Impc?si=34a8438130aa4f0a"
   },
@@ -67,6 +75,7 @@
     "id": 16,
     "type": "realisation",
     "title": "Hello Kitty",
+    "alt": "Un dessin d’une femme avec des cornes tenant un couteau rose, sur un fond illustré de motifs Hello Kitty.",
     "src": "/img/Dessin/IMG_1150.webp",
     "song": "4qrBAShPdBpxCe0Yl2DXYT?si=7b2d69bc2b1e4415"
   },
@@ -74,12 +83,15 @@
     "id": 17,
     "type": "realisation",
     "title": "HellX",
+    "alt": "Un dessin en perspective déformée représentant une femme qui se maquille devant son évier.",
     "src": "/img/Dessin/IMG_1201.webp",
     "song": "6JmNS4brv5ROhx5IiWKaz0?si=0bb89bd4263a488a"
-  },{
+  },
+  {
     "id": 18,
     "type": "realisation",
     "title": "Heart",
+    "alt": "Un personnage avec un globe oculaire à la place de la tête, serrant un cœur géant contre lui.",
     "src": "/img/Dessin/IMG_1196.webp",
     "song": "2ffwBvpsQhgXyU7zBUOhwP?si=bc20ab1906fc4aae"
   },
@@ -87,20 +99,23 @@
     "id": 10,
     "type": "toile",
     "title": "Dionaea",
+    "alt": "Un buste sans bras ni jambes, avec de l’eau qui s’écoule de ses membres et une dionaea à la place de la tête.",
     "src": "/img/Dessin/thumbnail_IMG_20240822_193343.webp",
     "song": "58idGYBQkFbtazcZy7vBlg?si=67d06266683f4e18"
   },
   {
     "id": 11,
     "type": "toile",
-    "title": "Victory bird",
-    "src": "/img/Dessin/thumbnail_IMG_20240822_193401.webp"
-    
+    "title": "Victory Bird",
+    "alt": "Un buste de femme avec des ailes au niveau du visage et plusieurs yeux.",
+    "src": "/img/Dessin/thumbnail_IMG_20240822_193401.webp",
+    "song": "1QxcWlk8PivolUaWcpAoNq?si=7ae43f17ab9048a8"
   },
   {
     "id": 12,
     "type": "toile",
-    "title": "In prey",
+    "title": "In Prey",
+    "alt": "Une femme avec des mains sur son visage et des yeux qui l’observent.",
     "src": "/img/Dessin/thumbnail_IMG_20240822_193413.webp",
     "song": "0GBySVvMplhtDT0ujuSz90?si=3544620f1a464029"
   },
@@ -108,14 +123,15 @@
     "id": 13,
     "type": "toile",
     "title": "Butterfly",
+    "alt": "Un dessin d’une femme ayant un papillon à la place du visage et des ailes de papillon dans le dos.",
     "src": "/img/Dessin/IMG_20240822_193424.webp",
     "song": "04YRSuoGZcAj9kj57c6utu?si=d7b79118cd004007"
-    
   },
   {
-    "id":14,
+    "id": 14,
     "type": "toile",
-    "title": "Sweet divinity",
+    "title": "Sweet Divinity",
+    "alt": "Un buste avec un visage orné d’une couronne de fleurs et de globes oculaires. Les mains tiennent un petit personnage en forme de stickman.",
     "src": "/img/Dessin/IMG_20240822_193601.webp",
     "song": "6RdU4utCLAnra16hHLF0Ns?si=2d23e72175984967"
   },
@@ -123,25 +139,31 @@
     "id": 15,
     "type": "toile",
     "title": "Centipede",
+    "alt": "Un personnage presque entièrement dissimulé sous une multitude de mains, avec un œil brillant apparent.",
     "src": "/img/Dessin/1000006961.webp",
     "song": "7iR1y5YfpmJ6ME8zkKnlQj?si=a13c62f72160494b"
   },
-   {
+  {
     "id": 19,
     "type": "toile",
-    "title": "Face",
-    "src": "/img/Dessin/1000006639.webp"
+    "title": "Fake",
+    "alt": "Un dessin représentant un personnage tenant un masque devant son visage, masque qui possède plusieurs yeux.",
+    "src": "/img/Dessin/1000006639.webp",
+    "song": "10otnTMXn3fh9cZwoP33UL?si=1be1c2627e0c421f"
   },
-   {
+  {
     "id": 20,
     "type": "toile",
     "title": "Souillure",
-    "src": "/img/Dessin/1000006874.webp"
+    "alt": "Un dessin d’une nonne avec une cigarette et une coulure noire qui la recouvre.",
+    "src": "/img/Dessin/1000006874.webp",
+    "song": "4nvsRb9ypaqqDXcZxjn6ba?si=50f9485fd6534905"
   },
-   {
+  {
     "id": 21,
     "type": "toile",
-    "title": "A la vie a la mort",
+    "title": "À la vie, à la mort",
+    "alt": "Un personnage avec des cornes de bélier serrant un squelette, tous deux recouverts de fleurs.",
     "src": "/img/Dessin/1000007060.webp",
     "song": "08zLiGZBQXwVDh6r1J3Jpb?si=97cb35d9f9fd4b90"
   },
@@ -149,6 +171,7 @@
     "id": 22,
     "type": "toile",
     "title": "Confiance aveugle",
+    "alt": "Un dessin d’un personnage faisant face à un monstre, les yeux cachés par d’autres mains.",
     "src": "/img/Dessin/1000011562.webp",
     "song": "7LOR8Rdc5n2EkduOXZeTp6?si=a26d3eaefa484909"
   },
@@ -156,6 +179,7 @@
     "id": 23,
     "type": "toile",
     "title": "Rebelle",
+    "alt": "Un dessin d’un ange faisant un doigt d’honneur, une bouteille cassée dans l’autre main.",
     "src": "/img/Dessin/IMG_20250928_165103.webp",
     "song": "7hARdySaXWuTLeqBrYP2xf?si=9f0c5482cefd47a5"
   },
@@ -163,6 +187,7 @@
     "id": 24,
     "type": "toile",
     "title": "Hunter",
+    "alt": "Un dessin d’un personnage tenant un cœur meurtri, avec une paire de mains coupant un fil en arrière-plan et un crâne de monstre sur la tête.",
     "src": "/img/Dessin/Toilecoeur.webp",
     "song": "7qzt3njSlRS9ejT9Xgryx2?si=de579ad343f745da"
   },
@@ -171,8 +196,8 @@
     "type": "presentation",
     "title": "ABOUT ME",
     "introduction": "Bienvenue",
-    "sousintroduction": "de l'autre côté,",
-    "text": "On ne voit que ce qui flotte. Ici je vous montre ce qui m'anime, ce qui déborde. Une facette plus brute, plus libre, mais tout aussi présente dans ma manière de crée, constuire.",
+    "sousintroduction": "de l’autre côté,",
+    "text": "On ne voit que ce qui flotte. Ici, je vous montre ce qui m’anime, ce qui déborde. Une facette plus brute, plus libre, mais tout aussi présente dans ma manière de créer, de construire.",
     "src": "/img/Portrait.webp",
     "alt": "Une photo de Judith",
     "image": "/img/eyes.gif"
@@ -180,14 +205,16 @@
   {
     "id": 17,
     "type": "Skills",
-    "title": "Skills Créatifs",
+    "title": "Skills créatifs",
     "tableau": [
-      "Procreat",
+      "Procreate",
       "Peinture",
       "Feutres",
-      "Signalétique, enseigne et décors",
+      "Signalétique, enseignes et décors",
       "Créatif enfants",
-      "Créatif personnes cérébrolésés"
+      "Créatif personnes cérébrolésées",
+      "Procreate",
+      "Digital"
     ]
   }
 ]

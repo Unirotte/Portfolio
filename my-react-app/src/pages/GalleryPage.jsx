@@ -4,7 +4,6 @@ import Drawing from "../components/Drawing";
 
 export default function GalleryPage() {
      const {id} = useParams();
-     console.log(id);
     const drawing = dataDraw.find((item) => item.id === parseInt(id));
 
   if (!drawing) {
@@ -17,6 +16,7 @@ export default function GalleryPage() {
     picture={drawing.src} 
     description={drawing.text} 
     title={drawing.title}
+    alt={drawing.alt}
     musicId={drawing.song}
     />
     </main>

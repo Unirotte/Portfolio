@@ -21,7 +21,7 @@ export default function HomePage() {
             image={item.image}
           />
         ))}
-        <section className="card-section .fade-in">
+        <section className="card-section fade-in">
             {realisation.map((item) => (
               <Projet
                 key={item.id}

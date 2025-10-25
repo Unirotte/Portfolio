@@ -38,12 +38,13 @@ ul {
 
 h1 {
   font-size: 6vw;
-  margin: 10px 0px;
+  margin: 10px 10px;
 }
 
 @media (min-width: 1300px) {
   h1 {
     font-size: 75px;
+    margin: 10px 0px;
   }
   li {
     font-size: 30px;

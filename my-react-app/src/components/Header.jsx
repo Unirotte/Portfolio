@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className="logo-header">
       <section className="navbar">
-        <h1>Portefolio</h1>
+        <h1>Judith.P</h1>
         <ul>
           <li>
             <Link to="/IceBergPage" className="iceBerg">

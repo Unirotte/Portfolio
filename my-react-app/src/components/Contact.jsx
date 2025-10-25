@@ -60,6 +60,7 @@ export default function Contact() {
 
               <div className="form-item">
                 <input
+                  aria-label="Nom"
                   placeholder="Nom"
                   type="text"
                   id="name"
@@ -70,6 +71,7 @@ export default function Contact() {
               </div>
               <div className="form-item">
                 <input
+                  aria-label="Email"
                   placeholder="Email"
                   type="email"
                   id="mail"
@@ -80,6 +82,7 @@ export default function Contact() {
               </div>
               <div className="form-item">
                 <textarea
+                  aria-label="Message"
                   placeholder="Message"
                   id="msg"
                   name="message"
