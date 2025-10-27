@@ -17,7 +17,7 @@ export default function Projet({src, title, React, skill, className = ""}) {
           <Link to={React} target="_blank" >
             <img
               className="btn btn-primary"
-              src="/img/projet/React.png"
+              src="/img/projet/React.webp"
               alt="logo React"
               loading="lazy"
             />
