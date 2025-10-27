@@ -1,9 +1,9 @@
 import {Link} from "react-router-dom";
 
-export default function AllDigitalDraw({src, alt, id}) {
+export default function AllDraw({src, alt, id}) {
   return (
     <div className="Position ">
-      <Link to={`/galleryPage/${id}`}>
+      <Link to={`/PageExpo/${id}`}>
         <img
           className="img-position"
           src={src}

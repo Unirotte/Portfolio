@@ -38,13 +38,14 @@
 }
 
 img.btn.btn-primary {
-    width: 40px;
-    margin-top: 10px;
-    animation: transform 0.3s ease-in-out; /* animation de 2s, linéaire, répétée à l’infini */
+  width: 40px;
+  margin-top: 10px;
+  animation: transform 0.3s ease-in-out; /* animation de 2s, linéaire, répétée à l’infini */
 }
 
 .btn.btn-primary:hover {
-  animation: rotateInfinite 1s linear infinite; /* animation de 2s, linéaire, répétée à l’infini */ }
+  animation: rotateInfinite 1s linear infinite; /* animation de 2s, linéaire, répétée à l’infini */
+}
 
 @keyframes rotateInfinite {
   from {
@@ -54,8 +55,6 @@ img.btn.btn-primary {
     transform: rotate(360deg);
   }
 }
-
-
 
 .card-body {
   background-color: #fffcfc;
@@ -78,4 +77,13 @@ img.btn.btn-primary {
 
 img.imgCards {
   width: 100%;
+}
+
+h2.title-projet {
+  display: flex;
+  justify-content: center;
+  font-family: "Smooch Sans", sans-serif;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  text-decoration: underline;
+  font-weight: 600;
 }

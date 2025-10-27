@@ -1,6 +1,6 @@
 import dataPro from "../assets/data/gallery-draw.json";
 import {useState, useEffect} from "react";
-import {Skills, LinkToiles, TriggerWarningModal, useFadeInOnScroll, GallerySection, Me, } from "../components/IndexComponents";
+import {Skills, LinkToiles, TriggerWarningModal, useFadeInOnScroll, MiniGallery, Me, } from "../components/IndexComponents";
 
 export default function HomePage() {
   useFadeInOnScroll();
@@ -37,18 +37,18 @@ export default function HomePage() {
             className="ice"
           />
         ))}
-          <GallerySection
+          <MiniGallery
             realisation={realisation}
             title="Digital"
             soustitle="Mes derniers digitals"
           />
-          <LinkToiles to="/PageDigital/realisation" />
-          <GallerySection
+          <LinkToiles to="/PageGallery/realisation" />
+          <MiniGallery
             realisation={toile}
             title="Toiles"
             soustitle="Mes dernières toiles"
           />
-          <LinkToiles to="/PageDigital/toile" />
+          <LinkToiles to="/PageGallery/toile" />
         {skills.map((item) => (
           <Skills key={item.id} title={item.title} className="ice" />
         ))}

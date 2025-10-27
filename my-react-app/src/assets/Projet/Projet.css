@@ -74,4 +74,13 @@ img.btn.btn-primary {
 
 img.imgCards {
   width: 100%;
+}
+
+h2.title-projet {
+  display: flex;
+  justify-content: center;
+  font-family: "Smooch Sans", sans-serif;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  text-decoration: underline;
+  font-weight: 600;
 }/*# sourceMappingURL=Projet.css.map */

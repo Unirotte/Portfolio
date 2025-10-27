@@ -3,9 +3,9 @@ import {useParams} from "react-router-dom";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faArrowLeft} from "@fortawesome/free-solid-svg-icons";
 import {Link} from "react-router-dom";
-import {FunnyPhrase, AllDigitalDraw} from "../components/IndexComponents";
+import {FunnyPhrase, AllDraw} from "../components/IndexComponents";
 
-export default function PageDigital() {
+export default function PageGallery() {
   const {type} = useParams();
 
   const realisation = dataPro.filter((item) => item.type === type);
@@ -20,7 +20,7 @@ export default function PageDigital() {
         <FunnyPhrase />
       <div className="AllPosition fade-in visible">
           {realisation.map((item) => (
-            <AllDigitalDraw
+            <AllDraw
               key={item.id}
               id={item.id}
               src={item.src}

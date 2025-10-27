@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom";
 
-export default function Gallery({src, title, React, skill, className = ""}) {
+export default function Projet({src, title, React, skill, className = ""}) {
   return (
     <>
       <div className="card fade-in">

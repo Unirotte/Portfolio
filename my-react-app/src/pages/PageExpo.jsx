@@ -1,8 +1,8 @@
 import {useParams} from "react-router-dom";
 import dataDraw from "../assets/data/gallery-draw.json";
-import Drawing from "../components/Drawing";
+import ExpoDrawing from "../components/ExpoDrawing";
 
-export default function GalleryPage() {
+export default function PageExpo() {
      const {id} = useParams();
     const drawing = dataDraw.find((item) => item.id === parseInt(id));
 
@@ -12,7 +12,7 @@ export default function GalleryPage() {
 
   return (
     <main>
-    <Drawing 
+    <ExpoDrawing 
     picture={drawing.src} 
     description={drawing.text} 
     title={drawing.title}

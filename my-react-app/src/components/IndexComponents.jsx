@@ -6,18 +6,18 @@ const Contact = lazy(() => import("./Contact.jsx"));
 const FunnyPhrase = lazy(() => import("./FunnyPhrase.jsx"));
 const HomePage = lazy(() => import("../pages/HomePage.jsx"));
 const IceBergPage = lazy(() => import("../pages/IceBergPage.jsx"));
-const GalleryPage = lazy(() => import("../pages/GalleryPage.jsx"));
-const PageDigital = lazy(() => import("../pages/PageDigital.jsx"));
-const AllDigitalDraw = lazy(() => import("./AllDigitalDraw.jsx"));
-const GallerySection = lazy(() => import( "./GallerySection.jsx"));
+const PageExpo = lazy(() => import("../pages/PageExpo.jsx"));
+const PageGallery = lazy(() => import("../pages/PageGallery.jsx"));
+const AllDraw = lazy(() => import("./AllDraw.jsx"));
+const MiniGallery = lazy(() => import( "./MiniGallery.jsx"));
 const LinkToiles = lazy(() => import("./LinkToiles.jsx"));
 
-import useFadeInOnScroll from "./HookScrool.jsx";
+import useFadeInOnScroll from "../hooks/HookScrool.jsx";
 import Me from "./Me.jsx";
 import TriggerWarningModal from "./TriggerWarning.jsx";
 import Footer from "./Footer.jsx";
 import Header from "./Header.jsx";
-import ScrollToAnchor from "./SrollToAnchor.jsx";
+import ScrollToAnchor from "../hooks/SrollToAnchor.jsx";
 
 export { Me,
   Projet,
@@ -26,14 +26,14 @@ export { Me,
   useFadeInOnScroll,
   FunnyPhrase,
   LinkToiles,
-  GallerySection,
+  MiniGallery,
   TriggerWarningModal,
   Footer,
   Header,
   ScrollToAnchor,
-GalleryPage,
+PageExpo,
 IceBergPage,
-PageDigital,
+PageGallery,
 HomePage,
-AllDigitalDraw,
+AllDraw,
 };

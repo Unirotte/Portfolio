@@ -10,8 +10,8 @@
 @import "../Projet/Projet.css";
 @import "../Skills/Skills.css";
 @import "../Warning/Warning.css";
-@import "../all-digital/all-digital.css";
-@import "../Drawing/Drawing.css";
+@import "../all-draw/all-draw.css";
+@import "../expo-drawing/expo-drawing.css";
 .row {
   --s: 30vw;
   display: grid;

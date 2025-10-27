@@ -1,14 +1,30 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faArrowLeft} from "@fortawesome/free-solid-svg-icons";
 import {useNavigate} from "react-router-dom";
+import {useState, useEffect} from "react";
 
-export default function Drawing({picture, title, musicId, alt}) {
+export default function ExpoDrawing({picture, title, musicId, alt}) {
   const navigate = useNavigate();
+
+  /*const pour le mettre le gif putôt que le webp*/
+  const [src, setSrc] = useState(picture);
+  useEffect(() => {
+    const gifSrc = picture.replace(".webp", ".gif");
+    const testImg = new Image();
+    testImg.src = gifSrc;
+    testImg.onload = () => {
+      setSrc(gifSrc);
+    };
+    testImg.onerror = () => {
+      setSrc(picture);
+    };
+  }, [picture]);
+  
   return (
     <>
       <div className="PositionAllDrawing">
         <img
-          src={picture}
+          src={src}
           alt={alt}
           className="background-image"
           loading="lazy"
@@ -23,7 +39,7 @@ export default function Drawing({picture, title, musicId, alt}) {
         </button>
         <div className="drawing-container">
           <img
-            src={picture}
+            src={src}
             alt={alt}
             className="drawing-image"
             loading="lazy"
