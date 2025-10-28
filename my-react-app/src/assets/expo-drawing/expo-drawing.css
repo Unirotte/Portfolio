@@ -1,11 +1,10 @@
 @charset "UTF-8";
 /* L’image principale du dessin */
 img.drawing-image {
-  max-width: 1000px;
-  width: 76vw;
   z-index: 2;
   position: relative;
   margin-top: clamp(1.5rem, 7vw, 8rem);
+  width: clamp(285px, 76vw, 1000px);
 }
 
 /* Le conteneur principal */
@@ -24,8 +23,7 @@ img.drawing-image {
 /* Image de fond */
 img.background-image {
   position: absolute; /* devient le fond fixe */
-  top: 0;
-  left: 0;
+  inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -34,7 +32,8 @@ img.background-image {
   will-change: filter;
 }
 
-.img-position, .backgroundTest {
+.img-position,
+.backgroundTest {
   width: 100%;
   max-width: 400px;
   aspect-ratio: 3/4;
