@@ -21,13 +21,18 @@ img.pictureprofile.ice {
 }
 
 .PresentationText.ice {
-  left: 18vw;
+  left: 19vw;
+  top: 5vw;
 }
 
 .Salutation.ice {
-  color: #1D5677;
+  color: #1d5677;
   font-size: 7vw;
-  top: -8vw;
+  top: -16vw;
+}
+
+.Name.ice {
+  top: -4vw;
 }
 
 .hand.ice:hover {
@@ -45,7 +50,7 @@ img.pictureprofile.ice {
 .hand.ice {
   background-color: bisque;
   left: 27vw;
-  bottom: 4vw;
+  bottom: 12vw;
 }
 
 @media (min-width: 1440px) {
@@ -55,15 +60,20 @@ img.pictureprofile.ice {
     width: 562px;
     height: 620px;
   }
+  .Name.ice {
+    top: -35px;
+  }
   .hand.ice {
     width: 280px;
     left: 390px;
+    bottom: 130px;
   }
   .PresentationText.ice {
     left: 262px;
+    top: 75px;
   }
   .Salutation.ice {
     font-size: 100px;
-    top: -115px;
+    top: -200px;
   }
 }/*# sourceMappingURL=me-ice.css.map */

@@ -35,7 +35,7 @@ export default function Me({
           loading="lazy"
         />
         <h2 className={`Salutation ${className || ""}`}>{introduction}</h2>
-        <h3 className="Name">{sousintroduction}</h3>
+        <h3 className={`Name ${className || ""}`}>{sousintroduction}</h3>
         <p className={`PresentationText ${className || ""}`}>{text}</p>
       </div>
     </div>
