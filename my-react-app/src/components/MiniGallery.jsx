@@ -5,7 +5,7 @@ export default function MiniGallery({realisation, title, soustitle}) {
       <h3 className="sous-titre fade-in">{soustitle}</h3>
         <div className="row">
           {realisation.slice(0, 4).map((item) => (
-            <img key={item.id} src={item.src} alt={item.alt} loading="lazy" />
+            <img key={item.id} src={item.srcSmall} alt={item.alt} loading="lazy" />
           ))}
         </div>
     </section>

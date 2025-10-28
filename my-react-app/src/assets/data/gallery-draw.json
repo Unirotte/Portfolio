@@ -5,6 +5,7 @@
     "title": "The Fall of the Angel",
     "alt": "Un dessin animé représentant un personnage assis dans la rue, avec des ailes abîmées, fumant une cigarette.",
     "src": "/img/Dessin/DessinJudith.webp",
+    "srcSmall": "/img/Dessin/DessinJudithSmall.webp",
     "song": "1Fs8EHeWubyLP0urd2fZbC?si=0b1eb8131c4843f0"
   },
   {
@@ -12,6 +13,7 @@
     "type": "realisation",
     "title": "Big Eyes",
     "src": "/img/Dessin/IMG_1137.webp",
+    "srcSmall": "/img/Dessin/IMG_1137Small.webp",
     "alt": "Un dessin d’un globe oculaire au premier plan, avec un corps de femme en arrière-plan et un effet de perspective.",
     "song": "4BL8uC2TSOebfjg8cWUyeO?si=98f76cc6a8ee4a67"
   },
@@ -20,6 +22,7 @@
     "type": "realisation",
     "title": "Game Over",
     "src": "/img/Dessin/IMG_1144.webp",
+     "srcSmall": "/img/Dessin/IMG_1144Small.webp",
     "alt": "Un dessin d’une femme avec les mains devant le bas de son visage, et des coulures jaunes qui descendent sous ses mains et sur son torse.",
     "song": "2zGqqElyWqEpr0arazhuOm?si=98df125ac9df4092"
   },
@@ -29,6 +32,7 @@
     "title": "Queen of Misery",
     "alt": "Un dessin d’une femme qui tire la langue, portant une couronne, un collier autour du cou et une laisse.",
     "src": "/img/Dessin/IMG_1145.webp",
+    "srcSmall": "/img/Dessin/IMG_1145Small.webp",
     "song": "3AjSfp5FDvwtMU9XBsbS8j?si=276872f7006f458d"
   },
   {
@@ -37,6 +41,7 @@
     "title": "Sheep Bite",
     "alt": "Un dessin d’une femme-mouton qui tient un cœur écrasé dans sa main.",
     "src": "/img/Dessin/IMG_1146.webp",
+    "srcSmall": "/img/Dessin/IMG_1146Small.webp",
     "song": "30XAPSePLeJU5YMmjHdUiG?si=5a31f9cfe9b541e0"
   },
   {
@@ -45,6 +50,7 @@
     "title": "The Eyes of Sound",
     "alt": "Un dessin d’une femme avec la bouche ouverte, la langue tirée et un globe oculaire posé dessus.",
     "src": "/img/Dessin/IMG_1147.webp",
+    "srcSmall": "/img/Dessin/IMG_1147Small.webp",
     "song": "48lxT5qJF0yYyf2z4wB4xW?si=ddcb9f1305a34096"
   },
   {
@@ -53,6 +59,7 @@
     "title": "Toxic Beauty",
     "alt": "Un dessin d’une femme avec la bouche ouverte et des dents disposées le long de son corps.",
     "src": "/img/Dessin/IMG_1149.webp",
+    "srcSmall": "/img/Dessin/IMG_1149Small.webp",
     "song": "4E2KmUKHBVqFss2miy0mV4?si=c73ecb4027894fab"
   },
   {
@@ -61,6 +68,7 @@
     "title": "Burning Desire",
     "alt": "Un dessin d’une créature dotée de deux paires d’ailes.",
     "src": "/img/Dessin/IMG_1169.webp",
+    "srcSmall": "/img/Dessin/IMG_1169Small.webp",
     "song": "4dbPdLoUp2cpe6IcAmWGGD?si=c4a3855268574436"
   },
   {
@@ -69,6 +77,7 @@
     "title": "Nun",
     "alt": "Un dessin d’une nonne avec une ombre rose dotée de cornes, d’ailes et de mains en arrière-plan.",
     "src": "/img/Dessin/IMG_1176.webp",
+    "srcSmall": "/img/Dessin/IMG_1176Small.webp",
     "song": "7vSqCdYJe4lug8jdV3Impc?si=34a8438130aa4f0a"
   },
   {
@@ -77,6 +86,7 @@
     "title": "Hello Kitty",
     "alt": "Un dessin d’une femme avec des cornes tenant un couteau rose, sur un fond illustré de motifs Hello Kitty.",
     "src": "/img/Dessin/IMG_1150.webp",
+     "srcSmall": "/img/Dessin/IMG_1150Small.webp",
     "song": "4qrBAShPdBpxCe0Yl2DXYT?si=7b2d69bc2b1e4415"
   },
   {
@@ -85,6 +95,7 @@
     "title": "HellX",
     "alt": "Un dessin en perspective déformée représentant une femme qui se maquille devant son évier.",
     "src": "/img/Dessin/IMG_1201.webp",
+        "srcSmall": "/img/Dessin/IMG_1201Small.webp",
     "song": "6JmNS4brv5ROhx5IiWKaz0?si=0bb89bd4263a488a"
   },
   {
@@ -93,6 +104,7 @@
     "title": "Heart",
     "alt": "Un personnage avec un globe oculaire à la place de la tête, serrant un cœur géant contre lui.",
     "src": "/img/Dessin/IMG_1196.webp",
+    "srcSmall": "/img/Dessin/IMG_1196Small.webp",
     "song": "2ffwBvpsQhgXyU7zBUOhwP?si=bc20ab1906fc4aae"
   },
   {
@@ -101,6 +113,7 @@
     "title": "Dionaea",
     "alt": "Un buste sans bras ni jambes, avec de l’eau qui s’écoule de ses membres et une dionaea à la place de la tête.",
     "src": "/img/Dessin/thumbnail_IMG_20240822_193343.webp",
+     "srcSmall": "/img/Dessin/thumbnail_IMG_20240822_193343Small.webp",
     "song": "58idGYBQkFbtazcZy7vBlg?si=67d06266683f4e18"
   },
   {
@@ -109,6 +122,7 @@
     "title": "Victory Bird",
     "alt": "Un buste de femme avec des ailes au niveau du visage et plusieurs yeux.",
     "src": "/img/Dessin/thumbnail_IMG_20240822_193401.webp",
+    "srcSmall": "/img/Dessin/thumbnail_IMG_20240822_193401Small.webp",
     "song": "1QxcWlk8PivolUaWcpAoNq?si=7ae43f17ab9048a8"
   },
   {
@@ -117,6 +131,7 @@
     "title": "In Prey",
     "alt": "Une femme avec des mains sur son visage et des yeux qui l’observent.",
     "src": "/img/Dessin/thumbnail_IMG_20240822_193413.webp",
+    "srcSmall": "/img/Dessin/thumbnail_IMG_20240822_193413Small.webp",
     "song": "0GBySVvMplhtDT0ujuSz90?si=3544620f1a464029"
   },
   {
@@ -125,6 +140,7 @@
     "title": "Butterfly",
     "alt": "Un dessin d’une femme ayant un papillon à la place du visage et des ailes de papillon dans le dos.",
     "src": "/img/Dessin/IMG_20240822_193424.webp",
+    "srcSmall": "/img/Dessin/IMG_20240822_193424Small.webp",
     "song": "04YRSuoGZcAj9kj57c6utu?si=d7b79118cd004007"
   },
   {
@@ -133,6 +149,7 @@
     "title": "Sweet Divinity",
     "alt": "Un buste avec un visage orné d’une couronne de fleurs et de globes oculaires. Les mains tiennent un petit personnage en forme de stickman.",
     "src": "/img/Dessin/IMG_20240822_193601.webp",
+    "srcSmall": "/img/Dessin/IMG_20240822_193601Small.webp",
     "song": "6RdU4utCLAnra16hHLF0Ns?si=2d23e72175984967"
   },
   {
@@ -141,6 +158,7 @@
     "title": "Centipede",
     "alt": "Un personnage presque entièrement dissimulé sous une multitude de mains, avec un œil brillant apparent.",
     "src": "/img/Dessin/1000006961.webp",
+    "srcSmall": "/img/Dessin/1000006961Small.webp",
     "song": "7iR1y5YfpmJ6ME8zkKnlQj?si=a13c62f72160494b"
   },
   {
@@ -149,6 +167,7 @@
     "title": "Fake",
     "alt": "Un dessin représentant un personnage tenant un masque devant son visage, masque qui possède plusieurs yeux.",
     "src": "/img/Dessin/1000006639.webp",
+     "srcSmall": "/img/Dessin/1000006639Small.webp",
     "song": "10otnTMXn3fh9cZwoP33UL?si=1be1c2627e0c421f"
   },
   {
@@ -157,6 +176,7 @@
     "title": "Souillure",
     "alt": "Un dessin d’une nonne avec une cigarette et une coulure noire qui la recouvre.",
     "src": "/img/Dessin/1000006874.webp",
+    "srcSmall": "/img/Dessin/1000006874Small.webp",
     "song": "4nvsRb9ypaqqDXcZxjn6ba?si=50f9485fd6534905"
   },
   {
@@ -165,6 +185,7 @@
     "title": "À la vie, à la mort",
     "alt": "Un personnage avec des cornes de bélier serrant un squelette, tous deux recouverts de fleurs.",
     "src": "/img/Dessin/1000007060.webp",
+    "srcSmall": "/img/Dessin/1000007060Small.webp",
     "song": "08zLiGZBQXwVDh6r1J3Jpb?si=97cb35d9f9fd4b90"
   },
   {
@@ -173,6 +194,7 @@
     "title": "Confiance aveugle",
     "alt": "Un dessin d’un personnage faisant face à un monstre, les yeux cachés par d’autres mains.",
     "src": "/img/Dessin/1000011562.webp",
+    "srcSmall": "/img/Dessin/1000011562Small.webp",
     "song": "7LOR8Rdc5n2EkduOXZeTp6?si=a26d3eaefa484909"
   },
   {
@@ -181,6 +203,7 @@
     "title": "Rebelle",
     "alt": "Un dessin d’un ange faisant un doigt d’honneur, une bouteille cassée dans l’autre main.",
     "src": "/img/Dessin/IMG_20250928_165103.webp",
+    "srcSmall": "/img/Dessin/IMG_20250928_165103Small.webp",
     "song": "7hARdySaXWuTLeqBrYP2xf?si=9f0c5482cefd47a5"
   },
   {
@@ -189,6 +212,7 @@
     "title": "Hunter",
     "alt": "Un dessin d’un personnage tenant un cœur meurtri, avec une paire de mains coupant un fil en arrière-plan et un crâne de monstre sur la tête.",
     "src": "/img/Dessin/Toilecoeur.webp",
+    "srcSmall": "/img/Dessin/ToilecoeurSmall.webp",
     "song": "7qzt3njSlRS9ejT9Xgryx2?si=de579ad343f745da"
   },
   {
