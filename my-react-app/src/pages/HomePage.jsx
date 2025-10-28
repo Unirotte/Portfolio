@@ -29,7 +29,7 @@ export default function HomePage() {
                 src={item.src}
                 title={item.title}
                 alt={item.title}
-                React={item.React}
+                Github={item.Github}
                 skill={item.skill}
                 className="cardskills"
               />

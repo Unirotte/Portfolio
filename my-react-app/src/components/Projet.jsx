@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom";
 
-export default function Projet({src, title, React, skill, className = ""}) {
+export default function Projet({src, title, Github, skill, className = ""}) {
   return (
     <>
       <div className="card fade-in">
@@ -14,11 +14,11 @@ export default function Projet({src, title, React, skill, className = ""}) {
             </li>
           ))}
         </ul>
-          <Link to={React} target="_blank" >
+          <Link to={Github} target="_blank" >
             <img
               className="btn btn-primary"
-              src="/img/projet/React.webp"
-              alt="logo React"
+              src="/img/projet/github.webp"
+              alt="logo GitHub"
               loading="lazy"
             />
           </Link>
