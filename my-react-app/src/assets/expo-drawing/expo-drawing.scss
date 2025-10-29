@@ -35,7 +35,6 @@ img.background-image {
 .backgroundTest {
   width: 100%;
   max-width: 400px;
-  aspect-ratio: 3/4; // réserve l’espace → évite CLS
   object-fit: cover;
   display: block;
 }

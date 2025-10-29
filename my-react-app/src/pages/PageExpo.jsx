@@ -3,8 +3,8 @@ import dataDraw from "../assets/data/gallery-draw.json";
 import ExpoDrawing from "../components/ExpoDrawing";
 
 export default function PageExpo() {
-     const {id} = useParams();
-    const drawing = dataDraw.find((item) => item.id === parseInt(id));
+  const {id} = useParams();
+  const drawing = dataDraw.find((item) => item.id === parseInt(id));
 
   if (!drawing) {
     return <p>Dessin introuvable 😢</p>;
@@ -12,13 +12,7 @@ export default function PageExpo() {
 
   return (
     <main>
-    <ExpoDrawing 
-    picture={drawing.src} 
-    description={drawing.text} 
-    title={drawing.title}
-    alt={drawing.alt}
-    musicId={drawing.song}
-    />
+      <ExpoDrawing item={drawing} musicId={drawing.song} />
     </main>
   );
 }

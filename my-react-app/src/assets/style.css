@@ -57,6 +57,12 @@ h1.titleGallery {
     padding-top: 120px;
   }
 }
+.smart-image {
+  display: block;
+  height: auto;
+  object-fit: contain;
+}
+
 @media (min-width: 1300px) {
   .card-section {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));

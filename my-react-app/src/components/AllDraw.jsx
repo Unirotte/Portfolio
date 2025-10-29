@@ -1,22 +1,20 @@
 import {Link} from "react-router-dom";
+import SmartImage from "./SmartImage";
 
-export default function AllDraw({src, alt, id}) {
+export default function AllDraw({src, alt, id, item}) {
   return (
     <div className="Position ">
       <Link to={`/PageExpo/${id}`}>
-        <img
+       <SmartImage
+          item={item}
+          size="medium"
           className="img-position"
-          src={src}
-          alt={alt}
-          loading="lazy"
-          fetchPriority="hight"
-        ></img>
-        <img
+        />
+        <SmartImage
+          item={item}
+          size="medium"
           className="backgroundTest"
-          src={src}
-          alt={alt}
-          loading="lazy"
-        ></img>
+        />
       </Link>
     </div>
   );

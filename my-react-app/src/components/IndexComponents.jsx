@@ -18,8 +18,11 @@ import Header from "./Header.jsx";
 import useFadeInOnScroll from "../hooks/HookScrool.jsx";
 import TriggerWarningModal from "./TriggerWarning.jsx";
 import ScrollToAnchor from "../hooks/SrollToAnchor.jsx";
+import SmartImage from "./SmartImage.jsx";
 
-export { Me,
+export { 
+  SmartImage,
+  Me,
   Projet,
   Skills,
   Contact,

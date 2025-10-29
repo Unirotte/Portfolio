@@ -23,8 +23,7 @@ export default function PageGallery() {
             <AllDraw
               key={item.id}
               id={item.id}
-              src={item.srcSmall}
-              alt={item.alt}
+              item={item}
             />
           ))}
       </div>
