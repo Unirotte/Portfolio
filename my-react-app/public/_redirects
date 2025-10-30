@@ -1,2 +1,6 @@
-/assets/*    /assets/:splat   200
-/*            /index.html     200!
+# Laisse passer les ressources statiques
+/assets/*   /assets/:splat   200
+/img/*      /img/:splat      200
+
+# Redirige toutes les autres routes vers index.html pour React Router
+/*           /index.html      200
