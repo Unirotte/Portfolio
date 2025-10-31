@@ -2,11 +2,11 @@ export default function SmartImage({
   item,
   size = "medium",
   className = "",
-  showGif = false,
   ...props
 }) {
   if (!item) return null;
 
+  // 📏 Choisit la bonne taille selon la prop "size"
   const src =
     size === "small"
       ? item.srcSmall
@@ -14,9 +14,7 @@ export default function SmartImage({
       ? item.srcLarge
       : item.srcMedium;
 
-  const gifSrc = item.srcLarge?.replace(".webp", ".gif");
-  const isGif = showGif && gifSrc && gifSrc !== item.srcLarge;
-
+  // 📐 Définit la taille responsive
   const sizes =
     size === "small"
       ? "(max-width: 400px) 158px, 353px"
@@ -26,11 +24,11 @@ export default function SmartImage({
 
   return (
     <img
-      src={isGif ? gifSrc : src}
+      src={src}
       srcSet={`${item.srcSmall} 300w, ${item.srcMedium} 600w, ${item.srcLarge} 1000w`}
       sizes={sizes}
-      width={item.width}    
-      height={item.height}  
+      width={item.width}
+      height={item.height}
       alt={item.alt}
       loading="lazy"
       className={`smart-image ${className}`}
