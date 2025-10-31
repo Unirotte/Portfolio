@@ -34,15 +34,16 @@ img.pictureprofile.ice {
   top: -4vw;
 }
 .hand.ice:hover {
-  animation: eyes 2s infinite;
+  animation: rotateInfinite  2s infinite;
 }
 
-@keyframes eyes {
-  0% {
-    opacity: 1;
+
+@keyframes rotateInfinite {
+  from {
+    transform: rotate(0deg);
   }
-  100% {
-    opacity: 0;
+  to {
+    transform: rotate(360deg);
   }
 }
 .hand.ice {
