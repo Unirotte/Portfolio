@@ -16,8 +16,7 @@ section.navbar {
   width: 100%;
   max-width: 1440px;
   margin: auto;
-  box-shadow: -18px -19px 16px 0px rgba(0, 0, 0, 0.2),
-    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
 
 
@@ -88,7 +87,6 @@ h1 {
 @media (min-width: 1300px) {
   h1 {
     font-size: 75px;
-    margin: 10px 0px;
   }
   li {
     font-size: 30px;
