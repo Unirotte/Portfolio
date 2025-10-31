@@ -21,7 +21,8 @@ export default function HomePage() {
             image={item.image}
           />
         ))}
-        <h2 className="title-projet">Projets Intégrateur WEB</h2>
+        <div className="position-titre">
+        <h2 className="title-projet">Projets Intégrateur WEB</h2></div>
         <section className="card-section fade-in">
             {realisation.map((item) => (
               <Projet

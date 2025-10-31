@@ -76,11 +76,18 @@ img.imgCards {
   width: 100%;
 }
 
+.position-titre {
+  display: flex;
+  justify-content: center;
+}
+
 h2.title-projet {
   display: flex;
   justify-content: center;
   font-family: "Smooch Sans", sans-serif;
   font-size: clamp(2.5rem, 5vw, 4rem);
-  text-decoration: underline;
   font-weight: 600;
+  background-color: #1d5677;
+  color: white;
+  padding: 0px 15px;
 }/*# sourceMappingURL=Projet.css.map */

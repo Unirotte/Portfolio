@@ -56,15 +56,15 @@ li {
   list-style: none;
   font-size: 3vw;
   white-space: nowrap;
-  border-bottom: solid 3px transparent;
+  border-bottom: solid 2px transparent;
 }
 
 li:active {
-  border-bottom: solid 3px #1d5677;
+  border-bottom: solid 2px #1d5677;
 }
 
 li:hover {
-  border-bottom: solid 3px #1d5677;
+  border-bottom: solid 2px #1d5677;
 }
 
 a {
