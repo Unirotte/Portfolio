@@ -14,7 +14,6 @@ export default function HomePage() {
   useEffect(() => {
     sessionStorage.setItem("triggerAccepted", accepted);
   }, [accepted]);
-console.log("MiniGallery data:", realisation);
   return (
     <>
       <div className="otherface-page">
