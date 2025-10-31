@@ -16,12 +16,82 @@ section.navbar {
   width: 100%;
   max-width: 1440px;
   margin: auto;
+  box-shadow: -18px -19px 16px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.iceBerg:hover {
+  display: inline-block;
+  animation: glitch-shake 0.25s infinite, color-glitch 0.5s infinite;
+  color: #1d5677;
+}
+
+.iceBerg:active {
+  animation: glitch-shake 0.25s infinite, color-glitch 0.5s infinite;
+  display: inline-block;
+}
+
+@keyframes glitch-shake {
+  0% {
+    transform: translate(0, 0);
+  }
+  10% {
+    transform: translate(-2px, 1px);
+  }
+  20% {
+    transform: translate(2px, -1px);
+  }
+  30% {
+    transform: translate(-3px, 2px);
+  }
+  40% {
+    transform: translate(3px, -2px);
+  }
+  50% {
+    transform: translate(-2px, 1px);
+  }
+  60% {
+    transform: translate(2px, -1px);
+  }
+  70% {
+    transform: translate(-3px, 2px);
+  }
+  80% {
+    transform: translate(3px, -2px);
+  }
+  90% {
+    transform: translate(-2px, 1px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+@keyframes color-glitch {
+  0% {
+    color: #fff;
+    text-shadow: 0 0 0 yellow, 0 0 0 red;
+  }
+  50% {
+    color: #1d5677;
+    text-shadow: 2px 0 violet, -2px 0 blue;
+  }
+  100% {
+    color: #fff;
+    text-shadow: 0 0 0 green, 0 0 0 purple;
+  }
+}
 li {
   list-style: none;
   font-size: 3vw;
   white-space: nowrap;
+  border-bottom: solid 3px transparent;
+}
+
+li:active {
+  border-bottom: solid 3px #1d5677;
+}
+
+li:hover {
+  border-bottom: solid 3px #1d5677;
 }
 
 a {
