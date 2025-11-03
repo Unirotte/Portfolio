@@ -12,6 +12,7 @@
 @import "../Warning/Warning.css";
 @import "../all-draw/all-draw.css";
 @import "../expo-drawing/expo-drawing.css";
+@import "../arrow-up/arrow-up.css";
 .row {
   --s: 30vw;
   display: grid;

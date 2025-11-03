@@ -9,7 +9,7 @@ export default function Header() {
         <ul>
           <li>
             <Link to="/IceBergPage" className="iceBerg">
-              Other face
+              Underneath
             </Link>
           </li>
           <li>

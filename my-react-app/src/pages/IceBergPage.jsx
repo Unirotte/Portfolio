@@ -1,6 +1,6 @@
 import dataPro from "../assets/data/gallery-draw.json";
 import {useState, useEffect} from "react";
-import {Skills, LinkToiles, TriggerWarningModal, useFadeInOnScroll, MiniGallery, Me, } from "../components/IndexComponents";
+import {Skills, LinkToiles, TriggerWarningModal, useFadeInOnScroll, MiniGallery, Me, ScrollUp} from "../components/IndexComponents";
 
 export default function HomePage() {
   useFadeInOnScroll();
@@ -51,6 +51,7 @@ export default function HomePage() {
         {skills.map((item) => (
           <Skills key={item.id} title={item.title} className="ice" />
         ))}
+        <ScrollUp />
       </main>
     </>
   );

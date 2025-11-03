@@ -1,3 +1,43 @@
+.skill-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+  margin: 0;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 10px;
+}
+
+.skill-button:hover {
+  color: white;
+}
+
+.arrowSkill {
+  transition: transform 0.3s ease;
+  color: #1d5677;
+}
+
+.arrow-style-skill.open .arrowSkill {
+  transform: rotate(180deg);
+}
+
+.collapsContent {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+
+.collapsContent.open {
+  max-height: 200px;
+  opacity: 1;
+  padding: 25px;
+  margin: 25px;
+  background-color: white;
+  border-radius: 15px;
+}
+
 h2.skills-title {
   display: flex;
   justify-content: center;
@@ -30,7 +70,6 @@ h2.skills-title {
   border-radius: 25px;
   padding: 10px 5px;
   background: #1d5677;
-  color: white;
 }
 
 .skills-container {

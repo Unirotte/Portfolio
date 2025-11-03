@@ -11,6 +11,7 @@ const PageGallery = lazy(() => import("../pages/PageGallery.jsx"));
 const AllDraw = lazy(() => import("./AllDraw.jsx"));
 const MiniGallery = lazy(() => import( "./MiniGallery.jsx"));
 const LinkToiles = lazy(() => import("./LinkToiles.jsx"));
+const ScrollUp = lazy(() => import("./arrow-up.jsx"));
 
 import Me from "./Me.jsx";
 import Footer from "./Footer.jsx";
@@ -21,6 +22,7 @@ import ScrollToAnchor from "../hooks/SrollToAnchor.jsx";
 import SmartImage from "./SmartImage.jsx";
 
 export { 
+  ScrollUp,
   SmartImage,
   Me,
   Projet,
