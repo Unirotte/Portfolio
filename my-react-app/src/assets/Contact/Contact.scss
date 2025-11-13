@@ -1,3 +1,140 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.section-contact {
+  padding: 25px 0;
+  max-width: 1440px;
+  background: linear-gradient(
+    90deg,
+    rgb(0, 212, 255) 0%,
+    rgb(25, 127, 148) 65%,
+    rgb(33, 102, 117) 100%
+  );
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: white;
+}
+
+h2.Contact-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0;
+  font-family: "Smooch Sans", sans-serif;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 400;
+}
+
+section.form-section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.form-style {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  align-items: center;
+  background: white;
+  padding: 50px 15px;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+h3.Contact-subtitle {
+  margin: 15px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  font-family: "Smooch", sans-serif;
+  font-size: clamp(1.5rem, 3vw, 1.5rem);
+  font-weight: 400;
+  margin-top: 0;
+  text-align: center;
+  max-width: 400px;
+  color: black;
+}
+
+//Champs du formulaire
+
+.form-item {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-control {
+  letter-spacing: 1px;
+  max-width: 400px;
+  width: 70vw;
+  height: 35px;
+  align-items: center;
+  border-radius: 5px;
+  border: #cecece 1px solid;
+  padding: 10px;
+  margin-bottom: 10px;
+  min-height: 35px;
+  min-width: 260px;
+  font-family: "Smooch Sans", sans-serif;
+  font-size: 20px;
+}
+
+textarea#msg {
+  min-height: 75px;
+}
+
+//Bouton d'envoi
+
+button#submit {
+  margin: 0;
+  width: 45vw;
+  height: 35px;
+  max-width: 350px;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 20px;
+  background: #dcf4f3;
+  border: #cecece 1px solid;
+}
+
+button#submit:active {
+  transform: translateY(5px);
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.all-btn {
+  transition: all 0.2s ease-in-out;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.all-btn:hover {
+  transform: translate3d(0px, -29px, 0px);
+}
+
+.all-btn:active {
+  transform: translate3d(0px, -29px, 0px);
+}
+
 .button-section {
   display: flex;
   flex-direction: row;
@@ -31,204 +168,9 @@
   box-shadow: rgb(120, 119, 119) 0px 0px 5px;
 }
 
-h2.Contact-title {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 0;
-  font-family: "Smooch Sans", sans-serif;
-  font-size: clamp(2.5rem, 5vw, 4rem);
-  font-weight: 400;
-}
-
-h3.Contact-subtitle {
-  margin: 15px;
-  font-weight: 400;
-  display: flex;
-  justify-content: center;
-  font-family: "Smooch", sans-serif;
-  font-size: clamp(1.5rem, 3vw, 1.5rem);
-  font-weight: 400;
-  margin-top: 0;
-  text-align: center;
-  max-width: 400px;
-  color: black;
-}
-
-img.EmailButton {
-  width: 10vw;
-  max-width: 50px;
-}
-
-img.EmailButton:hover {
-  animation-name: Email;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  transform-origin: bottom;
-  transition-timing-function: ease-in-out;
-}
-
-a.Email {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  text-decoration: none;
-  color: white;
-}
-
-@keyframes Email {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scaleY(1);
-    transform: scale(1, 0.8);
-  }
-  80% {
-    transform: scaleY(1);
-  }
-  90% {
-    transform: scaleY(1);
-  }
-}
-.section-contact {
-  padding: 25px 0;
-  max-width: 1440px;
-  background: linear-gradient(
-    90deg,
-    rgb(0, 212, 255) 0%,
-    rgb(25, 127, 148) 65%,
-    rgb(33, 102, 117) 100%
-  );
-  margin: auto;
-  margin-top: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  color: white;
-}
-
-img.LinkedinLogo {
-  width: 10vw;
-  max-width: 50px;
-}
-
-a.LinkedinButton {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  max-width: 400px;
-}
-
-.LinkedinLogo:hover {
-  animation: LinkAnim 2s ease 0s 1 normal forwards;
-}
-
-@keyframes LinkAnim {
-  0% {
-    animation-timing-function: ease-out;
-    transform: scale(1);
-    transform-origin: center center;
-  }
-
-  10% {
-    animation-timing-function: ease-in;
-    transform: scale(0.91);
-  }
-
-  17% {
-    animation-timing-function: ease-out;
-    transform: scale(0.98);
-  }
-
-  33% {
-    animation-timing-function: ease-in;
-    transform: scale(0.87);
-  }
-
-  45% {
-    animation-timing-function: ease-out;
-    transform: scale(1);
-  }
-}
-
-.LinkedinLogo:active {
-  animation: LinkAnim2 1s ease 0s 1 normal forwards;
-}
-
-@keyframes LinkAnim2 {
-  0% {
-    opacity: 1;
-  }
-
-  50% {
-    opacity: 0.2;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-.form-control {
-  letter-spacing: 1px;
-  max-width: 400px;
-  width: 70vw;
-  height: 35px;
-  align-items: center;
-  border-radius: 5px;
-  border: #cecece 1px solid;
-  padding: 10px;
-  margin-bottom: 10px;
-  min-height: 35px;
-  min-width: 260px;
-  font-family: "Smooch Sans", sans-serif;
-  font-size: 20px;
-}
-.form-style {
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-  align-items: center;
-  background: white;
-  padding: 50px 15px;
-  border-radius: 15px;
-  margin: 10px;
-}
-.form-item {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-direction: column;
-  align-items: center;
-}
-
-textarea#msg {
-  min-height: 75px;
-}
-
-button#submit {
-  margin: 0;
-  width: 45vw;
-  height: 35px;
-  max-width: 350px;
-  align-items: center;
-  overflow: hidden;
-  border-radius: 20px;
-  background: #dcf4f3;
-  border: #cecece 1px solid;
-}
-
 .PaperPlane {
   margin-top: 35px;
   color: #1d5677;
-}
-
-.all-btn {
-  transition: all 0.2s ease-in-out;
-  height: 35px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
 }
 
 span.send {
@@ -238,61 +180,7 @@ span.send {
   color: #1d5677;
 }
 
-.all-btn:hover {
-  transform: translate3d(0px, -29px, 0px);
-}
-
-.all-btn:active {
-  transform: translate3d(0px, -29px, 0px);
-}
-
-button#submit:active {
-  transform: translateY(5px);
-  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
-    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
-}
-
-section.form-section {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.Icones {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 20px;
-  font-family: "Smooch Sans", sans-serif;
-  font-size: clamp(1.3rem, 3vw, 1.5rem);
-  margin: 0px 20px;
-}
-
-.Earth {
-  font-size: clamp(2rem, 5vw, 3rem);
-  color: white;
-}
-
-a.EarthLogo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.Earth:hover {
-  animation: rotateInfinite 4s linear infinite;
-}
-
-@keyframes rotateInfinite {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* Contenu de la modal */
 
 .modal-overlay {
   background: rgba(0, 0, 0, 0.5);
@@ -304,7 +192,6 @@ a.EarthLogo {
   z-index: 2000;
 }
 
-/* Contenu de la modal */
 .success-modal {
   background: #fff;
   color: #222;
@@ -342,17 +229,6 @@ a.EarthLogo {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
 .error-input {
   border: 2px solid #c10528 !important;
   background-color: #ffe6ea;
@@ -383,6 +259,168 @@ a.EarthLogo {
     transform: translateX(0);
   }
 }
+
+//Section liens sociaux
+
+.Icones {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  font-family: "Smooch Sans", sans-serif;
+  font-size: clamp(1.3rem, 3vw, 1.5rem);
+  margin: 0px 20px;
+}
+
+.button,
+.CVbutton,
+.Email,
+.LinkedinButton,
+.EarthLogo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon-svg {
+  font-size: 2.2rem;
+  min-width: 40px;
+  text-align: center;
+}
+
+.icon-img {
+  height: 40px;
+  object-fit: contain;
+}
+
+.EarthImg:hover {
+  animation: rotateInfinite 4s linear infinite;
+}
+
+@keyframes rotateInfinite {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+img.EmailImg:hover {
+  animation-name: Email;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+  transition-timing-function: ease-in-out;
+}
+
+@keyframes Email {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scaleY(1);
+    transform: scale(1, 0.8);
+  }
+  80% {
+    transform: scaleY(1);
+  }
+  90% {
+    transform: scaleY(1);
+  }
+}
+a.LinkedinButton {
+  max-width: 400px;
+}
+
+.LinkedinImg {
+  border: 1px solid white;
+  border-radius: 100px;
+}
+
+.LinkedinImg:hover {
+  animation: LinkAnim 2s ease 0s 1 normal forwards;
+}
+
+@keyframes LinkAnim {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+    transform-origin: center center;
+  }
+
+  10% {
+    animation-timing-function: ease-in;
+    transform: scale(0.91);
+  }
+
+  17% {
+    animation-timing-function: ease-out;
+    transform: scale(0.98);
+  }
+
+  33% {
+    animation-timing-function: ease-in;
+    transform: scale(0.87);
+  }
+
+  45% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+  }
+}
+
+.LinkedinImg:active {
+  animation: LinkAnim2 1s ease 0s 1 normal forwards;
+}
+
+@keyframes LinkAnim2 {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.2;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.CvImg:hover {
+  animation: cvAnime 2s ease 0s 1 normal forwards;
+}
+
+@keyframes cvAnime {
+  0%,
+  100% {
+    transform: translateX(0%);
+    transform-origin: 50% 50%;
+  }
+
+  15% {
+    transform: translateX(-10px) rotate(-4deg);
+  }
+
+  30% {
+    transform: translateX(5px) rotate(5deg);
+  }
+
+  45% {
+    transform: translateX(-5px) rotate(-2.6deg);
+  }
+
+  60% {
+    transform: translateX(3px) rotate(1.4deg);
+  }
+
+  75% {
+    transform: translateX(-0px) rotate(-1.2deg);
+  }
+}
+
+//Responsive design
 
 @media (min-width: 735px) {
   section.form-section {

@@ -1,5 +1,9 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faPaperPlane, faEarthEurope} from "@fortawesome/free-solid-svg-icons";
+import {
+  faPaperPlane,
+  faEarthEurope,
+  faAddressCard,
+} from "@fortawesome/free-solid-svg-icons";
 import {useState} from "react";
 import Modal from "react-modal";
 
@@ -97,7 +101,6 @@ export default function Contact() {
                   id="name"
                   name="name"
                   className={`form-control ${errors.name ? "error-input" : ""}`}
-                  
                 />
                 {errors.name && <p className="error-text">{errors.name}</p>}
               </div>
@@ -111,7 +114,6 @@ export default function Contact() {
                   className={`form-control ${
                     errors.email ? "error-input" : ""
                   }`}
-                  
                 />
                 {errors.email && <p className="error-text">{errors.email}</p>}
               </div>
@@ -124,7 +126,6 @@ export default function Contact() {
                   className={`form-control ${
                     errors.message ? "error-input" : ""
                   }`}
-                 
                 ></textarea>
               </div>{" "}
               {errors.message && <p className="error-text">{errors.message}</p>}
@@ -166,12 +167,21 @@ export default function Contact() {
               aria-label="LinkedIn de Judith Pichenot"
             >
               <img
-                className="LinkedinLogo"
+                className="icon-img LinkedinImg"
                 src="/img/Linkedin.webp"
                 alt="LinkedIn Logo"
                 loading="lazy"
               />
               En savoir plus sur mes experiences professionnelles
+            </a>
+            <a
+              href="/CV-Judith-2026.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="CVbutton "
+            >
+              <FontAwesomeIcon icon={faAddressCard} className="icon-svg CvImg" /> Mon
+              curriculum vitae
             </a>
             <a
               className="Email"
@@ -181,7 +191,7 @@ export default function Contact() {
               aria-label="Envoyer un email à Judith Pichenot"
             >
               <img
-                className="EmailButton"
+                className="icon-img EmailImg"
                 src="/img/Email.png"
                 alt="Email"
                 loading="lazy"
@@ -194,8 +204,8 @@ export default function Contact() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={faEarthEurope} className="Earth" /> France,
-              côte d'or
+              <FontAwesomeIcon icon={faEarthEurope} className="icon-svg EarthImg" />
+              France, côte d'or
             </a>
           </div>
         </section>
