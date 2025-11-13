@@ -175,7 +175,7 @@ a.LinkedinButton {
   align-items: center;
   border-radius: 5px;
   border: #cecece 1px solid;
-  padding-left: 10px;
+  padding: 10px;
   margin-bottom: 10px;
   min-height: 35px;
   min-width: 260px;
@@ -197,6 +197,12 @@ a.LinkedinButton {
   justify-content: flex-start;
   flex-direction: row;
   justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+textarea#msg {
+  min-height: 75px;
 }
 
 button#submit {
@@ -311,7 +317,7 @@ a.EarthLogo {
 }
 
 .success-modal h2 {
-  color: #4caf50;
+  color: #1d5677;
   margin-bottom: 0.5rem;
 }
 
@@ -319,7 +325,12 @@ a.EarthLogo {
   margin-top: 1rem;
   padding: 0.5rem 1.5rem;
   border: none;
-  background-color: #4caf50;
+  background: linear-gradient(
+    90deg,
+    rgb(0, 212, 255) 0%,
+    rgb(25, 127, 148) 65%,
+    rgb(33, 102, 117) 100%
+  );
   color: white;
   border-radius: 8px;
   cursor: pointer;
@@ -328,7 +339,7 @@ a.EarthLogo {
 }
 
 .success-modal button:hover {
-  background-color: #45a049;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 @keyframes fadeIn {
@@ -339,6 +350,37 @@ a.EarthLogo {
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+.error-input {
+  border: 2px solid #c10528 !important;
+  background-color: #ffe6ea;
+  animation: horizontal-shaking 0.4s ease;
+}
+
+.error-text {
+  color: #c10528;
+  font-size: 0.8rem;
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+@keyframes horizontal-shaking {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(5px);
+  }
+  50% {
+    transform: translateX(-5px);
+  }
+  75% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0);
   }
 }
 
@@ -362,7 +404,6 @@ a.EarthLogo {
   .form-item {
     display: flex;
     justify-content: flex-start;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }

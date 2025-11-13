@@ -2,18 +2,49 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faPaperPlane, faEarthEurope} from "@fortawesome/free-solid-svg-icons";
 import {useState} from "react";
 import Modal from "react-modal";
+
 Modal.setAppElement("#root");
 
 export default function Contact() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
-
+  const [errors, setErrors] = useState({});
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
 
     const form = e.target;
     const formData = new FormData(form);
+
+    const name = formData.get("name").trim();
+    const email = formData.get("email").trim();
+    const message = formData.get("message").trim();
+    const newErrors = {};
+
+    if (!name) {
+      newErrors.name = "Le nom est obligatoire.";
+    }
+
+    if (!email) {
+      newErrors.email = "L'email est obligatoire.";
+    } else {
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailRegex.test(email)) {
+        newErrors.email = "Adresse email invalide.";
+      }
+    }
+
+    if (!message) {
+      newErrors.message = "Veuillez écrire un message.";
+    }
+
+    if (Object.keys(newErrors).length > 0) {
+      setErrors(newErrors);
+      setIsSubmitting(false);
+      return;
+    }
+
+    setErrors({});
 
     // envoi à Web3Forms via fetch
     const response = await fetch("https://api.web3forms.com/submit", {
@@ -29,6 +60,7 @@ export default function Contact() {
     }
     setIsSubmitting(false);
   };
+
   return (
     <>
       <div className="section-contact fade-in" id="contact">
@@ -57,7 +89,6 @@ export default function Contact() {
               <h3 className="Contact-subtitle">
                 Une question ? Un renseignement ? N'hésitez pas à me contacter.
               </h3>
-
               <div className="form-item">
                 <input
                   aria-label="Nom"
@@ -65,9 +96,10 @@ export default function Contact() {
                   type="text"
                   id="name"
                   name="name"
-                  className="form-control"
-                  required
+                  className={`form-control ${errors.name ? "error-input" : ""}`}
+                  
                 />
+                {errors.name && <p className="error-text">{errors.name}</p>}
               </div>
               <div className="form-item">
                 <input
@@ -76,9 +108,12 @@ export default function Contact() {
                   type="email"
                   id="mail"
                   name="email"
-                  className="form-control"
-                  required
+                  className={`form-control ${
+                    errors.email ? "error-input" : ""
+                  }`}
+                  
                 />
+                {errors.email && <p className="error-text">{errors.email}</p>}
               </div>
               <div className="form-item">
                 <textarea
@@ -86,11 +121,13 @@ export default function Contact() {
                   placeholder="Message"
                   id="msg"
                   name="message"
-                  className="form-control"
-                  required
+                  className={`form-control ${
+                    errors.message ? "error-input" : ""
+                  }`}
+                 
                 ></textarea>
-              </div>
-
+              </div>{" "}
+              {errors.message && <p className="error-text">{errors.message}</p>}
               <button className="btn-send" id="submit" type="submit">
                 <div className="all-btn">
                   <FontAwesomeIcon icon={faPaperPlane} className="PaperPlane" />
@@ -108,9 +145,16 @@ export default function Contact() {
             className="success-modal"
             overlayClassName="modal-overlay"
           >
-            <h2>✅ Message envoyé avec succès !</h2>
-            <p>Merci pour votre message, je vous répondrai dès que possible.</p>
-            <button onClick={() => setIsModalOpen(false)}>Fermer</button>
+            <h2 className="title-envoie">✅ Message envoyé avec succès !</h2>
+            <p className="message-envoie">
+              Merci pour votre message, je vous répondrai rapidement.
+            </p>
+            <button
+              className="bouton-envoie"
+              onClick={() => setIsModalOpen(false)}
+            >
+              Fermer
+            </button>
           </Modal>
 
           <div className="Icones">

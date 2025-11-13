@@ -21,7 +21,7 @@ export default function Skills({source, className = ""}) {
             {filteredSkills[0].tableau.map((skill, index) => (
               <li key={index} className="skill-item">
                 <button
-                  className="skill-button"
+                  className={`skill-button ${openIndex === index ? "open" : ""}`}
                   onClick={() => toggle(index)}
                   aria-expanded={openIndex === index}
                 >

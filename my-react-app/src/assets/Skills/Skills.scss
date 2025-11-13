@@ -1,40 +1,11 @@
-.skill-button {
-  background: none;
-  border: none;
-  cursor: pointer;
-  font: inherit;
-  margin: 0;
-  display: flex;
-  flex-direction: row-reverse;
-  gap: 10px;
-}
+//Skills Section Styles
 
-.skill-button:hover {
-  color: white;
-}
-.arrowSkill {
-  transition: transform 0.3s ease;
-  color:#1d5677;
-}
-
-.arrow-style-skill.open .arrowSkill {
-  transform: rotate(180deg);
-}
-
-.collapsContent {
-  max-height: 0;
-  overflow: hidden;
-  opacity: 0;
-  transition: all 0.4s ease;
-}
-
-.collapsContent.open {
-  max-height: 200px;
-  opacity: 1;
-  padding: 25px;
-  margin: 25px;
-  background-color: white;
-  border-radius: 15px;
+.skills-container {
+  background: #dcf4f3;
+  padding: 25px 0px;
+  max-width: 1440px;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 h2.skills-title {
@@ -59,28 +30,81 @@ h2.skills-title {
 .skill-item {
   border: 1px solid #1d5677;
   border-radius: 25px;
-  padding: 10px 5px;
   background: white;
+  transition: background 0.3s, color 0.3s;
+}
+
+.skill-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+  margin: 0;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 10px;
   color: #1d5677;
-}
-
-.skill-item:hover {
-  border: 1px solid #1d5677;
-  border-radius: 25px;
+  width: 100%;
   padding: 10px 5px;
-  background: #1d5677;
+  border-radius: 25px;
+  transition: background 0.3s, color 0.3s;
+  padding: 10px;
 }
 
-.skills-container {
-  background: #dcf4f3;
-  padding: 25px 0px;
-  max-width: 1440px;
-  margin: auto;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.skill-button:hover {
+  background: #1d5677;
+  color: white;
 }
+
+.skill-button:hover .arrowSkill {
+  color: white;
+}
+.skill-button::before {
+  background: #1d5677;
+  color: white;
+}
+.skill-button.open {
+  background: #1d5677;
+  color: white;
+}
+.arrowSkill {
+  transition: transform 0.3s ease;
+  // color:#1d5677;
+}
+
+.arrow-style-skill.open .arrowSkill {
+  transform: rotate(180deg);
+}
+
+.collapsContent {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+
+.collapsContent.open {
+  max-height: 200px;
+  opacity: 1;
+  padding: 25px;
+  margin: 25px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+//Skills Card Style
 
 .skills-list.cardskills {
   margin: 10px 0;
+}
+.skill-item.cardskills {
+  padding: 10px;
+}
+.skill-item.cardskills:hover {
+  color: white;
+  padding: 10px;
+  background-color: #1d5677;
 }
 
 .skills-container.fade-in.ice.visible {

@@ -1,7 +1,3 @@
-p {
-  text-shadow: 0 0 7px rgba(255, 255, 255, 0.3), 0 0 3px rgba(255, 255, 255, 0.3);
-}
-
 .container {
   color: black;
   font-size: 0.9rem;
@@ -17,67 +13,59 @@ p {
 .animation {
   height: 50px;
   overflow: hidden;
-  margin-left: 1rem;
+  margin-left: 0rem;
+  position: relative;
+}
+
+.animation > div {
+  display: flex;
+  flex-direction: column;
+  animation: text-slide 8s infinite ease-in-out;
 }
 
 .animation > div > div {
   padding: 0.25rem 0.75rem;
-  height: 2.81rem;
-  margin-bottom: 2.81rem;
-  display: inline-block;
-  width: 17rem;
+  height: 2.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 19.81rem;
 }
 
-.animation div:first-child {
-  animation: text-animation 8s infinite;
-}
-
-.first div {
+.first {
   background-color: #20a7d8;
 }
 
-.second div {
+.second {
   background-color: #cd921e;
 }
 
-.third div {
+.third {
   background-color: #c10528;
 }
 
-@keyframes text-animation {
-  0% {
-    margin-top: 0;
+@keyframes text-slide {
+  0%, 10% {
+    transform: translateY(0);
   }
-  10% {
-    margin-top: 0;
+  20%, 30% {
+    transform: translateY(-100%);
   }
-  20% {
-    margin-top: -5.62rem;
+  40%, 60% {
+    transform: translateY(-200%);
   }
-  30% {
-    margin-top: -5.62rem;
-  }
-  40% {
-    margin-top: -10.24rem;
-  }
-  60% {
-    margin-top: -10.24rem;
-  }
-  70% {
-    margin-top: -5.62rem;
-  }
-  80% {
-    margin-top: -5.62rem;
-  }
-  90% {
-    margin-top: 0;
+  70%, 90% {
+    transform: translateY(-100%);
   }
   100% {
-    margin-top: 0;
+    transform: translateY(0);
   }
 }
 @media (min-width: 768px) {
   .container {
     flex-direction: row;
+  }
+  .animation {
+    margin-left: 1rem;
   }
 }/*# sourceMappingURL=funny-phrase.css.map */
