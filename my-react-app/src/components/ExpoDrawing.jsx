@@ -1,10 +1,10 @@
-import { useState, useEffect } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
-import { useNavigate } from "react-router-dom";
+import {useState, useEffect} from "react";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faArrowLeft} from "@fortawesome/free-solid-svg-icons";
+import {useNavigate} from "react-router-dom";
 import SmartImage from "./SmartImage";
 
-export default function ExpoDrawing({ item, musicId }) {
+export default function ExpoDrawing({item, musicId}) {
   const navigate = useNavigate();
 
   const [imageSrc, setImageSrc] = useState(item.srcLarge);
@@ -55,16 +55,17 @@ export default function ExpoDrawing({ item, musicId }) {
 
       <div className="music-container">
         <h3 className="music-title">
-          « Pour prolonger l’expérience de ce dessin, vous pouvez écouter
-          cette musique. »
+          « Pour prolonger l’expérience de ce dessin, vous pouvez écouter cette
+          musique. »
         </h3>
         <iframe
-          src={`https://open.spotify.com/embed/track/${musicId}`}
-          width="300"
+          src={`https://www.youtube.com/embed/${musicId}`}
+          width="350"
           height="80"
           frameBorder="0"
           allowtransparency="true"
-          allow="encrypted-media"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
           className="music"
           title="Musique d'ambiance"
         />

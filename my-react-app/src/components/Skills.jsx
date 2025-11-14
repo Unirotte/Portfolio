@@ -21,7 +21,9 @@ export default function Skills({source, className = ""}) {
             {filteredSkills[0].tableau.map((skill, index) => (
               <li key={index} className="skill-item">
                 <button
-                  className={`skill-button ${openIndex === index ? "open" : ""}`}
+                  className={`skill-button ${
+                    openIndex === index ? "open" : ""
+                  }`}
                   onClick={() => toggle(index)}
                   aria-expanded={openIndex === index}
                 >
@@ -39,6 +41,7 @@ export default function Skills({source, className = ""}) {
           </ul>
           {filteredSkills[0].tableau.map((skill, index) => (
             <div
+              key={index}
               className={`collapsContent ${openIndex === index ? "open" : ""}`}
             >
               <div className="collapsText">{skill.content}</div>
