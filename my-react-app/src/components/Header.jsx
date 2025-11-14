@@ -8,12 +8,12 @@ export default function Header() {
         <h1>Judith.P</h1>
         <ul>
           <li>
-            <Link to="/IceBergPage" className="iceBerg">
+            <Link to="/IceBergPage" className={`iceBerg ${location.pathname === "/IceBergPage" ? "li active" : "li"}`}>
               Underneath
             </Link>
           </li>
           <li>
-            <Link to="/#contact" className="NavContact">
+            <Link to="/#contact" className={`NavContact ${location.hash === "#contact" ? "li active" : "li"}`}>
               Contact
             </Link>
           </li>

@@ -24,6 +24,7 @@ export default function HomePage() {
 
       <main>
         {presentation.map((item) => (
+          
           <Me
             key={item.id}
             id={item.id}

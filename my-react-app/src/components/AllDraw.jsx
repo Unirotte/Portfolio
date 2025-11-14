@@ -1,7 +1,7 @@
 import {Link} from "react-router-dom";
 import SmartImage from "./SmartImage";
 
-export default function AllDraw({src, alt, id, item}) {
+export default function AllDraw({id, item}) {
   return (
     <div className="Position ">
       <Link to={`/PageExpo/${id}`}>
@@ -17,5 +17,6 @@ export default function AllDraw({src, alt, id, item}) {
         />
       </Link>
     </div>
+    
   );
 }

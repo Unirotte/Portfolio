@@ -25,7 +25,7 @@ export default function PageGallery() {
               id={item.id}
               item={item}
             />
-          ))}
+          ))}    
       </div>
     </main>
   );

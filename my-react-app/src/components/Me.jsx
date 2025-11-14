@@ -42,22 +42,23 @@ export default function Me({
   };
 
   return (
-    <div className="tes" id="about">
-      <div className={`Presentation ${className}`}>
+   <div className="tes" id="about">
+      <div className={`Presentation ${className || ""}`}>
+        <div className={`me-container ${className || ""}`}></div>
         <div className="position-img">
           <img
-            className={`pictureprofile ${className}`}
-            src={src}
-            alt="Portrait"
+            className={`pictureprofile ${className || ""}`}
+           src={src}
+           fetchPriority="high"
+            loading="eager"
+            alt="Une photo de Judith"
           />
         </div>
-
         <div className="presentation">
           <h2 className="introduction-ombre">{title}</h2>
-          <h3 className={`introduction ${className}`}>{title}</h3>
+          <h3 className={` introduction ${className || ""}`}>{title}</h3>
         </div>
       </div>
-
       <div className="Presentation-back">
         <img
           className={`hand ${variant} ${className}`}
