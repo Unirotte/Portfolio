@@ -26,6 +26,7 @@ export default function HomePage() {
             introduction={item.introduction}
             sousintroduction={item.sousintroduction}
             image={item.image}
+            variant="hand-move"
           />
         ))}
         <div className="position-titre">

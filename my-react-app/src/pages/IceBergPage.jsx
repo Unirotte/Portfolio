@@ -33,6 +33,8 @@ export default function HomePage() {
             sousintroduction={item.sousintroduction}
             src={item.src}
             image={item.image}
+            static={item.static}
+            interactiveGif={true}
             className="ice"
           />
         ))}

@@ -35,18 +35,6 @@ img.pictureprofile.ice {
   top: -4vw;
 }
 
-.hand.ice:hover {
-  animation: rotateInfinite 2s infinite;
-}
-
-@keyframes rotateInfinite {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 .hand.ice {
   background-color: bisque;
   left: 27vw;

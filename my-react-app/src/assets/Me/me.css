@@ -116,13 +116,16 @@ h2.introduction {
   width: 20vw;
   bottom: 10vw;
   left: 24vw;
-  animation: wave 3s 1 forwards 1s;
   max-width: 288px;
   background-color: #dcf4f3;
   border-radius: 100%;
 }
 
-.hand:hover {
+.hand-move {
+  animation: wave 3s 1 forwards 1s;
+}
+
+.hand-move:hover {
   animation: wave 3s infinite;
 }
 

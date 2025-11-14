@@ -297,7 +297,8 @@
     "text": "On ne voit que ce qui flotte. Ici, je vous montre ce qui m’anime, ce qui déborde. Une facette plus brute, plus libre, mais tout aussi présente dans ma manière de créer, de construire.",
     "src": "/img/PortraitJudith.webp",
     "alt": "Un auto-portrait de Judith",
-    "image": "/img/eye.gif"
+    "image": "/img/eye.gif",
+    "static":"/img/eye.webp"
   },
   {
     "id": 17,
