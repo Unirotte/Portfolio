@@ -19,13 +19,7 @@ export default function HomePage() {
         {presentation.map((item) => (
           <Me
             key={item.id}
-            id={item.id}
-            title={item.title}
-            text={item.text}
-            src={item.src}
-            introduction={item.introduction}
-            sousintroduction={item.sousintroduction}
-            image={item.image}
+            item={item}
             variant="hand-move"
           />
         ))}

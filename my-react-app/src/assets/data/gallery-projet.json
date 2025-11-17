@@ -5,7 +5,17 @@
     "title": "Créez et publiez votre portfolio de développeur",
     "src": "/img/projet/Portfolio.webp",
     "Github": "https://github.com/Unirotte/Portfolio",
-    "skill": ["JavaScript", "React", "HTML", "CSS", "Sass", "GitHub", "Figma", "Lighthouse", "Wave"]
+    "skill": [
+      "JavaScript",
+      "React",
+      "HTML",
+      "CSS",
+      "Sass",
+      "GitHub",
+      "Figma",
+      "Lighthouse",
+      "Wave"
+    ]
   },
   {
     "id": 2,
@@ -21,7 +31,16 @@
     "title": "Implémentez le front-end d’une application avec React",
     "src": "/img/projet/Argent.webp",
     "Github": "https://github.com/Unirotte/Projet10",
-    "skill": ["JavaScript", "React", "HTML", "CSS", "Sass", "GitHub", "Figma", "Redux"]
+    "skill": [
+      "JavaScript",
+      "React",
+      "HTML",
+      "CSS",
+      "Sass",
+      "GitHub",
+      "Figma",
+      "Redux"
+    ]
   },
   {
     "id": 4,
@@ -37,7 +56,17 @@
     "title": "Optimisez le référencement d’un site de photographe",
     "src": "/img/projet/Nina.webp",
     "Github": "https://github.com/Unirotte/Projet8",
-    "skill": ["JavaScript", "React", "HTML", "CSS", "Sass", "GitHub", "Figma", "Lighthouse", "Wave"]
+    "skill": [
+      "JavaScript",
+      "React",
+      "HTML",
+      "CSS",
+      "Sass",
+      "GitHub",
+      "Figma",
+      "Lighthouse",
+      "Wave"
+    ]
   },
   {
     "id": 6,
@@ -86,60 +115,61 @@
     "introduction": "Bonjour",
     "sousintroduction": "Je suis Judith,",
     "text": "une intégratrice web passionnée par le design et l’expérience utilisateur. J’adore créer des interfaces élégantes et fonctionnelles.",
-    "src": "/img/Judith.webp",
+    "srcLarge": "/img/Judith.webp",
+    "srcSmall": "/img/Judith-300.webp",
+    "srcMedium": "/img/Judith-600.webp",
     "alt": "Une photo de judith",
     "image": "/img/Coucou1.webp"
   },
   {
-  "id": 1,
-  "type": "Skills",
-  "title": "Skills",
-  "tableau": [
-    {
-      "name": "JavaScript",
-      "content": "Langage pour ajouter de l'interactivité à mes projets web et manipuler le DOM."
-    },
-    {
-      "name": "React",
-      "content": "Bibliothèque JavaScript pour créer des interfaces dynamiques et modulaires."
-    },
-    {
-      "name": "HTML",
-      "content": "Structure sémantique des pages web, que je maîtrise pour un rendu clair et accessible."
-    },
-    {
-      "name": "CSS",
-      "content": "Langage de mise en forme, avec lequel j’applique animations, transitions et responsive design."
-    },
-    {
-      "name": "Sass",
-      "content": "Préprocesseur CSS pour mieux organiser et réutiliser mon code."
-    },
-    {
-      "name": "GitHub",
-      "content": "Plateforme pour héberger mes projets et partager mon travail."
-    },
-    {
-      "name": "Figma",
-      "content": "Outil de conception d’interface pour prototyper mes maquettes avant intégration."
-    },
-    {
-      "name": "Notion",
-      "content": "Outil d’organisation pour planifier et suivre mes projets de développement."
-    },
-    {
-      "name": "Redux",
-      "content": "Gestionnaire d’état global pour structurer mes projets React."
-    },
-    {
-      "name": "Lighthouse",
-      "content": "Outil d’audit pour améliorer les performances et l’accessibilité de mes sites."
-    },
-    {
-      "name": "Wave",
-      "content": "Extension d’analyse d’accessibilité pour optimiser mes interfaces."
-    }
-  ]
-}
-
+    "id": 1,
+    "type": "Skills",
+    "title": "Skills",
+    "tableau": [
+      {
+        "name": "JavaScript",
+        "content": "Langage pour ajouter de l'interactivité à mes projets web et manipuler le DOM."
+      },
+      {
+        "name": "React",
+        "content": "Bibliothèque JavaScript pour créer des interfaces dynamiques et modulaires."
+      },
+      {
+        "name": "HTML",
+        "content": "Structure sémantique des pages web, que je maîtrise pour un rendu clair et accessible."
+      },
+      {
+        "name": "CSS",
+        "content": "Langage de mise en forme, avec lequel j’applique animations, transitions et responsive design."
+      },
+      {
+        "name": "Sass",
+        "content": "Préprocesseur CSS pour mieux organiser et réutiliser mon code."
+      },
+      {
+        "name": "GitHub",
+        "content": "Plateforme pour héberger mes projets et partager mon travail."
+      },
+      {
+        "name": "Figma",
+        "content": "Outil de conception d’interface pour prototyper mes maquettes avant intégration."
+      },
+      {
+        "name": "Notion",
+        "content": "Outil d’organisation pour planifier et suivre mes projets de développement."
+      },
+      {
+        "name": "Redux",
+        "content": "Gestionnaire d’état global pour structurer mes projets React."
+      },
+      {
+        "name": "Lighthouse",
+        "content": "Outil d’audit pour améliorer les performances et l’accessibilité de mes sites."
+      },
+      {
+        "name": "Wave",
+        "content": "Extension d’analyse d’accessibilité pour optimiser mes interfaces."
+      }
+    ]
+  }
 ]

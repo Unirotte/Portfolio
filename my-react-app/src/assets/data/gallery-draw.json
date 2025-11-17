@@ -294,10 +294,12 @@
     "introduction": "Bienvenue",
     "sousintroduction": "de l’autre côté,",
     "text": "On ne voit que ce qui flotte. Ici, je vous montre ce qui m’anime, ce qui déborde. Une facette plus brute, mais tout aussi présente dans ma manière de créer.",
-    "src": "/img/PortraitJudith.webp",
+    "srcLarge": "/img/PortraitJudith.webp",
+    "srcSmall": "/img/PortraitJudith-300.webp",
+    "srcMedium": "/img/PortraitJudith-600.webp",
     "alt": "Un auto-portrait de Judith",
     "image": "/img/eye.gif",
-    "static":"/img/eye.webp"
+    "static": "/img/eye.webp"
   },
   {
     "id": 17,

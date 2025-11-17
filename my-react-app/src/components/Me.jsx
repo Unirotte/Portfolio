@@ -1,26 +1,32 @@
 import { useState, useEffect } from "react";
+import SmartImage from "./SmartImage";
 
 export default function Me({
   className = "",
-  src,
-  title,
-  text,
-  introduction,
-  sousintroduction,
-  image,     
-  static: staticImg,  
+  item,
   interactiveGif = false,
-  gifDuration = 4000,  
+  gifDuration = 4000,
   variant,
 }) {
+  // On récupère les données directement depuis item
+  const {
+    title,
+    text,
+    introduction,
+    sousintroduction,
+    image,      // GIF
+    static: staticImg, // Image statique
+  } = item;
 
+  // Gestion du GIF interactif
   const [currentSrc, setCurrentSrc] = useState(
-    interactiveGif ?  staticImg : image);
-  
-  useEffect(() => {
-    if (!interactiveGif) return; 
+    interactiveGif ? staticImg : image
+  );
 
-    
+  // GIF auto play au chargement
+  useEffect(() => {
+    if (!interactiveGif) return;
+
     setCurrentSrc(image);
 
     const timer = setTimeout(() => {
@@ -30,11 +36,8 @@ export default function Me({
     return () => clearTimeout(timer);
   }, [interactiveGif, image, staticImg, gifDuration]);
 
-
   const handleMouseEnter = () => {
-    if (interactiveGif) {
-      setCurrentSrc(image); 
-    }
+    if (interactiveGif) setCurrentSrc(image);
   };
 
   const handleMouseLeave = () => {
@@ -42,28 +45,31 @@ export default function Me({
   };
 
   return (
-   <div className="tes" id="about">
+    <div className="tes" id="about">
       <div className={`Presentation ${className || ""}`}>
         <div className={`me-container ${className || ""}`}></div>
         <div className="position-img">
-          <img
-            className={`pictureprofile ${className || ""}`}
-           src={src}
-           fetchPriority="high"
+          <SmartImage
+            item={item}
+            size="small"
+            className={`pictureprofile ${className}`}
+            fetchPriority="high"
             loading="eager"
-            alt="Une photo de Judith"
           />
         </div>
+
         <div className="presentation">
           <h2 className="introduction-ombre">{title}</h2>
-          <h3 className={` introduction ${className || ""}`}>{title}</h3>
+          <h3 className={`introduction ${className}`}>{title}</h3>
         </div>
       </div>
+
+      {/* Bloc texte + GIF */}
       <div className="Presentation-back">
         <img
           className={`hand ${variant} ${className}`}
           src={currentSrc}
-          alt="Animation"
+          alt={item.alt}
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         />

@@ -27,12 +27,12 @@ export default function HomePage() {
           
           <Me
             key={item.id}
+            item={item}
             id={item.id}
             title={item.title}
             text={item.text}
             introduction={item.introduction}
             sousintroduction={item.sousintroduction}
-            src={item.src}
             image={item.image}
             static={item.static}
             interactiveGif={true}
