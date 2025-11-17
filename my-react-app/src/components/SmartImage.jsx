@@ -27,8 +27,6 @@ export default function SmartImage({
       src={src}
       srcSet={`${item.srcSmall} 300w, ${item.srcMedium} 600w, ${item.srcLarge} 1000w`}
       sizes={sizes}
-      width={item.width}
-      height={item.height}
       alt={item.alt}
       loading="lazy"
       className={`smart-image ${className}`}
