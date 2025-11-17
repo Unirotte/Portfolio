@@ -8,6 +8,7 @@
     connect-src *;
     frame-src https://open.spotify.com https://www.youtube.com https://youtube.com https://www.youtube-nocookie.com https://youtube-nocookie.com;
   Cache-Control: public, max-age=31536000, immutable
+*/
 
 /index.html
   Cache-Control: public, max-age=0, must-revalidate

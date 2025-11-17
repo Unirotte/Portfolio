@@ -88,7 +88,7 @@ img.pictureprofile {
   width: 37vw;
   position: absolute;
   left: 19vw;
-  top: 6vw;
+  top: 7vw;
 }
 
 h2.introduction {
@@ -158,7 +158,7 @@ h2.introduction {
 @media (min-width: 1440px) {
   .Salutation {
     font-size: 115px;
-    top: -144px;
+    top: -235px;
     left: 258px;
   }
   .introduction {
@@ -181,17 +181,17 @@ h2.introduction {
   h3.Name {
     font-size: 58px;
     left: 273px;
-    top: 1.3em;
+    top: -0.7em;
   }
   .PresentationText {
     font-size: 36px;
-    width: 662px;
-    left: 187px;
-    top: 216px;
+    width: 600px;
+    left: 273px;
+    top: 65px;
   }
   .hand {
     width: 288px;
-    bottom: 85px;
+    bottom: 135px;
     left: 345px;
   }
 }/*# sourceMappingURL=me.css.map */

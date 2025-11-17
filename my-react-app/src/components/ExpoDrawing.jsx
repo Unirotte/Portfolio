@@ -40,8 +40,9 @@ export default function ExpoDrawing({item, musicId}) {
       >
         <FontAwesomeIcon icon={faArrowLeft} className="iconArrow" />
       </button>
-
+      
       <div className="drawing-container">
+      <h2 className="titleDraw">{item.title}</h2>
         <img
           src={imageSrc}
           alt={item.alt}
@@ -50,7 +51,6 @@ export default function ExpoDrawing({item, musicId}) {
           height={item.height}
           loading="lazy"
         />
-        <h2 className="titleDraw">{item.title}</h2>
       </div>
 
       <div className="music-container">

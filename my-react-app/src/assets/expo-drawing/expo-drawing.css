@@ -3,8 +3,12 @@
 img.drawing-image {
   z-index: 2;
   position: relative;
-  margin-top: clamp(1.5rem, 7vw, 8rem);
-  width: clamp(285px, 76vw, 1000px);
+  width: clamp(285px, 76vw, 550px);
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  object-fit: contain;
+  max-height: 60vh;
 }
 
 /* Le conteneur principal */
@@ -42,26 +46,26 @@ img.background-image {
 
 /* Conteneur du dessin */
 .drawing-container {
-  position: relative; /* revient dans le flux */
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   z-index: 1;
-  margin-top: 80px; /* espace entre le haut et le dessin */
+  margin-top: 80px;
 }
 
 /* Le titre du dessin */
 h2.titleDraw {
   text-shadow: 0px 4px 1px rgb(0, 0, 0);
-  font-size: clamp(1.5rem, 7vw, 6rem);
-  margin-top: 20px;
-  margin-bottom: 0;
+  font-size: clamp(1.5rem, 7vw, 3rem);
+  margin-top: -65px;
+  margin-bottom: 20px;
   z-index: 2;
 }
 
 button.arrow.back {
   position: absolute;
-  top: clamp(1.5rem, 7vw, 1rem);
+  top: clamp(0.5rem, 7vw, 1rem);
   left: 0rem;
   background: none;
   color: white;
@@ -78,6 +82,7 @@ button.arrow.back {
   align-items: center;
   justify-content: center;
   padding: 20px;
+  padding-top: 0;
   z-index: 1;
 }
 
@@ -85,6 +90,6 @@ h3.music-title {
   text-align: center;
   font-family: "Smooch Sans", sans-serif;
   font-weight: 300;
-  background: black;
+  background: rgba(0, 0, 0, 0.8);
   padding: 10px;
 }/*# sourceMappingURL=expo-drawing.css.map */

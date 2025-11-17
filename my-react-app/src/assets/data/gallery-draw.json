@@ -2,7 +2,7 @@
   {
     "id": 1,
     "type": "realisation",
-    "title": "The Fall of the Angel",
+    "title": "Fall of the Angel",
     "alt": "Un dessin animé représentant un personnage assis dans la rue, avec des ailes abîmées, fumant une cigarette.",
     "srcSmall": "/img/Dessin/DessinJudith-300.webp",
     "srcMedium": "/img/Dessin/DessinJudith-600.webp",
@@ -293,7 +293,7 @@
     "title": "ABOUT ME",
     "introduction": "Bienvenue",
     "sousintroduction": "de l’autre côté,",
-    "text": "On ne voit que ce qui flotte. Ici, je vous montre ce qui m’anime, ce qui déborde. Une facette plus brute, plus libre, mais tout aussi présente dans ma manière de créer, de construire.",
+    "text": "On ne voit que ce qui flotte. Ici, je vous montre ce qui m’anime, ce qui déborde. Une facette plus brute, mais tout aussi présente dans ma manière de créer.",
     "src": "/img/PortraitJudith.webp",
     "alt": "Un auto-portrait de Judith",
     "image": "/img/eye.gif",

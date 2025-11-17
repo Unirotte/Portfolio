@@ -38,7 +38,7 @@ img.pictureprofile.ice {
 .hand.ice {
   background-color: bisque;
   left: 27vw;
-  bottom: 12vw;
+  bottom: 10vw;
 }
 
 @media (min-width: 1440px) {

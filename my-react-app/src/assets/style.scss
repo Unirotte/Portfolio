@@ -6,7 +6,7 @@ body {
 }
 
 main {
-  padding-top: 15vw;
+  padding-top: clamp(4rem, 12vw, 120px);
   overflow: hidden;
 }
 
@@ -61,7 +61,7 @@ h1.titleGallery {
 .smart-image {
   display: block;
   height: auto;
-  object-fit: contain; 
+  object-fit: contain;
 }
 
 @media (min-width: 1300px) {
