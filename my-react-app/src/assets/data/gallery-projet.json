@@ -5,6 +5,7 @@
     "title": "Créez et publiez votre portfolio de développeur",
     "src": "/img/projet/Portfolio.webp",
     "Github": "https://github.com/Unirotte/Portfolio",
+    "alt": "une image a fond bleu avec ecrit portfolio",
     "skill": [
       "JavaScript",
       "React",
@@ -23,6 +24,7 @@
     "title": "Planifiez le développement du site de votre client",
     "src": "/img/projet/Qwenta.webp",
     "Github": "https://github.com/Unirotte/Projet11",
+    "alt": "une image a fond bleu avec ecrit Qwenta",
     "skill": ["JavaScript", "React", "Figma", "Redux", "Notion", "GitHub"]
   },
   {
@@ -31,6 +33,7 @@
     "title": "Implémentez le front-end d’une application avec React",
     "src": "/img/projet/Argent.webp",
     "Github": "https://github.com/Unirotte/Projet10",
+    "alt": "une image a fond bleu avec ecrit ArgentBank",
     "skill": [
       "JavaScript",
       "React",
@@ -48,6 +51,7 @@
     "title": "Débuggez le site d’une agence d’événementiel",
     "src": "/img/projet/724.webp",
     "Github": "https://github.com/Unirotte/Projet9",
+    "alt": "une image a fond bleu avec ecrit 724event",
     "skill": ["JavaScript", "React", "HTML", "CSS", "Sass", "GitHub", "Figma"]
   },
   {
@@ -56,6 +60,7 @@
     "title": "Optimisez le référencement d’un site de photographe",
     "src": "/img/projet/Nina.webp",
     "Github": "https://github.com/Unirotte/Projet8",
+    "alt": "une image a fond bleu avec ecrit Nina carducci",
     "skill": [
       "JavaScript",
       "React",
@@ -74,6 +79,7 @@
     "title": "Créez une application web de location immobilière avec React",
     "src": "/img/projet/Kasa.webp",
     "Github": "https://github.com/Unirotte/Projet7",
+    "alt": "une image a fond bleu avec ecrit KASA",
     "skill": ["JavaScript", "React", "HTML", "CSS", "Sass", "GitHub", "Figma"]
   },
   {
@@ -82,6 +88,7 @@
     "title": "Créez une page web dynamique avec JavaScript",
     "src": "/img/projet/Sophiebluel.webp",
     "Github": "https://github.com/Unirotte/Projet6",
+    "alt": "une image a fond bleu avec ecrit Shopie Bluel",
     "skill": ["JavaScript", "HTML", "CSS", "Sass", "GitHub", "Figma"]
   },
   {
@@ -90,6 +97,7 @@
     "title": "Faites vos premiers pas avec le langage JavaScript",
     "src": "/img/projet/Printit.webp",
     "Github": "https://github.com/Unirotte/Projet5",
+    "alt": "une image a fond bleu avec ecrit Print it",
     "skill": ["JavaScript", "HTML", "CSS", "Sass", "GitHub", "Figma"]
   },
   {
@@ -98,6 +106,7 @@
     "title": "Améliorez l’interface d’un site mobile avec des animations CSS",
     "src": "/img/projet/Ohmyfood.webp",
     "Github": "https://github.com/Unirotte/Projet4",
+    "alt": "une image a fond bleu avec ecrit Oh my food",
     "skill": ["HTML", "CSS", "Sass", "GitHub", "Figma"]
   },
   {
@@ -106,6 +115,7 @@
     "title": "Créez la page d’accueil d’une agence de voyage avec HTML et CSS",
     "src": "/img/projet/Booki.webp",
     "Github": "https://github.com/Unirotte/Projets",
+    "alt": "une image a fond bleu avec ecrit Booki",
     "skill": ["HTML", "CSS", "GitHub", "Figma"]
   },
   {
@@ -119,7 +129,8 @@
     "srcSmall": "/img/Judith-300.webp",
     "srcMedium": "/img/Judith-600.webp",
     "alt": "Une photo de judith",
-    "image": "/img/Coucou1.webp"
+    "image": "/img/Coucou1.webp",
+    "altImage": "Une main qui fait coucou"
   },
   {
     "id": 1,

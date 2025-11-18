@@ -2,11 +2,11 @@ export default function SmartImage({
   item,
   size = "medium",
   className = "",
+  thumbOnly = false, // 👈 nouvelle prop
   ...props
 }) {
   if (!item) return null;
 
-  // 📏 Choisit la bonne taille selon la prop "size"
   const src =
     size === "small"
       ? item.srcSmall
@@ -14,7 +14,19 @@ export default function SmartImage({
       ? item.srcLarge
       : item.srcMedium;
 
-  // 📐 Définit la taille responsive
+  // si thumbOnly → pas de srcSet, pas de sizes
+  if (thumbOnly) {
+    return (
+      <img
+        src={item.srcSmall}
+        alt={item.alt}
+        loading="lazy"
+        className={`smart-image ${className}`}
+        {...props}
+      />
+    );
+  }
+
   const sizes =
     size === "small"
       ? "(max-width: 768px) 35vw, 352px"

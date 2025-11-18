@@ -69,7 +69,7 @@ export default function Me({
         <img
           className={`hand ${variant} ${className}`}
           src={currentSrc}
-          alt={item.alt}
+          alt={item.altImage}
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         />

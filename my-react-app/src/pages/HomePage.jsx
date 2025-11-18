@@ -32,7 +32,7 @@ export default function HomePage() {
               key={item.id}
               src={item.src}
               title={item.title}
-              alt={item.title}
+              alt={item.alt}
               Github={item.Github}
               skill={item.skill}
               className="cardskills"

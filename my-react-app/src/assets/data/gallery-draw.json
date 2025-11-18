@@ -3,12 +3,10 @@
     "id": 1,
     "type": "realisation",
     "title": "Fall of the Angel",
-    "alt": "Un dessin animé représentant un personnage assis dans la rue, avec des ailes abîmées, fumant une cigarette.",
+    "alt": "Un dessin animé représentant un personnage assis dans la rue, avec des ailes abîmées.",
     "srcSmall": "/img/Dessin/DessinJudith-300.webp",
     "srcMedium": "/img/Dessin/DessinJudith-600.webp",
     "srcLarge": "/img/Dessin/DessinJudith.webp",
-    "width": 1000,
-    "height": 1000,
     "song": "oKgSVzG5XNw"
   },
   {
@@ -18,9 +16,7 @@
     "srcSmall": "/img/Dessin/IMG_1137-300.webp",
     "srcMedium": "/img/Dessin/IMG_1137-600.webp",
     "srcLarge": "/img/Dessin/IMG_1137.webp",
-    "width": 1000,
-    "height": 1333,
-    "alt": "Un dessin d’un globe oculaire au premier plan, avec un corps de femme en arrière-plan et un effet de perspective.",
+    "alt": "Un dessin d’un globe oculaire, avec un corps de femme et un effet de perspective.",
     "song": "rDAAs3Ka3Mo"
   },
   {
@@ -30,21 +26,17 @@
     "srcSmall": "/img/Dessin/IMG_1144-300.webp",
     "srcMedium": "/img/Dessin/IMG_1144-600.webp",
     "srcLarge": "/img/Dessin/IMG_1144.webp",
-    "width": 750,
-    "height": 1000,
-    "alt": "Un dessin d’une femme avec les mains devant le bas de son visage, et des coulures jaunes qui descendent sous ses mains et sur son torse.",
+    "alt": "Un dessin d’une femme avec les mains devant le bas de son visage, et des coulures jaunes.",
     "song": "Ar-LKzn3YlE"
   },
   {
     "id": 4,
     "type": "realisation",
     "title": "Queen of Misery",
-    "alt": "Un dessin d’une femme qui tire la langue, portant une couronne, un collier autour du cou et une laisse.",
+    "alt": "Un dessin d’une femme qui tire la langue, portant une couronne, un collier autour du cou.",
     "srcSmall": "/img/Dessin/IMG_1145-300.webp",
     "srcMedium": "/img/Dessin/IMG_1145-600.webp",
     "srcLarge": "/img/Dessin/IMG_1145.webp",
-    "width": 750,
-    "height": 1000,
     "song": "5vDvHoiPgOQ"
   },
   {
@@ -55,8 +47,6 @@
     "srcSmall": "/img/Dessin/IMG_1146-300.webp",
     "srcMedium": "/img/Dessin/IMG_1146-600.webp",
     "srcLarge": "/img/Dessin/IMG_1146.webp",
-    "width": 1000,
-    "height": 1000,
     "song": "qYfpZsMRsRg"
   },
   {
@@ -67,8 +57,6 @@
     "srcSmall": "/img/Dessin/IMG_1147-300.webp",
     "srcMedium": "/img/Dessin/IMG_1147-600.webp",
     "srcLarge": "/img/Dessin/IMG_1147.webp",
-    "width": 1000,
-    "height": 1333,
     "song": "5WXs6hzsuZs"
   },
   {
@@ -79,8 +67,6 @@
     "srcSmall": "/img/Dessin/IMG_1149-300.webp",
     "srcMedium": "/img/Dessin/IMG_1149-600.webp",
     "srcLarge": "/img/Dessin/IMG_1149.webp",
-    "width": 1000,
-    "height": 1333,
     "song": "T5vbYYWS1DE"
   },
   {
@@ -91,8 +77,6 @@
     "srcSmall": "/img/Dessin/IMG_1169-300.webp",
     "srcMedium": "/img/Dessin/IMG_1169-600.webp",
     "srcLarge": "/img/Dessin/IMG_1169.webp",
-    "width": 1000,
-    "height": 1333,
     "song": "UNObHh17ruo"
   },
   {
@@ -103,8 +87,6 @@
     "srcSmall": "/img/Dessin/IMG_1176-300.webp",
     "srcMedium": "/img/Dessin/IMG_1176-600.webp",
     "srcLarge": "/img/Dessin/IMG_1176.webp",
-    "width": 1000,
-    "height": 1333,
     "song": "_ppJe0uX2_E"
   },
   {
@@ -115,8 +97,6 @@
     "srcSmall": "/img/Dessin/IMG_1150-300.webp",
     "srcMedium": "/img/Dessin/IMG_1150-600.webp",
     "srcLarge": "/img/Dessin/IMG_1150.webp",
-    "width": 1000,
-    "height": 1333,
     "song": "HJO2ERHVRGU"
   },
   {
@@ -127,8 +107,6 @@
     "srcSmall": "/img/Dessin/IMG_1201-300.webp",
     "srcMedium": "/img/Dessin/IMG_1201-600.webp",
     "srcLarge": "/img/Dessin/IMG_1201.webp",
-    "width": 1000,
-    "height": 1000,
     "song": "3Dzv455DrpA"
   },
   {
@@ -139,20 +117,16 @@
     "srcSmall": "/img/Dessin/IMG_1196-300.webp",
     "srcMedium": "/img/Dessin/IMG_1196-600.webp",
     "srcLarge": "/img/Dessin/IMG_1196.webp",
-    "width": 1000,
-    "height": 1000,
     "song": "2DjisWgKebU"
   },
   {
     "id": 10,
     "type": "toile",
     "title": "Dionaea",
-    "alt": "Un buste sans bras ni jambes, avec de l’eau qui s’écoule de ses membres et une dionaea à la place de la tête.",
+    "alt": "Un buste, avec de l’eau qui s’écoule et une dionaea à la place de la tête.",
     "srcSmall": "/img/Dessin/thumbnail_IMG_20240822_193343-300.webp",
     "srcMedium": "/img/Dessin/thumbnail_IMG_20240822_193343-600.webp",
     "srcLarge": "/img/Dessin/thumbnail_IMG_20240822_193343.webp",
-    "width": 1000,
-    "height": 1330,
     "song": "ayYMRirHasg"
   },
   {
@@ -163,8 +137,6 @@
     "srcSmall": "/img/Dessin/thumbnail_IMG_20240822_193401-300.webp",
     "srcMedium": "/img/Dessin/thumbnail_IMG_20240822_193401-600.webp",
     "srcLarge": "/img/Dessin/thumbnail_IMG_20240822_193401.webp",
-    "width": 1000,
-    "height": 994,
     "song": "4WJoY2aZuVk"
   },
   {
@@ -175,8 +147,6 @@
     "srcSmall": "/img/Dessin/thumbnail_IMG_20240822_193413-300.webp",
     "srcMedium": "/img/Dessin/thumbnail_IMG_20240822_193413-600.webp",
     "srcLarge": "/img/Dessin/thumbnail_IMG_20240822_193413.webp",
-    "width": 1000,
-    "height": 1256,
     "song": "qQ3kHR02HNc"
   },
   {
@@ -187,44 +157,36 @@
     "srcSmall": "/img/Dessin/IMG_20240822_193424-300.webp",
     "srcMedium": "/img/Dessin/IMG_20240822_193424-600.webp",
     "srcLarge": "/img/Dessin/IMG_20240822_193424.webp",
-    "width": 1000,
-    "height": 1002,
     "song": "EbEDMOcYqnA"
   },
   {
     "id": 14,
     "type": "toile",
     "title": "Sweet Divinity",
-    "alt": "Un buste avec un visage orné d’une couronne de fleurs et de globes oculaires. Les mains tiennent un petit personnage en forme de stickman.",
+    "alt": "visage orné d’une couronne de fleurs et de globes oculaires.",
     "srcSmall": "/img/Dessin/IMG_20240822_193601-300.webp",
     "srcMedium": "/img/Dessin/IMG_20240822_193601-600.webp",
     "srcLarge": "/img/Dessin/IMG_20240822_193601.webp",
-    "width": 1000,
-    "height": 1265,
     "song": "7Z7trMJx6EU"
   },
   {
     "id": 15,
     "type": "toile",
     "title": "Centipede",
-    "alt": "Un personnage presque entièrement dissimulé sous une multitude de mains, avec un œil brillant apparent.",
+    "alt": "Un personnage dissimulé sous une multitude de mains, avec un œil brillant.",
     "srcSmall": "/img/Dessin/1000006961-300.webp",
     "srcMedium": "/img/Dessin/1000006961-600.webp",
     "srcLarge": "/img/Dessin/1000006961.webp",
-    "width": 1000,
-    "height": 1249,
     "song": "KlmcW9yY8I8"
   },
   {
     "id": 19,
     "type": "toile",
     "title": "Fake",
-    "alt": "Un dessin représentant un personnage tenant un masque devant son visage, masque qui possède plusieurs yeux.",
+    "alt": "Un dessin avec personnage tenant un masque.",
     "srcSmall": "/img/Dessin/1000006639-300.webp",
     "srcMedium": "/img/Dessin/1000006639-600.webp",
     "srcLarge": "/img/Dessin/1000006639.webp",
-    "width": 1000,
-    "height": 1260,
     "song": "xrRGVg8wb_0"
   },
   {
@@ -235,8 +197,6 @@
     "srcSmall": "/img/Dessin/1000006874-300.webp",
     "srcMedium": "/img/Dessin/1000006874-600.webp",
     "srcLarge": "/img/Dessin/1000006874.webp",
-    "width": 663,
-    "height": 831,
     "song": "XSsRrlM3tNg"
   },
   {
@@ -247,8 +207,6 @@
     "srcSmall": "/img/Dessin/1000007060-300.webp",
     "srcMedium": "/img/Dessin/1000007060-600.webp",
     "srcLarge": "/img/Dessin/1000007060.webp",
-    "width": 799,
-    "height": 1000,
     "song": "lfreCv1v0fI"
   },
   {
@@ -259,8 +217,6 @@
     "srcSmall": "/img/Dessin/1000011562-300.webp",
     "srcMedium": "/img/Dessin/1000011562-600.webp",
     "srcLarge": "/img/Dessin/1000011562.webp",
-    "width": 803,
-    "height": 1000,
     "song": "5Zach_0YEac"
   },
   {
@@ -271,20 +227,16 @@
     "srcSmall": "/img/Dessin/IMG_20250928_165103-300.webp",
     "srcMedium": "/img/Dessin/IMG_20250928_165103-600.webp",
     "srcLarge": "/img/Dessin/IMG_20250928_165103.webp",
-    "width": 1000,
-    "height": 1241,
     "song": "sf9YLsZGuls"
   },
   {
     "id": 24,
     "type": "toile",
     "title": "Hunter",
-    "alt": "Un dessin d’un personnage tenant un cœur meurtri, avec une paire de mains coupant un fil en arrière-plan et un crâne de monstre sur la tête.",
+    "alt": "Un dessin d’un personnage tenant un cœur, avec une paire de mains coupant un fil.",
     "srcSmall": "/img/Dessin/Toilecoeur-300.webp",
     "srcMedium": "/img/Dessin/Toilecoeur-600.webp",
     "srcLarge": "/img/Dessin/Toilecoeur.webp",
-    "width": 1000,
-    "height": 996,
     "song": "o1Ea5Bq7P60"
   },
   {
@@ -299,7 +251,8 @@
     "srcMedium": "/img/PortraitJudith-600.webp",
     "alt": "Un auto-portrait de Judith",
     "image": "/img/eye.gif",
-    "static": "/img/eye.webp"
+    "static": "/img/eye.webp",
+    "altImage": "Un dessin d'un oeil"
   },
   {
     "id": 17,
