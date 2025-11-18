@@ -9,7 +9,7 @@ export default function AllDraw({id, item}) {
           item={item}
           size="medium"
           className="img-position"
-        />
+          />
         <SmartImage
           item={item}
           size="medium"

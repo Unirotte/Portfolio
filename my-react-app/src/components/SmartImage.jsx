@@ -17,10 +17,10 @@ export default function SmartImage({
   // 📐 Définit la taille responsive
   const sizes =
     size === "small"
-      ? "(max-width: 400px) 158px, 353px"
+      ? "(max-width: 768px) 35vw, 352px"
       : size === "large"
       ? "(max-width: 768px) 600px, 1000px"
-      : "(max-width: 400px) 157px, 280px";
+      : "(max-width: 768px) 280px, 350px";
 
   return (
     <img
