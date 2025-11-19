@@ -172,7 +172,7 @@ export default function Contact() {
                 alt="LinkedIn Logo"
                 loading="lazy"
               />
-              En savoir plus sur mes experiences professionnelles
+              Mon Linkedin
             </a>
             <a
               href="/CV-Judith-2026.pdf"
