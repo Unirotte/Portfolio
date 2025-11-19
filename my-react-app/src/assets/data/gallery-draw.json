@@ -9,7 +9,8 @@
     "srcSmall": "/img/Dessin/DessinJudith-300.webp",
     "srcMedium": "/img/Dessin/DessinJudith-600.webp",
     "srcLarge": "/img/Dessin/DessinJudith.webp",
-    "song": "oKgSVzG5XNw"
+    "song": "oKgSVzG5XNw",
+    "hasGif": true
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
     "srcMedium": "/img/Dessin/IMG_1137-600.webp",
     "srcLarge": "/img/Dessin/IMG_1137.webp",
     "alt": "Un dessin d’un globe oculaire, avec un corps de femme et un effet de perspective.",
-    "song": "rDAAs3Ka3Mo"
+    "song": "rDAAs3Ka3Mo",
+    "hasGif": false
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
     "srcMedium": "/img/Dessin/IMG_1144-600.webp",
     "srcLarge": "/img/Dessin/IMG_1144.webp",
     "alt": "Un dessin d’une femme avec les mains devant le bas de son visage, et des coulures jaunes.",
-    "song": "Ar-LKzn3YlE"
+    "song": "Ar-LKzn3YlE",
+    "hasGif": false
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
     "srcSmall": "/img/Dessin/IMG_1145-300.webp",
     "srcMedium": "/img/Dessin/IMG_1145-600.webp",
     "srcLarge": "/img/Dessin/IMG_1145.webp",
-    "song": "5vDvHoiPgOQ"
+    "song": "5vDvHoiPgOQ",
+    "hasGif": false
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
     "srcSmall": "/img/Dessin/IMG_1146-300.webp",
     "srcMedium": "/img/Dessin/IMG_1146-600.webp",
     "srcLarge": "/img/Dessin/IMG_1146.webp",
-    "song": "qYfpZsMRsRg"
+    "song": "qYfpZsMRsRg",
+    "hasGif": false
   },
   {
     "id": 6,
@@ -69,55 +74,60 @@
     "srcSmall": "/img/Dessin/IMG_1147-300.webp",
     "srcMedium": "/img/Dessin/IMG_1147-600.webp",
     "srcLarge": "/img/Dessin/IMG_1147.webp",
-    "song": "5WXs6hzsuZs"
+    "song": "5WXs6hzsuZs",
+    "hasGif": false
   },
   {
     "id": 7,
     "type": "realisation",
     "title": "Toxic Beauty",
-       "width": 1000,
+    "width": 1000,
     "height": 1333,
     "alt": "Un dessin d’une femme avec la bouche ouverte et des dents disposées le long de son corps.",
     "srcSmall": "/img/Dessin/IMG_1149-300.webp",
     "srcMedium": "/img/Dessin/IMG_1149-600.webp",
     "srcLarge": "/img/Dessin/IMG_1149.webp",
-    "song": "T5vbYYWS1DE"
+    "song": "T5vbYYWS1DE",
+    "hasGif": false
   },
   {
     "id": 8,
     "type": "realisation",
     "title": "Burning Desire",
-       "width": 1000,
+    "width": 1000,
     "height": 1333,
     "alt": "Un dessin d’une créature dotée de deux paires d’ailes.",
     "srcSmall": "/img/Dessin/IMG_1169-300.webp",
     "srcMedium": "/img/Dessin/IMG_1169-600.webp",
     "srcLarge": "/img/Dessin/IMG_1169.webp",
-    "song": "UNObHh17ruo"
+    "song": "UNObHh17ruo",
+    "hasGif": false
   },
   {
     "id": 9,
     "type": "realisation",
     "title": "Nun",
-       "width": 1000,
+    "width": 1000,
     "height": 1333,
     "alt": "Un dessin d’une nonne avec une ombre rose dotée de cornes, d’ailes et de mains en arrière-plan.",
     "srcSmall": "/img/Dessin/IMG_1176-300.webp",
     "srcMedium": "/img/Dessin/IMG_1176-600.webp",
     "srcLarge": "/img/Dessin/IMG_1176.webp",
-    "song": "_ppJe0uX2_E"
+    "song": "_ppJe0uX2_E",
+    "hasGif": false
   },
   {
     "id": 16,
     "type": "realisation",
     "title": "Hello Kitty",
-       "width": 1000,
+    "width": 1000,
     "height": 1333,
     "alt": "Un dessin d’une femme avec des cornes tenant un couteau rose, sur un fond illustré de motifs Hello Kitty.",
     "srcSmall": "/img/Dessin/IMG_1150-300.webp",
     "srcMedium": "/img/Dessin/IMG_1150-600.webp",
     "srcLarge": "/img/Dessin/IMG_1150.webp",
-    "song": "HJO2ERHVRGU"
+    "song": "HJO2ERHVRGU",
+    "hasGif": false
   },
   {
     "id": 17,
@@ -129,7 +139,8 @@
     "srcSmall": "/img/Dessin/IMG_1201-300.webp",
     "srcMedium": "/img/Dessin/IMG_1201-600.webp",
     "srcLarge": "/img/Dessin/IMG_1201.webp",
-    "song": "3Dzv455DrpA"
+    "song": "3Dzv455DrpA",
+    "hasGif": false
   },
   {
     "id": 18,
@@ -141,43 +152,47 @@
     "srcSmall": "/img/Dessin/IMG_1196-300.webp",
     "srcMedium": "/img/Dessin/IMG_1196-600.webp",
     "srcLarge": "/img/Dessin/IMG_1196.webp",
-    "song": "2DjisWgKebU"
+    "song": "2DjisWgKebU",
+    "hasGif": false
   },
   {
     "id": 10,
     "type": "toile",
     "title": "Dionaea",
-     "width": 1000,
+    "width": 1000,
     "height": 1330,
     "alt": "Un buste, avec de l’eau qui s’écoule et une dionaea à la place de la tête.",
     "srcSmall": "/img/Dessin/thumbnail_IMG_20240822_193343-300.webp",
     "srcMedium": "/img/Dessin/thumbnail_IMG_20240822_193343-600.webp",
     "srcLarge": "/img/Dessin/thumbnail_IMG_20240822_193343.webp",
-    "song": "ayYMRirHasg"
+    "song": "ayYMRirHasg",
+    "hasGif": false
   },
   {
     "id": 11,
     "type": "toile",
     "title": "Victory Bird",
-      "width": 1000,
+    "width": 1000,
     "height": 994,
     "alt": "Un buste de femme avec des ailes au niveau du visage et plusieurs yeux.",
     "srcSmall": "/img/Dessin/thumbnail_IMG_20240822_193401-300.webp",
     "srcMedium": "/img/Dessin/thumbnail_IMG_20240822_193401-600.webp",
     "srcLarge": "/img/Dessin/thumbnail_IMG_20240822_193401.webp",
-    "song": "4WJoY2aZuVk"
+    "song": "4WJoY2aZuVk",
+    "hasGif": false
   },
   {
     "id": 12,
     "type": "toile",
     "title": "In Prey",
-     "width": 1000,
+    "width": 1000,
     "height": 1256,
     "alt": "Une femme avec des mains sur son visage et des yeux qui l’observent.",
     "srcSmall": "/img/Dessin/thumbnail_IMG_20240822_193413-300.webp",
     "srcMedium": "/img/Dessin/thumbnail_IMG_20240822_193413-600.webp",
     "srcLarge": "/img/Dessin/thumbnail_IMG_20240822_193413.webp",
-    "song": "qQ3kHR02HNc"
+    "song": "qQ3kHR02HNc",
+    "hasGif": false
   },
   {
     "id": 13,
@@ -189,7 +204,8 @@
     "srcSmall": "/img/Dessin/IMG_20240822_193424-300.webp",
     "srcMedium": "/img/Dessin/IMG_20240822_193424-600.webp",
     "srcLarge": "/img/Dessin/IMG_20240822_193424.webp",
-    "song": "EbEDMOcYqnA"
+    "song": "EbEDMOcYqnA",
+    "hasGif": false
   },
   {
     "id": 14,
@@ -201,7 +217,8 @@
     "srcSmall": "/img/Dessin/IMG_20240822_193601-300.webp",
     "srcMedium": "/img/Dessin/IMG_20240822_193601-600.webp",
     "srcLarge": "/img/Dessin/IMG_20240822_193601.webp",
-    "song": "7Z7trMJx6EU"
+    "song": "7Z7trMJx6EU",
+    "hasGif": false
   },
   {
     "id": 15,
@@ -213,7 +230,8 @@
     "srcSmall": "/img/Dessin/1000006961-300.webp",
     "srcMedium": "/img/Dessin/1000006961-600.webp",
     "srcLarge": "/img/Dessin/1000006961.webp",
-    "song": "KlmcW9yY8I8"
+    "song": "KlmcW9yY8I8",
+    "hasGif": false
   },
   {
     "id": 19,
@@ -225,19 +243,21 @@
     "srcSmall": "/img/Dessin/1000006639-300.webp",
     "srcMedium": "/img/Dessin/1000006639-600.webp",
     "srcLarge": "/img/Dessin/1000006639.webp",
-    "song": "xrRGVg8wb_0"
+    "song": "xrRGVg8wb_0",
+    "hasGif": false
   },
   {
     "id": 20,
     "type": "toile",
     "title": "Souillure",
-     "width": 663,
+    "width": 663,
     "height": 831,
     "alt": "Un dessin d’une nonne avec une cigarette et une coulure noire qui la recouvre.",
     "srcSmall": "/img/Dessin/1000006874-300.webp",
     "srcMedium": "/img/Dessin/1000006874-600.webp",
     "srcLarge": "/img/Dessin/1000006874.webp",
-    "song": "XSsRrlM3tNg"
+    "song": "XSsRrlM3tNg",
+    "hasGif": false
   },
   {
     "id": 21,
@@ -249,31 +269,34 @@
     "srcSmall": "/img/Dessin/1000007060-300.webp",
     "srcMedium": "/img/Dessin/1000007060-600.webp",
     "srcLarge": "/img/Dessin/1000007060.webp",
-    "song": "lfreCv1v0fI"
+    "song": "lfreCv1v0fI",
+    "hasGif": false
   },
   {
     "id": 22,
     "type": "toile",
     "title": "Blind trust",
-     "width": 803,
+    "width": 803,
     "height": 1000,
     "alt": "Un dessin d’un personnage faisant face à un monstre, les yeux cachés par d’autres mains.",
     "srcSmall": "/img/Dessin/1000011562-300.webp",
     "srcMedium": "/img/Dessin/1000011562-600.webp",
     "srcLarge": "/img/Dessin/1000011562.webp",
-    "song": "5Zach_0YEac"
+    "song": "5Zach_0YEac",
+    "hasGif": false
   },
   {
     "id": 23,
     "type": "toile",
     "title": "Rebel",
-      "width": 1000,
+    "width": 1000,
     "height": 1241,
     "alt": "Un dessin d’un ange faisant un doigt d’honneur, une bouteille cassée dans l’autre main.",
     "srcSmall": "/img/Dessin/IMG_20250928_165103-300.webp",
     "srcMedium": "/img/Dessin/IMG_20250928_165103-600.webp",
     "srcLarge": "/img/Dessin/IMG_20250928_165103.webp",
-    "song": "sf9YLsZGuls"
+    "song": "sf9YLsZGuls",
+    "hasGif": false
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
     "srcSmall": "/img/Dessin/Toilecoeur-300.webp",
     "srcMedium": "/img/Dessin/Toilecoeur-600.webp",
     "srcLarge": "/img/Dessin/Toilecoeur.webp",
-    "song": "o1Ea5Bq7P60"
+    "song": "o1Ea5Bq7P60",
+    "hasGif": false
   },
   {
     "id": 6,

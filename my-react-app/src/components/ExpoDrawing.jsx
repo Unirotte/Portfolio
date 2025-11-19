@@ -10,18 +10,18 @@ export default function ExpoDrawing({item, musicId}) {
   const [imageSrc, setImageSrc] = useState(item.srcLarge);
 
   useEffect(() => {
-    const gifSrc = item.srcLarge.replace(".webp", ".gif");
-    const testImg = new Image();
-    testImg.src = gifSrc;
+  if (!item.hasGif) {
+    setImageSrc(item.srcLarge);
+    return;
+  }
 
-    testImg.onload = () => {
-      setImageSrc(gifSrc);
-    };
+  const gifSrc = item.srcLarge.replace(".webp", ".gif");
+  const testImg = new Image();
+  testImg.src = gifSrc;
 
-    testImg.onerror = () => {
-      setImageSrc(item.srcLarge);
-    };
-  }, [item.srcLarge]);
+  testImg.onload = () => setImageSrc(gifSrc);
+  testImg.onerror = () => setImageSrc(item.srcLarge);
+}, [item.srcLarge, item.hasGif]);
 
   return (
     <div className="PositionAllDrawing">
