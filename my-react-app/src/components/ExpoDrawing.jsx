@@ -29,7 +29,8 @@ export default function ExpoDrawing({item, musicId}) {
         item={item}
         size="large"
         className="background-image"
-        loading="lazy"
+        fetchPriority="high"
+        loading="eager"
       />
 
       <button
@@ -49,6 +50,7 @@ export default function ExpoDrawing({item, musicId}) {
           className="smart-image drawing-image"
           width={item.width}
           height={item.height}
+          fetchPriority="auto"
           loading="lazy"
         />
       </div>
