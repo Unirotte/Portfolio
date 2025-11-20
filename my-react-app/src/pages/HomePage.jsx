@@ -12,7 +12,6 @@ export default function HomePage() {
   useFadeInOnScroll();
   const presentation = dataPro.filter((item) => item.type === "presentation");
   const realisation = dataPro.filter((item) => item.type === "realisation");
-  const skills = dataPro.filter((item) => item.type === "Skills");
   return (
     <>
       <main>
@@ -39,9 +38,6 @@ export default function HomePage() {
             />
           ))}
         </section>
-        {skills.map((item) => (
-          <Skills source="pro" key={item.id} title={item.title} />
-        ))}{" "}
         <ScrollUp />
         <Contact />
       </main>

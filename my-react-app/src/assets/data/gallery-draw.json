@@ -329,47 +329,64 @@
   {
     "id": 17,
     "type": "Skills",
-    "title": "Skills créatifs",
+    "title": "Logiciels",
     "tableau": [
       {
         "name": "Procreate",
-        "content": "Procreate est mon outil principal pour la création digitale, que ce soit pour des illustrations, du concept art ou des storyboards. Je l’utilise depuis plusieurs années."
-      },
-      {
-        "name": "Peinture",
-        "content": "Depuis mon enfance, et grâce à une mère très manuelle, j’ai appris à utiliser divers médiums comme l’acrylique, l’aquarelle, l’encre de Chine, les pastels et les crayons de couleur."
-      },
-      {
-        "name": "Feutres",
-        "content": "Le feutre est mon outil préféré pour la création traditionnelle. J’aime particulièrement les feutres à alcool pour leur rendu vibrant et leur capacité de mélange, même si les miens restent basiques et laissent parfois des traces."
-      },
-      {
-        "name": "Signalétique, enseignes et décors",
-        "content": "Forte d’une expérience dans la création, la conception et la réalisation de signalétiques et décors pour divers environnements, j’allie esthétique et fonctionnalité. Je possède également un CAP dans ce domaine."
-      },
-      {
-        "name": "Créatif enfants",
-        "content": "Depuis plusieurs années, j’anime des ateliers créatifs pour enfants, stimulant leur imagination à travers diverses activités artistiques, que ce soit en tant que nounou, intervenante ou bénévole."
-      },
-      {
-        "name": "Créatif personnes cérébrolésées",
-        "content": "J’ai participé à l’animation d’ateliers artistiques, culinaires et de sorties adaptées pour des personnes cérébrolésées, favorisant l’expression de soi et le bien-être à travers l’art, lors de bénévolats."
-      },
-      {
-        "name": "Digital",
-        "content": "Le dessin digital est une compétence que j’ai développée au fil des années, en utilisant des tablettes graphiques et divers logiciels pour créer des illustrations, du concept art et des storyboards."
-      },
-      {
-        "name": "Manuel",
-        "content": "J’ai toujours été attirée par les activités manuelles : bricolage, dessin traditionnel ou création d’objets artisanaux. Cela a développé ma dextérité et ma créativité, et cela restera toujours ma préférence."
+        "content": "Procreate est mon outil principal pour la création digitale, que ce soit pour des illustrations, du concept art ou des storyboards. Je l’utilise depuis plusieurs années.",
+         "image": "/img/logo/procreate.webp"
       },
       {
         "name": "Illustrator",
-        "content": "Adobe Illustrator est un logiciel de création graphique vectorielle que j’utilise pour la conception de logos, d’illustrations et de mises en page professionnelles."
+        "content": "Adobe Illustrator est un logiciel de création graphique vectorielle que j’utilise pour la conception de logos, d’illustrations et de mises en page professionnelles.",
+         "image": "/img/logo/illustrator.webp"
       },
       {
         "name": "Photoshop",
-        "content": "Adobe Photoshop est un logiciel de retouche photo et de création graphique que j’utilise pour l’édition d’images, la création de compositions visuelles et le design web."
+        "content": "Adobe Photoshop est un logiciel de retouche photo et de création graphique que j’utilise pour l’édition d’images, la création de compositions visuelles et le design web.",
+         "image": "/img/logo/photoshop.webp"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "type": "SkillsManuels",
+    "title": "Manuel",
+    "tableau": [
+      {
+        "name": "Peinture",
+        "content": "Depuis mon enfance, et grâce à une mère très manuelle, j’ai appris à utiliser divers médiums comme l’acrylique, l’aquarelle, l’encre de Chine, les pastels et les crayons de couleur.",
+         "image": "/img/logo/peinture.webp"
+      },
+      {
+        "name": "Feutres",
+        "content": "Le feutre est mon outil préféré pour la création traditionnelle. J’aime particulièrement les feutres à alcool pour leur rendu vibrant et leur capacité de mélange, même si les miens restent basiques et laissent parfois des traces.",
+         "image": "/img/logo/feutres.webp"
+      },
+      {
+        "name": "Signalétique, enseignes et décors",
+        "content": "Forte d’une expérience dans la création, la conception et la réalisation de signalétiques et décors pour divers environnements, j’allie esthétique et fonctionnalité. Je possède également un CAP dans ce domaine.",
+         "image": "/img/logo/enseigne.webp"
+      },
+      {
+        "name": "Créatif enfants",
+        "content": "Depuis plusieurs années, j’anime des ateliers créatifs pour enfants, stimulant leur imagination à travers diverses activités artistiques, que ce soit en tant que nounou, intervenante ou bénévole.",
+         "image": "/img/logo/enfant.webp"
+      },
+      {
+        "name": "Créatif personnes cérébrolésées",
+        "content": "J’ai participé à l’animation d’ateliers artistiques, culinaires et de sorties adaptées pour des personnes cérébrolésées, favorisant l’expression de soi et le bien-être à travers l’art, lors de bénévolats.",
+         "image": "/img/logo/handicape.webp"
+      },
+      {
+        "name": "Digital",
+        "content": "Le dessin digital est une compétence que j’ai développée au fil des années, en utilisant des tablettes graphiques et divers logiciels pour créer des illustrations, du concept art et des storyboards.",
+         "image": "/img/logo/digital.webp"
+      },
+      {
+        "name": "Manuel",
+        "content": "J’ai toujours été attirée par les activités manuelles : bricolage, dessin traditionnel ou création d’objets artisanaux. Cela a développé ma dextérité et ma créativité, et cela restera toujours ma préférence.",
+         "image": "/img/logo/manuel.webp"
       }
     ]
   }

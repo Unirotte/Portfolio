@@ -26,9 +26,10 @@
 }
 
 .Salutation.ice {
-  color: black;
+  color: orange;
   font-size: 7vw;
   top: -16vw;
+  text-shadow: 0px 1px 2px black;
 }
 
 .Name.ice {

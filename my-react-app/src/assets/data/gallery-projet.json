@@ -134,52 +134,92 @@
   },
   {
     "id": 1,
-    "type": "Skills",
-    "title": "Skills",
+    "type": "Skills-Front",
+    "title": "Front-end",
     "tableau": [
       {
         "name": "JavaScript",
-        "content": "Langage pour ajouter de l'interactivité à mes projets web et manipuler le DOM."
+        "content": "Langage pour ajouter de l'interactivité à mes projets web et manipuler le DOM.",
+         "image": "/img/logo/javaScript.webp"
       },
       {
         "name": "React",
-        "content": "Bibliothèque JavaScript pour créer des interfaces dynamiques et modulaires."
+        "content": "Bibliothèque JavaScript pour créer des interfaces dynamiques et modulaires.",
+         "image": "/img/logo/React.webp"
       },
       {
         "name": "HTML",
-        "content": "Structure sémantique des pages web, que je maîtrise pour un rendu clair et accessible."
+        "content": "Structure sémantique des pages web, que je maîtrise pour un rendu clair et accessible.",
+         "image": "/img/logo/html.webp"
       },
       {
         "name": "CSS",
-        "content": "Langage de mise en forme, avec lequel j’applique animations, transitions et responsive design."
+        "content": "Langage de mise en forme, avec lequel j’applique animations, transitions et responsive design.",
+         "image": "/img/logo/css.webp"
       },
       {
         "name": "Sass",
-        "content": "Préprocesseur CSS pour mieux organiser et réutiliser mon code."
-      },
-      {
-        "name": "GitHub",
-        "content": "Plateforme pour héberger mes projets et partager mon travail."
-      },
-      {
-        "name": "Figma",
-        "content": "Outil de conception d’interface pour prototyper mes maquettes avant intégration."
-      },
-      {
-        "name": "Notion",
-        "content": "Outil d’organisation pour planifier et suivre mes projets de développement."
+        "content": "Préprocesseur CSS pour mieux organiser et réutiliser mon code.",
+         "image": "/img/logo/Sass.webp"
       },
       {
         "name": "Redux",
-        "content": "Gestionnaire d’état global pour structurer mes projets React."
+        "content": "Gestionnaire d’état global pour structurer mes projets React.",
+         "image": "/img/logo/redux.webp"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "type": "Skills-Outil",
+    "title": "Outil",
+    "tableau": [
+      {
+        "name": "GitHub",
+        "content": "Plateforme pour héberger mes projets et partager mon travail.",
+         "image": "/img/logo/github.webp"
+      },
+      {
+        "name": "Figma",
+        "content": "Outil de conception d’interface pour prototyper mes maquettes avant intégration.",
+         "image": "/img/logo/figma.webp"
+      },
+      {
+        "name": "Notion",
+        "content": "Outil d’organisation pour planifier et suivre mes projets de développement.",
+         "image": "/img/logo/notion.webp"
       },
       {
         "name": "Lighthouse",
-        "content": "Outil d’audit pour améliorer les performances et l’accessibilité de mes sites."
+        "content": "Outil d’audit pour améliorer les performances et l’accessibilité de mes sites.",
+         "image": "/img/logo/Lighthouse.webp"
       },
       {
         "name": "Wave",
-        "content": "Extension d’analyse d’accessibilité pour optimiser mes interfaces."
+        "content": "Extension d’analyse d’accessibilité pour optimiser mes interfaces.",
+         "image": "/img/logo/Wave.webp"
+      },
+      {
+        "name": "VsCode",
+        "content": "Extension d’analyse d’accessibilité pour optimiser mes interfaces.",
+         "image": "/img/logo/vsCode.webp"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "type": "Skills-Back",
+    "title": "Back-end",
+    "tableau": [
+      {
+        "name": "Mongodb",
+        "content": "Plateforme pour héberger mes projets et partager mon travail.",
+         "image": "/img/logo/mongodb.webp"
+      },
+      {
+        "name": "Swagger",
+        "content": "Outil de conception d’interface pour prototyper mes maquettes avant intégration.",
+         "image": "/img/logo/swagger.webp"
       }
     ]
   }

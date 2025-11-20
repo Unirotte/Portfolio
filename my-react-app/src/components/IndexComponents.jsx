@@ -8,10 +8,14 @@ const HomePage = lazy(() => import("../pages/HomePage.jsx"));
 const IceBergPage = lazy(() => import("../pages/IceBergPage.jsx"));
 const PageExpo = lazy(() => import("../pages/PageExpo.jsx"));
 const PageGallery = lazy(() => import("../pages/PageGallery.jsx"));
+const PageSkillsIntegrateur = lazy(() => import("../pages/PageSkillsIntegrateur.jsx"));
+const PageSkillsCreatif = lazy(() => import("../pages/PageSkillsCreatif.jsx"));
 const AllDraw = lazy(() => import("./AllDraw.jsx"));
 const MiniGallery = lazy(() => import( "./MiniGallery.jsx"));
 const LinkToiles = lazy(() => import("./LinkToiles.jsx"));
 const ScrollUp = lazy(() => import("./arrow-up.jsx"));
+const SkillsWeb = lazy(() => import("../components/SkillsWeb.jsx"));
+const SkillsCreatif = lazy(() => import("../components/SkillsCreatif.jsx"));
 
 import Me from "./Me.jsx";
 import Footer from "./Footer.jsx";
@@ -22,6 +26,10 @@ import ScrollToAnchor from "../hooks/SrollToAnchor.jsx";
 import SmartImage from "./SmartImage.jsx";
 
 export { 
+  PageSkillsCreatif,
+  SkillsWeb,
+  SkillsCreatif,
+  PageSkillsIntegrateur,
   ScrollUp,
   SmartImage,
   Me,

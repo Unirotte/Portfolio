@@ -2,7 +2,7 @@ import React, { Suspense} from "react";
 import ReactDOM from "react-dom/client";
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import App from "./Main.jsx";
-import {HomePage, IceBergPage, PageExpo, PageGallery,} from "./components/IndexComponents.jsx";
+import {HomePage, IceBergPage, PageExpo, PageGallery, PageSkillsIntegrateur, PageSkillsCreatif} from "./components/IndexComponents.jsx";
 import "./assets/index-all-css/index-all-css.css";
 
 const router = createBrowserRouter([
@@ -17,6 +17,14 @@ const router = createBrowserRouter([
       {
         path: "/IceBergPage",
         element: <IceBergPage />,
+      },
+      {
+        path: "/PageSkillsIntegrateur",
+        element: <PageSkillsIntegrateur />,
+      },
+      {
+        path: "/PageSkillsCreatif",
+        element: <PageSkillsCreatif />,
       },
       { 
         path: "/PageExpo/:id",

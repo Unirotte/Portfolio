@@ -1,79 +1,82 @@
 //Skills Section Styles
 
-.skills-container {
-  background: #dcf4f3;
-  padding: 25px 0px;
-  max-width: 1440px;
-  margin: auto;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-h2.skills-title {
+.big-title-skills {
   display: flex;
   justify-content: center;
+  margin-bottom: 0;
+  font-family: "Smooch Sans", sans-serif;
+  font-size: clamp(2.3rem, 7vw, 6rem);
+}
+
+.skills-title {
+  display: flex;
+  justify-content: flex-start;
   font-family: "Smooch Sans", sans-serif;
   font-size: clamp(2.5rem, 5vw, 4rem);
   font-weight: 400;
   margin: 0;
 }
 
-.skills-list {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding: 0;
-  justify-content: flex-start;
-  gap: 10px;
+.skill-name {
+  text-align: center;
 }
 
-.skill-item {
-  border: 1px solid #1d5677;
+.skills-container {
+  margin: 25px;
+}
+
+.skills-pro {
+  align-items: flex-start;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.skill-box {
   border-radius: 25px;
   background: white;
   transition: background 0.3s, color 0.3s;
+  animation: myCard 2s ease 0s 1 normal forwards;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.skill-button {
+.skill-card {
   background: none;
   border: none;
-  cursor: pointer;
   font: inherit;
   margin: 0;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
+  color: #1d5677;
+  border-radius: 25px;
+  padding: 15px;
+  background-color: white;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button.skill-button {
+  background: none;
+  border: none;
+  display: flex;
+  flex-direction: row-reverse;
   gap: 10px;
   color: #1d5677;
-  width: 100%;
-  padding: 10px 5px;
-  border-radius: 25px;
-  transition: background 0.3s, color 0.3s;
-  padding: 10px;
+  cursor: pointer;
 }
 
-.skill-button:hover {
-  background: #1d5677;
-  color: white;
-}
-
-.skill-button:hover .arrowSkill {
-  color: white;
-}
-.skill-button::before {
-  background: #1d5677;
-  color: white;
-}
-.skill-button.open {
-  background: #1d5677;
-  color: white;
-}
 .arrowSkill {
   transition: transform 0.3s ease;
-  // color:#1d5677;
+  color: #1d5677;
 }
 
-.arrow-style-skill.open .arrowSkill {
+.arrowSkill {
+  transition: transform 0.3s ease;
+  color: #1d5677;
+}
+
+.skill-button.open .arrowSkill {
   transform: rotate(180deg);
 }
 
@@ -82,38 +85,13 @@ h2.skills-title {
   overflow: hidden;
   opacity: 0;
   transition: all 0.4s ease;
+  overflow: scroll;
 }
 
 .collapsContent.open {
   max-height: 200px;
   opacity: 1;
-  padding: 25px;
-  margin: 25px;
+  padding: 15px;
   background-color: white;
   border-radius: 15px;
-}
-
-//Skills Card Style
-
-.skills-list.cardskills {
-  margin: 10px 0;
-}
-.skill-item.cardskills {
-  padding: 10px;
-}
-.skill-item.cardskills:hover {
-  color: white;
-  padding: 10px;
-  background-color: #1d5677;
-}
-
-.skills-container.fade-in.ice.visible {
-  margin-top: 50px;
-  margin-bottom: 20px;
-}
-
-@media (min-width: 600px) {
-  li.skill-item {
-    font-size: 1em;
-  }
 }

@@ -7,7 +7,6 @@ export default function HomePage() {
   const presentation = dataPro.filter((item) => item.type === "presentation");
   const realisation = dataPro.filter((item) => item.type === "realisation");
   const toile = dataPro.filter((item) => item.type === "toile");
-  const skills = dataPro.filter((item) => item.type === "Skills");
   const [accepted, setAccepted] = useState(
     () => sessionStorage.getItem("triggerAccepted") === "true"
   );
@@ -51,9 +50,6 @@ export default function HomePage() {
             soustitle="Mes dernières toiles"
           />
           <LinkToiles to="/PageGallery/toile" />
-        {skills.map((item) => (
-          <Skills key={item.id} title={item.title} className="ice" />
-        ))}
         <ScrollUp />
       </main>
     </>
