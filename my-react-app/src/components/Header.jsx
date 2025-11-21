@@ -10,8 +10,8 @@ export default function Header() {
   const [openSkillsMenu, setOpenSkillsMenu] = useState(false);
 
   const isSkillsPage =
-  location.pathname === "/skills/web" || location.pathname === "/skills/creatif";
-
+    location.pathname === "/skills/web" ||
+    location.pathname === "/skills/creatif";
 
   const menuRef = useRef(null);
 
@@ -72,40 +72,41 @@ export default function Header() {
                   Accueil
                 </Link>
               </li>
-
-              <ul className={`Skills`}>
-                <li className={isSkillsPage ? "active" : ""}>Skills</li>
-                <li className="link">
-                  <Link
-                    to="/skills/web"
-                    className={`NavIntegrateur ${
-                      location.pathname === "/skills/web" ? "li active" : "li"
-                    }`}
-                  >
-                    <FontAwesomeIcon
-                      icon={faArrowTurnUp}
-                      className="arrow-right"
-                    />
-                    Intégrateur Web
-                  </Link>
-                </li>
-                <li className="link">
-                  <Link
-                    to="/skills/creatif"
-                    className={`NavCreatif ${
-                      location.pathname === "/skills/creatif"
-                        ? "li active"
-                        : "li"
-                    }`}
-                  >
-                    <FontAwesomeIcon
-                      icon={faArrowTurnUp}
-                      className="arrow-right"
-                    />
-                    Créatif
-                  </Link>
-                </li>
-              </ul>
+              <li className={`Skills ${isSkillsPage ? "active" : ""}`}>
+                  <span>Skills</span>
+                <ul className="Skills">
+                  <li className="link">
+                    <Link
+                      to="/skills/web"
+                      className={`NavIntegrateur ${
+                        location.pathname === "/skills/web" ? "li active" : "li"
+                      }`}
+                    >
+                      <FontAwesomeIcon
+                        icon={faArrowTurnUp}
+                        className="arrow-right"
+                      />
+                      Intégrateur Web
+                    </Link>
+                  </li>
+                  <li className="link">
+                    <Link
+                      to="/skills/creatif"
+                      className={`NavCreatif ${
+                        location.pathname === "/skills/creatif"
+                          ? "li active"
+                          : "li"
+                      }`}
+                    >
+                      <FontAwesomeIcon
+                        icon={faArrowTurnUp}
+                        className="arrow-right"
+                      />
+                      Créatif
+                    </Link>
+                  </li>
+                </ul>
+              </li>
 
               <li className="link">
                 <Link

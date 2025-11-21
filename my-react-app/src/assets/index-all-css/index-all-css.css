@@ -47,18 +47,17 @@ Section.Dessin {
   margin-bottom: 15vw;
 }
 
-h3.sous-titre {
+.sous-titre {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20vw;
+  margin-bottom: 15vw;
   margin-top: 0;
   font-family: "Smooch Sans", sans-serif;
-  font-weight: 300;
+  font-weight: 700;
   background-image: url(../img/fond_fleur.webp);
   font-size: clamp(1.5rem, 3vw, 3rem);
-  text-shadow: 0px 1px 2px black;
 }
 
 @media (min-width: 768px) {
@@ -70,7 +69,7 @@ h3.sous-titre {
   }
 }
 @media (min-width: 1440px) {
-  h3.sous-titre {
+  .sous-titre {
     margin-bottom: 180px;
   }
 }/*# sourceMappingURL=index-all-css.css.map */

@@ -77,8 +77,9 @@ img.imgCards {
 }
 
 .position-titre {
-  display: flex;
-  justify-content: center;
+  max-width: 1440px;
+  margin: auto;
+  margin-top: 80px;
 }
 
 h2.title-projet {

@@ -9,7 +9,8 @@
 }
 
 .introduction.ice {
-  color: black;
+  color: #D60092;
+  text-shadow: 0px 1px 2px black;
 }
 .me-container.ice {
   width: 39vw;
@@ -25,7 +26,7 @@
 }
 
 .Salutation.ice {
-  color: orange;
+  color: #D60092;
   font-size: 7vw;
   top: -16vw;
   text-shadow: 0px 1px 2px black;
@@ -33,10 +34,11 @@
 
 .Name.ice {
   top: -4vw;
+  background-color:mistyrose;
 }
 
 .hand.ice {
-  background-color: bisque;
+  background-color: mistyrose;
   left: 27vw;
   bottom: 10vw;
 }
@@ -49,7 +51,7 @@
     height: 620px;
   }
 .Name.ice {
-    top: -35px;
+    top: -35px; 
 }
   .hand.ice {
     width: 280px;

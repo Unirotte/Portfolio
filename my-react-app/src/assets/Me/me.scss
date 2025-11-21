@@ -38,7 +38,7 @@
   left: 0;
   writing-mode: vertical-rl;
   text-orientation: upright;
-  color: white;
+  color: #f7f8fb;
   white-space: nowrap;
 }
 
@@ -52,13 +52,14 @@
   color: #1d5677;
   white-space: nowrap;
 }
-h3.Name {
+.Name {
   position: absolute;
   left: 19vw;
   top: 0vw;
   white-space: nowrap;
   background: bisque;
   font-size: 4vw;
+  padding: 0px 10px;
 }
 .Salutation {
   position: absolute;

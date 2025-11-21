@@ -9,6 +9,9 @@
   font-size: clamp(2.5rem, 5vw, 4rem);
   font-weight: 400;
   margin: 0;
+  margin: 10px;
+  border-bottom: 4px solid #1d5677;
+  width: 190px;
 }
 
 .skill-name {
@@ -88,4 +91,9 @@ button.skill-button {
   padding: 15px;
   background-color: white;
   border-radius: 15px;
+}
+
+section.Skills-professionnel {
+  max-width: 1440px;
+  margin: auto;
 }/*# sourceMappingURL=Skills.css.map */

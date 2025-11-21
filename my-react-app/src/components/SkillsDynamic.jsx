@@ -14,7 +14,7 @@ export default function SkillsDynamic({ title, data }) {
 
   return (
     <section className="Skills-professionnel">
-      <h2 className="title-projet skills-title">{title}</h2>
+      <h2 className="title-projet">{title}</h2>
 
       {data.map((category) => (
         <div key={category.type} className="skills-container">

@@ -8,10 +8,11 @@
   text-decoration: none;
   color: inherit;
   display: flex;
-  border-radius: 30px;
   height: 40px;
   justify-content: center;
   padding: 0px 20px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid orange;
 }
 
 .key:hover {
