@@ -24,7 +24,7 @@ section.navbar {
   color: #1d5677;
 }
 
-.dropdown-btn.active {
+.Skills li.active {
   font-weight: 600;
   color: #1d5677;
 }
@@ -96,11 +96,11 @@ li {
   border-bottom: solid 2px transparent;
 }
 
-li:active {
+.link:active {
   border-bottom: solid 2px #1d5677;
 }
 
-li:hover {
+.link:hover {
   border-bottom: solid 2px #1d5677;
 }
 
@@ -122,6 +122,7 @@ ul.Skills {
   flex-direction: column;
   align-items: flex-start;
   margin: 0;
+  gap: 5px;
 }
 
 h1 {
@@ -159,12 +160,12 @@ h1 {
 
 .dropdown-menu {
   position: absolute;
-  top: 32px;
-  right: -15px;
+  top: 100%;
+  right: 0;
   background: #f7f8fb;
   overflow: hidden;
   opacity: 0;
-  transform: translateY(-10px);
+  transform: translateY(-2rem);
   pointer-events: none;
   transition: 0.25s ease;
   display: flex;
@@ -173,8 +174,14 @@ h1 {
   padding: 10px;
 }
 
+.arrow-right {
+  transform: rotate(90deg);
+  height: 0.7em;
+}
+
 .dropdown-menu.open {
   opacity: 1;
+  right: 0;
   transform: translateY(0);
   pointer-events: auto;
   display: flex;
@@ -183,6 +190,7 @@ h1 {
   padding: 10px;
   margin: 0px;
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+  margin-top: 10px;
 }
 
 @media (min-width: 785px) {

@@ -13,6 +13,7 @@ export default function HomePage() {
   useEffect(() => {
     sessionStorage.setItem("triggerAccepted", accepted);
   }, [accepted]);
+  
   return (
     <>
       <div className="otherface-page">

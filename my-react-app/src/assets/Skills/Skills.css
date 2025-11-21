@@ -1,9 +1,5 @@
-.big-title-skills {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 0;
-  font-family: "Smooch Sans", sans-serif;
-  font-size: clamp(2.3rem, 7vw, 6rem);
+.title-skills {
+  margin-top: 0;
 }
 
 .skills-title {

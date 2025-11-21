@@ -1,8 +1,14 @@
-import React, { Suspense} from "react";
+import React, {Suspense} from "react";
 import ReactDOM from "react-dom/client";
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import App from "./Main.jsx";
-import {HomePage, IceBergPage, PageExpo, PageGallery, PageSkillsIntegrateur, PageSkillsCreatif} from "./components/IndexComponents.jsx";
+import {
+  HomePage,
+  IceBergPage,
+  PageExpo,
+  PageGallery,
+  SkillsDynamicPage,
+} from "./components/IndexComponents.jsx";
 import "./assets/index-all-css/index-all-css.css";
 
 const router = createBrowserRouter([
@@ -19,29 +25,25 @@ const router = createBrowserRouter([
         element: <IceBergPage />,
       },
       {
-        path: "/PageSkillsIntegrateur",
-        element: <PageSkillsIntegrateur />,
+        path: "/skills/:type",
+        element: <SkillsDynamicPage />,
       },
       {
-        path: "/PageSkillsCreatif",
-        element: <PageSkillsCreatif />,
-      },
-      { 
         path: "/PageExpo/:id",
-        element: <PageExpo />
+        element: <PageExpo />,
       },
-       { 
+      {
         path: "/PageGallery/:type",
-        element: <PageGallery />
-      }
+        element: <PageGallery />,
+      },
     ],
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-     <Suspense fallback={<div>Chargement de la page..</div>}>
-    <RouterProvider router={router} />
+    <Suspense fallback={<div>Chargement de la page..</div>}>
+      <RouterProvider router={router} />
     </Suspense>
   </React.StrictMode>
 );
