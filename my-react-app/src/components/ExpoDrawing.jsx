@@ -63,7 +63,7 @@ export default function ExpoDrawing({item, musicId}) {
         <iframe
           src={`https://www.youtube.com/embed/${musicId}?controls=1&modestbranding=1&rel=0&iv_load_policy=3&playsinline=1`}
           width="350"
-          height="90"
+          height="110"
           frameBorder="0"
           allowtransparency="true"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
