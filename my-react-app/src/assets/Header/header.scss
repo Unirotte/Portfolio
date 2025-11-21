@@ -156,10 +156,12 @@ h1 {
 
 .dropdown-btn .dropdown {
   transition: transform 0.3s ease;
+
 }
 
-.dropdown-btn.open .dropdown {
+.dropdownopen {
   transform: rotate(180deg);
+  transition: transform 0.3s ease;
 }
 
 .dropdown-container {

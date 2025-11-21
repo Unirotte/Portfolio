@@ -46,7 +46,7 @@
   font-size: 6vw;
   position: absolute;
   top: 0vw;
-  left: -4vw;
+  left: clamp(-4vw, -4rem, 100px);
   writing-mode: vertical-rl;
   text-orientation: upright;
   color: #1d5677;
@@ -101,7 +101,6 @@ h2.introduction {
   max-height: 864px;
   margin: auto;
   max-width: 1440px;
-  margin-bottom: 10vw;
 }
 
 .Presentation-back {

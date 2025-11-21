@@ -26,6 +26,7 @@ h2.Contact-title {
   font-family: "Smooch Sans", sans-serif;
   font-size: clamp(2.5rem, 5vw, 4rem);
   font-weight: 400;
+  margin-bottom: 25px;
 }
 
 section.form-section {

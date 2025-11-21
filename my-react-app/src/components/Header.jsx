@@ -59,7 +59,7 @@ export default function Header() {
               onClick={() => setOpenSkillsMenu((prev) => !prev)}
             >
               Menu
-              <FontAwesomeIcon icon={faAngleUp} className="dropdown" />
+              <FontAwesomeIcon icon={faAngleUp} className={`dropdown${openSkillsMenu ? "open" : ""}`} />
             </button>
 
             <ul className={`dropdown-menu ${openSkillsMenu ? "open" : ""}`}>

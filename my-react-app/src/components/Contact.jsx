@@ -6,10 +6,12 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import {useState} from "react";
 import Modal from "react-modal";
-
+import {useEffect, useRef} from "react";
+import {useLocation} from "react-router-dom";
 Modal.setAppElement("#root");
 
 export default function Contact() {
+
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [errors, setErrors] = useState({});
@@ -19,6 +21,8 @@ export default function Contact() {
 
     const form = e.target;
     const formData = new FormData(form);
+
+    //Gestion erreur
 
     const name = formData.get("name").trim();
     const email = formData.get("email").trim();
@@ -65,9 +69,26 @@ export default function Contact() {
     setIsSubmitting(false);
   };
 
+  //Scroll + mon contact
+
+  const location = useLocation();
+  const contactRef = useRef(null);
+
+  useEffect(() => {
+    if (location.hash === "#contact") {
+      const timeout = setTimeout(() => {
+        const contact = document.getElementById("contact");
+        if (contact) {
+          contact.scrollIntoView({behavior: "smooth"});
+        }
+      }, 300);
+
+      return () => clearTimeout(timeout);
+    }
+  }, [location]);
   return (
     <>
-      <div className="section-contact fade-in" id="contact">
+      <div className="section-contact fade-in" id="contact" ref={contactRef}>
         <h2 className="Contact-title">Contact</h2>
 
         <section className="form-section">
@@ -180,8 +201,11 @@ export default function Contact() {
               rel="noopener noreferrer"
               className="CVbutton "
             >
-              <FontAwesomeIcon icon={faAddressCard} className="icon-svg CvImg" /> Mon
-              curriculum vitae
+              <FontAwesomeIcon
+                icon={faAddressCard}
+                className="icon-svg CvImg"
+              />{" "}
+              Mon curriculum vitae
             </a>
             <a
               className="Email"
@@ -204,7 +228,10 @@ export default function Contact() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={faEarthEurope} className="icon-svg EarthImg" />
+              <FontAwesomeIcon
+                icon={faEarthEurope}
+                className="icon-svg EarthImg"
+              />
               France, côte d'or
             </a>
           </div>

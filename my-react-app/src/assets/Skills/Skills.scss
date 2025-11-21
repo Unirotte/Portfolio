@@ -13,7 +13,7 @@
   margin: 0;
   margin: 10px;
   border-bottom: 4px solid #1d5677;
-  width: 190px;
+  width: clamp(7vw, 35vw, 210px);
 }
 
 .skill-name {
