@@ -2,11 +2,12 @@ export default function SmartImage({
   item,
   size = "medium",
   className = "",
-  thumbOnly = false, // 👈 nouvelle prop
+  thumbOnly = false,
   ...props
 }) {
   if (!item) return null;
 
+  // Choisit l'image selon la taille demandée
   const src =
     size === "small"
       ? item.srcSmall
@@ -26,7 +27,7 @@ export default function SmartImage({
       />
     );
   }
-
+  // Définit la taille de l'image selon la largeur de l'écran et le type demandé
   const sizes =
     size === "small"
       ? "(max-width: 768px) 35vw, 352px"
