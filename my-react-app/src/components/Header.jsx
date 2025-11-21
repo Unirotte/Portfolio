@@ -1,5 +1,5 @@
 import {Link, useLocation} from "react-router-dom";
-import {faAngleUp, faArrowTurnUp} from "@fortawesome/free-solid-svg-icons";
+import {faAngleDown, faArrowTurnUp} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {useState, useEffect, useRef} from "react";
 
@@ -59,7 +59,7 @@ export default function Header() {
               onClick={() => setOpenSkillsMenu((prev) => !prev)}
             >
               Menu
-              <FontAwesomeIcon icon={faAngleUp} className={`dropdown${openSkillsMenu ? "open" : ""}`} />
+              <FontAwesomeIcon icon={faAngleDown} className={`dropdown${openSkillsMenu ? "open" : ""}`} />
             </button>
 
             <ul className={`dropdown-menu ${openSkillsMenu ? "open" : ""}`}>
